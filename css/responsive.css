@@ -1,0 +1,135 @@
+.swiper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-height: 70vh; /* Max height for mobile view */
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10; /* Ensure buttons are on top of other elements */
+  }
+
+  /* Mobile adjustments */
+  @media (max-width: 767px) {
+    .swiper {
+      max-height: 60vh; /* Adjust height for mobile view */
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+      top: 50%; /* Center vertically */
+      transform: translateY(-50%);
+    }
+  }
+
+  /* Adjustments for larger screens */
+  @media (min-width: 768px) {
+    .swiper-button-next, .swiper-button-prev {
+      width: 2.5rem; /* 40px */
+      height: 2.5rem; /* 40px */
+    }
+  }
+
+
+
+
+
+  /* ------------------------------------------------ */
+
+  /* Adjust Swiper container for better mobile responsiveness */
+  @media (max-width: 767px) {
+    .swiper-slide {
+      height: 300px; /* Reduced height for mobile devices */
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+      width: 3rem; /* 48px */
+      height: 3rem; /* 48px */
+    }
+  }
+
+  /* Adjust Swiper container for larger screens */
+  @media (min-width: 768px) {
+    .swiper-button-next, .swiper-button-prev {
+      width: 6rem; /* 96px */
+      height: 6rem; /* 96px */
+    }
+  }
+
+
+/* ------------------------------------------------ */
+
+  /* Ensure padding and margins are handled properly */
+  @media (max-width: 767px) {
+    section {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    section {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+    /* ------------------------------------------------ */
+
+ /* Ensure text and elements are responsive */
+ @media (max-width: 639px) {
+    section {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .text-lg, .text-xl, .text-2xl, .text-3xl {
+      font-size: 1rem; /* Adjust text size for smaller screens */
+    }
+    .w-56, .h-56 {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (min-width: 640px) {
+    section {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    section {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+    .text-lg {
+      font-size: 1.125rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    section {
+      padding-left: 8rem;
+      padding-right: 8rem;
+    }
+    .text-xl {
+      font-size: 1.25rem;
+    }
+  }
+
+
+
+
+
+  /* ----------------------------------------------- */
+
+  
