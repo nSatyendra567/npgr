@@ -14,32 +14,32 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Civic Legal Aid</h4>
+                    <h4 class="text-lg font-bold">Civic Legal Aid</h4>
                     <p class="">Provides assistance in civil matters such as housing disputes, family law issues, consumer rights, and immigration cases.
 
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-gavel fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-gavel fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Criminal Legal Aid</h4>
+                    <h4 class="text-lg font-bold">Criminal Legal Aid</h4>
                     <p class="">Ensures that individuals accused of crimes have access to legal representation during criminal proceedings, safeguarding their rights.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Administrative Legal Aid</h4>
+                    <h4 class="text-lg font-bold">Administrative Legal Aid</h4>
                     <p class="">Assists individuals in dealings with government agencies, ensuring fair treatment and compliance with administrative procedures.
                     </p>
                 </div>
@@ -52,21 +52,21 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-landmark fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-landmark fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Government Funding</h4>
+                    <h4 class="text-lg font-bold">Government Funding</h4>
                     <p class="">Legal aid programs are often funded by government allocations, which vary based on jurisdiction and political priorities.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-hands-helping fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-hands-helping fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Non Profit Organizations</h4>
+                    <h4 class="text-lg font-bold">Non Profit Organizations</h4>
                     <p class="">Some legal aid services are provided by nonprofit organizations, which may receive funding from government grants, donations, or pro bono contributions from private law firms.
                     </p>
                 </div>
@@ -76,21 +76,21 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-dollar-sign fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-dollar-sign fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Funding Constraints</h4>
+                    <h4 class="text-lg font-bold">Funding Constraints</h4>
                     <p class=""> Limited funding often restricts the scope and availability of legal aid services, leaving many individuals underserved.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-cogs fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-cogs fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Complexity of Procedures</h4>
+                    <h4 class="text-lg font-bold">Complexity of Procedures</h4>
                     <p class="">Legal aid recipients may struggle with complex legal procedures and bureaucracy, requiring ongoing support and advocacy.
                     </p>
                 </div>
@@ -102,21 +102,21 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Access to Justice</h4>
+                    <h4 class="text-lg font-bold">Access to Justice</h4>
                     <p class=""> Legal aid ensures that marginalized groups, including low-income individuals, minorities, and immigrants, can assert their legal rights effectively.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-shield-alt fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-shield-alt fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Preventing Injustice</h4>
+                    <h4 class="text-lg font-bold">Preventing Injustice</h4>
                     <p class=""> Legal aid helps prevent wrongful convictions, eviction of vulnerable tenants, and unfair treatment in administrative proceedings.
                     </p>
                 </div>

@@ -13,32 +13,32 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Supreme Court of India</h4>
+                    <h4 class="text-lg font-bold">Supreme Court of India</h4>
                     <p class="">Established under Article 124 of the Constitution, the Supreme Court is the highest judicial body in the country. It hears appeals from High Courts and matters of national importance. Article 141 mandates that the law declared by the Supreme Court is binding on all courts within the territory of India.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-gavel fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-gavel fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">High Courts</h4>
+                    <h4 class="text-lg font-bold">High Courts</h4>
                     <p class="">Each state has a High Court established under Articles 214-231 of the Constitution. High Courts have jurisdiction over the state or group of states and handle appeals from lower courts within their jurisdiction. They also exercise writ jurisdiction to enforce fundamental rights.
 
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Subordinate Courts</h4>
+                    <h4 class="text-lg font-bold">Subordinate Courts</h4>
                     <p class=""> These include district courts, sessions courts, civil courts, and various specialised courts established under state laws. They are responsible for adjudicating civil and criminal cases within their territorial jurisdiction.
                     </p>
                 </div>
@@ -49,21 +49,21 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-landmark fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-landmark fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Challenges and Reforms</h4>
+                    <h4 class="text-lg font-bold">Challenges and Reforms</h4>
                     <p class="">Article 50 of the Constitution emphasises the separation of the judiciary from the executive to ensure impartiality and fairness in the administration of justice.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-hands-helping fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-hands-helping fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Appointment of Judges</h4>
+                    <h4 class="text-lg font-bold">Appointment of Judges</h4>
                     <p class="">Articles 124-147 detail the appointment, qualifications, and removal of judges, aiming to safeguard judicial independence and competence.
 
                     </p>
@@ -72,11 +72,11 @@
 
 
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-hands-helping fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-hands-helping fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Jurisdictional Clarity</h4>
+                    <h4 class="text-lg font-bold">Jurisdictional Clarity</h4>
                     <p class="">Articles 245-255 demarcate the legislative powers of the Union and State legislatures concerning laws applicable to courts and judicial proceedings.
 
                     </p>
@@ -88,22 +88,22 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-dollar-sign fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-dollar-sign fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg"> Protection of Fundamental Rights</h4>
+                    <h4 class="text-lg font-bold"> Protection of Fundamental Rights</h4>
                     <p class="">Adalat plays a crucial role in safeguarding fundamental rights guaranteed under Articles 14-32 of the Constitution. Courts have the authority to strike down laws that violate these rights and issue writs for their enforcement.
 
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-cogs fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-cogs fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Public Interest Litigation (PIL)</h4>
+                    <h4 class="text-lg font-bold">Public Interest Litigation (PIL)</h4>
                     <p class="">Courts, particularly the Supreme Court and High Courts, have expanded their jurisdiction through PILs to address issues affecting public interest, ensuring accountability and social justice.
 
                     </p>
@@ -115,21 +115,21 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Backlog of Cases</h4>
+                    <h4 class="text-lg font-bold">Backlog of Cases</h4>
                     <p class=""> The judiciary faces challenges such as a backlog of cases, delays in justice delivery, and resource constraints, necessitating reforms in case management and court administration.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Access to Justice</h4>
+                    <h4 class="text-lg font-bold">Access to Justice</h4>
                     <p class=""> Efforts are ongoing to enhance access to justice through legal aid programs, alternative dispute resolution mechanisms, and technological interventions.
                     </p>
                 </div>
@@ -144,22 +144,22 @@
             Structure and Function </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">District Courts (Subordinate Courts)</h4>
+                    <h4 class="text-lg font-bold">District Courts (Subordinate Courts)</h4>
                     <p class=""> These courts are located in each district and handle both civil and criminal cases within their territorial jurisdiction. They serve as the first instance for litigation.
 
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Sessions Courts</h4>
+                    <h4 class="text-lg font-bold">Sessions Courts</h4>
                     <p class="">Higher than district courts, sessions courts primarily deal with more serious criminal cases such as murder and rape. They also handle appeals from magistrate courts.
 
                     </p>
@@ -167,21 +167,21 @@
             </div>
 
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">High Courts</h4>
+                    <h4 class="text-lg font-bold">High Courts</h4>
                     <p class="">Each state has a High Court, which serves as the highest judicial authority within the state's jurisdiction. High Courts have the power of superintendence over all courts and tribunals functioning within their territorial limits.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Supreme Court</h4>
+                    <h4 class="text-lg font-bold">Supreme Court</h4>
                     <p class="">At the apex of the judicial system is the Supreme Court of India, located in New Delhi. It hears appeals from High Courts and cases involving substantial questions of law or issues of national importance.
                     </p>
                 </div>
@@ -200,21 +200,21 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Backlog of Cases</h4>
+                    <h4 class="text-lg font-bold">Backlog of Cases</h4>
                     <p class=""> One of the significant challenges facing Adalath is the backlog of cases, which leads to delays in justice delivery. Efforts are underway to expedite trials, implement case management systems, and promote alternative dispute resolution mechanisms.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Access to Justice</h4>
+                    <h4 class="text-lg font-bold">Access to Justice</h4>
                     <p class="">Ensuring access to justice for all segments of society, including marginalised communities and economically disadvantaged individuals, remains a priority. Legal aid programs and pro bono services are critical in this regard.
 
                     </p>

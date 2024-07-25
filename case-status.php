@@ -1,4 +1,4 @@
-1<?php include 'partials/header.php' ?>
+<?php include 'partials/header.php' ?>
 
 <main class="w-full h-screen flex justify-center">
     <div class="max-w-7xl px-10 w-full flex flex-col items-center">

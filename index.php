@@ -21,39 +21,61 @@
     <section class="max-w-7xl mx-auto w-full gap-10 py-16">
         <h3 class="text-center text-lg">Investigation Department
         </h3>
-        <div class="flex items-center max-w-7xl mx-auto w-full">
+        <div class="flex items-center max-w-7xl mx-auto w-full flex-wrap">
         <div class="w-2/5">
             <div class="swiper bannerSwiper w-full flex justify-center items-center">
                 <div class="swiper-wrapper">
-                    <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown gap-5 relative top-[-73px]">
-                        <img class="w-full h-full object-cover" src="./images/judge-birinder.jpg" alt="NPGRC" />
-                        <p class="text-lg text-center text-blue font-bold mt-3">Dr. Lijo Kuriydath</p>
+                    <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown">
+                        <img class="w-full h-3/4 object-scale-down" src="./images/judge-birinder.jpg" alt="NPGRC" />
+                        <div class="">
+                            <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
+                            <p class="text-lg text-center text-blue font-bold">Mr. Birinder Singh</p>
+                        </div>
                     </figure>
-                    <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown gap-5 relative top-[-73px]">
-                        <img class="w-full h-full object-cover" src="./images/judge-krishna.jpg" alt="NPGRC" />
-                        <p class="text-lg text-center text-blue font-bold mt-3">Dr. Lijo Kuriydath</p>
+                    <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown ">
+                        <img class="w-full h-3/4 object-scale-down" src="./images/judge-krishna.jpg" alt="NPGRC" />
+                        <div class="">
+                            <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
+                            <p class="text-lg text-center text-blue font-bold">Mr. Krishna Dutt Kalaskar</p>
+                        </div>
                     </figure>
-                    <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown gap-5 relative top-[-73px]">
-                        <img class="w-full h-full object-cover" src="./images/judge-nazir.jpg" alt="NPGRC" />
+                    <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown ">
+                        <img class="w-full h-3/4 object-scale-down" src="./images/judge-nazir.jpg" alt="NPGRC" />
+                        <div class="">
+                            <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
+                            <p class="text-lg text-center text-blue font-bold">Mr. Mohammad Nazir Fida</p>
+                        </div>
                     </figure>
-                    <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown gap-5 relative top-[-73px]">
-                        <img class="w-full h-full object-cover" src="./images/judge-praveen.jpg" alt="NPGRC" />
+                    <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown ">
+                        <img class="w-full h-3/4 object-scale-down" src="./images/judge-praveen.jpg" alt="NPGRC" />
+                        <div class="">
+                            <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
+                            <p class="text-lg text-center text-blue font-bold">Mr. Praveen Shah</p>
+                        </div>
                     </figure>
-                    <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown gap-5 relative top-[-73px]">
-                        <img class="w-full h-full object-cover" src="./images/judge-regunath.jpg" alt="NPGRC" />
+                    <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown ">
+                        <img class="w-full h-3/4 object-scale-down" src="./images/judge-regunath.jpg" alt="NPGRC" />
+                        <div class="">
+                            <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
+                            <p class="text-lg text-center text-blue font-bold">Mr. PT Reghunath</p>
+                        </div>
                     </figure>
                 </div>
-                <div class="swiper-button-next custom-swiper-button-next  bg-light-blue w-24 h-24 flex justify-center items-center rounded-[50%] absolute right-0"></div>
-                <div class="swiper-button-prev custom-swiper-button-prev bg-light-blue w-24 h-24 flex justify-center items-center rounded-[50%] absolute left-0"></div>
-            </div>
+            <div class="swiper-button-next custom-swiper-button-next bg-light-blue w-24 h-24 flex justify-center items-center rounded-[50%] absolute right-0"></div>
+            <div class="swiper-button-prev custom-swiper-button-prev bg-light-blue w-24 h-24 flex justify-center items-center rounded-[50%] absolute left-0"></div>
         </div>
+</div>
+
         <figure class="w-1/5">
             <img class="w-full h-[200px]" src="./images/npgrc-cut.png" alt="NPGRC" />
         </figure>
-        <figure class="w-2/5">
-            <img class="w-full h-[350px] object-cover" src="./images/lizo-square.jpg" alt="NPGRC" />
-            <p class="text-lg text-center text-blue font-bold mt-3">Dr. Lijo Kuriydath</p>
-        </figure>
+        <figure class="w-2/5 flex flex-col items-center">
+    <img class="w-4/5 h-[350px] object-scale-down" src="./images/lizo-square.jpg" alt="NPGRC" />
+    <p class="text-lg text-center text-blue font-bold mt-3">Dr. Lijo Kuriydath</p>
+    <p class="text-lg text-center text-blue font-bold mb-3">Director General of NPGRC</p>
+    <a href="https://gofindy.com/drlijokuriyadath" target="_blank" class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Connect with DG Button</a>
+</figure>
+
         </div>
         
     </section>
@@ -159,31 +181,31 @@
             <p class="mb-3">The primary objective of the NPGRC, as defined under the Legal Services Authorities Act, 1987, is to provide a responsive and accountable platform for citizens to seek redressal of grievances against administrative actions. Its duties encompass:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
                 <div class="flex items-center relative shadow w-full h-full rounded-md">
-                    <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-balance-scale fa-4x"></i>
+                    <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                        <i class="fas fa-balance-scale fa-3x"></i>
                     </div>
                     <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg">Facilitating Access to Justice</h4>
+                        <h4 class="text-lg font-bold">Facilitating Access to Justice</h4>
                         <p class="">Ensuring equitable access to grievance redressal mechanisms for all citizens, particularly the disadvantaged and marginalised.
                         </p>
                     </div>
                 </div>
                 <div class="flex items-center relative shadow w-full h-full rounded-md">
-                    <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-gavel fa-4x"></i>
+                    <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                        <i class="fas fa-gavel fa-3x"></i>
                     </div>
                     <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg">Monitoring Government Agencies</h4>
+                        <h4 class="text-lg font-bold">Monitoring Government Agencies</h4>
                         <p class="">Overseeing the implementation of policies and programs to uphold procedural fairness and adherence to legal standards.
                         </p>
                     </div>
                 </div>
                 <div class="flex items-center relative shadow w-full h-full rounded-md">
-                    <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-file-alt fa-4x"></i>
+                    <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                        <i class="fas fa-file-alt fa-3x"></i>
                     </div>
                     <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg">Policy Advocacy</h4>
+                        <h4 class="text-lg font-bold">Policy Advocacy</h4>
                         <p class="">Recommending systemic reforms and policy changes based on grievance outcomes to improve governance practices and public service delivery.
                         </p>
                     </div>
@@ -194,31 +216,31 @@
             <p class="mb-3">Central to its mandate, the NPGRC employs structured grievance redressal mechanisms outlined in the Legal Services Authorities Act, 1987. These include:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
                 <div class="flex items-center relative shadow w-full h-full rounded-md">
-                    <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-balance-scale fa-4x"></i>
+                    <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                        <i class="fas fa-balance-scale fa-3x"></i>
                     </div>
                     <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg">Complaint Registration</h4>
+                        <h4 class="text-lg font-bold">Complaint Registration</h4>
                         <p class="">Allowing citizens to lodge complaints through various channels, including online portals, helplines, or physical submissions.
                         </p>
                     </div>
                 </div>
                 <div class="flex items-center relative shadow w-full h-full rounded-md">
-                    <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-gavel fa-4x"></i>
+                    <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                        <i class="fas fa-gavel fa-3x"></i>
                     </div>
                     <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg">Inquiry and Investigation</h4>
+                        <h4 class="text-lg font-bold">Inquiry and Investigation</h4>
                         <p class="">Conducting impartial inquiries, gathering evidence, and conducting hearings to resolve grievances efficiently and transparently.
                         </p>
                     </div>
                 </div>
                 <div class="flex items-center relative shadow w-full h-full rounded-md">
-                    <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-file-alt fa-4x"></i>
+                    <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                        <i class="fas fa-file-alt fa-3x"></i>
                     </div>
                     <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg">Timely Resolution</h4>
+                        <h4 class="text-lg font-bold">Timely Resolution</h4>
                         <p class="">Ensuring prompt responses and clear communication with complainants to maintain trust and confidence in the grievance redressal process.
                         </p>
                     </div>
@@ -229,54 +251,54 @@
             <p class="mb-3">The NPGRC addresses diverse grievances impacting public welfare and individual rights, including:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
                 <div class="flex items-center relative shadow w-full h-full rounded-md">
-                    <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-balance-scale fa-4x"></i>
+                    <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                        <i class="fas fa-balance-scale fa-3x"></i>
                     </div>
                     <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg">Administrative Delays</h4>
+                        <h4 class="text-lg font-bold">Administrative Delays</h4>
                         <p class="">Complaints regarding delays in service delivery or response from government agencies.
 
                         </p>
                     </div>
                 </div>
                 <div class="flex items-center relative shadow w-full h-full rounded-md">
-                    <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-gavel fa-4x"></i>
+                    <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                        <i class="fas fa-gavel fa-3x"></i>
                     </div>
                     <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg">Corruption Allegations</h4>
+                        <h4 class="text-lg font-bold">Corruption Allegations</h4>
                         <p class="">Allegations of malpractice, bribery, or misuse of public resources by government officials.
 
                         </p>
                     </div>
                 </div>
                 <div class="flex items-center relative shadow w-full h-full rounded-md">
-                    <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-file-alt fa-4x"></i>
+                    <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                        <i class="fas fa-file-alt fa-3x"></i>
                     </div>
                     <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg">Service Deficiencies</h4>
+                        <h4 class="text-lg font-bold">Service Deficiencies</h4>
                         <p class=""> Issues related to poor quality of service, negligence, or misconduct affecting public welfare.
                         </p>
                     </div>
                 </div>
                 <div class="flex items-center relative shadow w-full h-full rounded-md">
-                    <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-file-alt fa-4x"></i>
+                    <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                        <i class="fas fa-file-alt fa-3x"></i>
                     </div>
                     <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg">
+                        <h4 class="text-lg font-bold">
                             Environmental Concerns</h4>
                         <p class=""> Grievances concerning environmental degradation, pollution, or non-compliance with environmental regulations.
                         </p>
                     </div>
                 </div>
                 <div class="flex items-center relative shadow w-full h-full rounded-md">
-                    <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-file-alt fa-4x"></i>
+                    <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                        <i class="fas fa-file-alt fa-3x"></i>
                     </div>
                     <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg">Public Safety Issues</h4>
+                        <h4 class="text-lg font-bold">Public Safety Issues</h4>
                         <p class=""> Complaints regarding inadequate safety measures, mishandling of emergencies, or lapses in law enforcement.
 
                         </p>
@@ -289,32 +311,32 @@
             </p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
                 <div class="flex items-center relative shadow w-full h-full rounded-md">
-                    <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-balance-scale fa-4x"></i>
+                    <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                        <i class="fas fa-balance-scale fa-3x"></i>
                     </div>
                     <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg">Legislative Amendments</h4>
+                        <h4 class="text-lg font-bold">Legislative Amendments</h4>
                         <p class="">Proposals for legislative reforms to strengthen the legal framework and enhance the commission's powers and functions.
                         </p>
                     </div>
                 </div>
                 <div class="flex items-center relative shadow w-full h-full rounded-md">
-                    <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-gavel fa-4x"></i>
+                    <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                        <i class="fas fa-gavel fa-3x"></i>
                     </div>
                     <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg">Technological Integration</h4>
+                        <h4 class="text-lg font-bold">Technological Integration</h4>
                         <p class=""> Adopting technology-driven solutions for grievance management and improving accessibility for citizens.
 
                         </p>
                     </div>
                 </div>
                 <div class="flex items-center relative shadow w-full h-full rounded-md">
-                    <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-file-alt fa-4x"></i>
+                    <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                        <i class="fas fa-file-alt fa-3x"></i>
                     </div>
                     <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg">Capacity Building</h4>
+                        <h4 class="text-lg font-bold">Capacity Building</h4>
                         <p class=""> Training programs for staff and stakeholders to enhance efficiency, transparency, and responsiveness in grievance redressal.
                         </p>
                     </div>

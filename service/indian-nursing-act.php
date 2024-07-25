@@ -11,31 +11,31 @@
         <p class="mb-3">The Indian Nursing Council (INC) Act, 1947, establishes the Indian Nursing Council as the regulatory body for nursing education and practice in India. Key provisions include</p>
         <div class="w-full h-fit flex flex-col gap-5 mt-3">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Regulation of Nursing Education</h4>
+                    <h4 class="text-lg font-bold">Regulation of Nursing Education</h4>
                     <p class="">The INC sets standards for nursing education programs, curriculum, and infrastructure in nursing schools and colleges across the country.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-gavel fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-gavel fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Registration and Licensing</h4>
+                    <h4 class="text-lg font-bold">Registration and Licensing</h4>
                     <p class="">It mandates the registration and licensing of nurses, ensuring that they meet specified educational and professional qualifications before practising.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Promotion of Research and Development</h4>
+                    <h4 class="text-lg font-bold">Promotion of Research and Development</h4>
                     <p class="">The INC promotes research and development in nursing and allied healthcare fields, contributing to advancements in healthcare delivery.
                     </p>
                 </div>
@@ -47,31 +47,31 @@
         <p class="mb-3">The Nursing Council of India (NCI) Act, 1951, establishes the Nursing Council of India as another regulatory body overseeing nursing education and practice. Key provisions include </p>
         <div class="w-full h-fit flex flex-col gap-5 mt-3">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Accreditation of Nursing Institutions</h4>
+                    <h4 class="text-lg font-bold">Accreditation of Nursing Institutions</h4>
                     <p class="">The NCI accredits nursing institutions and programs to ensure they meet prescribed standards of education and training.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-gavel fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-gavel fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Development of Professional Standards</h4>
+                    <h4 class="text-lg font-bold">Development of Professional Standards</h4>
                     <p class="">It develops and maintains professional standards, guidelines, and codes of ethics for nurses practising in various healthcare settings.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Continuing Education</h4>
+                    <h4 class="text-lg font-bold">Continuing Education</h4>
                     <p class="">The NCI promotes continuing education and professional development opportunities for nurses to enhance their skills and knowledge.
                     </p>
                 </div>
@@ -85,31 +85,31 @@
         <p class="mb-3">The Nurses and Midwives Act, 1956, regulates the registration and practice of nurses and midwives in India. Key provisions include </p>
         <div class="w-full h-fit flex flex-col gap-5 mt-3">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Licensing and Registration</h4>
+                    <h4 class="text-lg font-bold">Licensing and Registration</h4>
                     <p class="">Nurses and midwives must register with the State Nursing Council or the Indian Nursing Council to practise legally.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-gavel fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-gavel fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Scope of Practice</h4>
+                    <h4 class="text-lg font-bold">Scope of Practice</h4>
                     <p class="">The Act defines the scope of practice for nurses and midwives, outlining their roles, responsibilities, and limitations in providing healthcare services.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Disciplinary Actions</h4>
+                    <h4 class="text-lg font-bold">Disciplinary Actions</h4>
                     <p class=""> It outlines procedures for disciplinary actions against nurses and midwives found guilty of professional misconduct or negligence.
 
                     </p>

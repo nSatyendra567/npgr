@@ -11,61 +11,61 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5 mt-3">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Constitution of the National Medical Commission (NMC)</h4>
+                    <h4 class="text-lg font-bold">Constitution of the National Medical Commission (NMC)</h4>
                     <p class="">The Act establishes the NMC as the apex regulatory body for medical education and practice in India. The NMC consists of members appointed by the central government, including medical professionals and experts from various fields.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-gavel fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-gavel fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Functions of the NMC</h4>
+                    <h4 class="text-lg font-bold">Functions of the NMC</h4>
                     <p class="">The NMC is entrusted with laying down policies for maintaining high standards of medical education, accreditation of medical institutions, and regulating medical practice. It also sets guidelines for conducting undergraduate and postgraduate medical examinations.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Medical Advisory Council (MAC)</h4>
+                    <h4 class="text-lg font-bold">Medical Advisory Council (MAC)</h4>
                     <p class="">The Act provides for the establishment of a Medical Advisory Council to advise the NMC on various aspects of medical education, research, and healthcare delivery.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Entrance Examinations</h4>
+                    <h4 class="text-lg font-bold">Entrance Examinations</h4>
                     <p class="">The NMC Act introduces a common entrance examination, known as the National Exit Test (NEXT), which serves as a licentiate examination for medical graduates to obtain practising licences and pursue further specialisation.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Ethics and Professional Conduct</h4>
+                    <h4 class="text-lg font-bold">Ethics and Professional Conduct</h4>
                     <p class="">The Act emphasises ethical standards and professional conduct among healthcare providers, ensuring adherence to codes of ethics and guidelines for maintaining professional integrity.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Repeal of the Indian Medical Council Act</h4>
+                    <h4 class="text-lg font-bold">Repeal of the Indian Medical Council Act</h4>
                     <p class="">The NMC Act repeals the Indian Medical Council Act, 1956, and dissolves the Medical Council of India (MCI), which was criticised for inefficiencies and corruption, ushering in a more transparent and accountable regulatory framework.
                     </p>
                 </div>

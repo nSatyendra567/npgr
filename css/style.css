@@ -49,3 +49,22 @@ input, textarea{
   display: inline-block;
   font-size: 190px;
 }
+
+.swiper-slide img {
+  width: 100%; /* Make sure the image takes the full width of the slide */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the image is not cropped */
+}
+
+.swiper-button-next, .swiper-button-prev {
+  width: 40px; /* Adjust button size */
+  height: 40px;
+  background-color: #cce5ff; /* Customize button color */
+}
+
+@media (max-width: 640px) {
+  .swiper-button-next, .swiper-button-prev {
+      width: 30px; /* Smaller button size for mobile */
+      height: 30px;
+  }
+}

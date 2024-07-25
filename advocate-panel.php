@@ -5,54 +5,7 @@ include 'config/data.php';
     <div class="max-w-7xl px-5 sm:px-10 w-full">
         <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center mb-10">Pan India Advocate</h2>
         <div class="flex justify-center gap-10 flex-wrap">
-            <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
-                <figure class="w-36 h-36 mb-3">
-                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/random.avif">
-                </figure>
-                <h3 class="text-xl text-center">Name of the Body</h3>
-                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
-                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
-            </div>
-            <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
-                <figure class="w-36 h-36 mb-3">
-                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/random.avif">
-                </figure>
-                <h3 class="text-xl text-center">Name of the Body</h3>
-                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
-                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
-            </div>
-            <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
-                <figure class="w-36 h-36 mb-3">
-                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/random.avif">
-                </figure>
-                <h3 class="text-xl text-center">Name of the Body</h3>
-                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
-                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
-            </div>
-            <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
-                <figure class="w-36 h-36 mb-3">
-                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/random.avif">
-                </figure>
-                <h3 class="text-xl text-center">Name of the Body</h3>
-                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
-                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
-            </div>
-            <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
-                <figure class="w-36 h-36 mb-3">
-                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/random.avif">
-                </figure>
-                <h3 class="text-xl text-center">Name of the Body</h3>
-                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
-                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
-            </div>
-            <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
-                <figure class="w-36 h-36 mb-3">
-                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/random.avif">
-                </figure>
-                <h3 class="text-xl text-center">Name of the Body</h3>
-                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
-                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
-            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem voluptatem maiores corrupti aspernatur nisi aut molestiae laudantium ut minus quaerat praesentium commodi magni repellat tempora esse quibusdam, ipsam, dolorum exercitationem? Voluptatem totam incidunt velit hic cum eos maiores est id soluta officiis obcaecati similique magnam minima impedit nesciunt placeat aperiam deserunt, repellendus quisquam dolore culpa ex. Voluptatum dolore voluptas labore facere consectetur deleniti explicabo, neque praesentium est nihil atque corporis dicta commodi totam quidem magni vel vitae doloribus beatae nesciunt?</p>
         </div>
 
     </div>
@@ -79,6 +32,57 @@ include 'config/data.php';
             </form>
         </div>
     </div>
+
+    <div class="flex justify-center gap-10 flex-wrap mt-10">
+            <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
+                <figure class="w-36 h-36 mb-3">
+                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/random.avif">
+                </figure>
+                <h3 class="text-xl text-center">Name of the Body</h3>
+                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
+                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
+            </div>
+            <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
+                <figure class="w-36 h-36 mb-3">
+                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/random.avif">
+                </figure>
+                <h3 class="text-xl text-center">Name of the Body</h3>
+                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
+                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
+            </div>
+            <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
+                <figure class="w-36 h-36 mb-3">
+                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/random.avif">
+                </figure>
+                <h3 class="text-xl text-center">Name of the Body</h3>
+                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
+                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
+            </div>
+            <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
+                <figure class="w-36 h-36 mb-3">
+                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/random.avif">
+                </figure>
+                <h3 class="text-xl text-center">Name of the Body</h3>
+                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
+                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
+            </div>
+            <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
+                <figure class="w-36 h-36 mb-3">
+                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/random.avif">
+                </figure>
+                <h3 class="text-xl text-center">Name of the Body</h3>
+                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
+                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
+            </div>
+            <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
+                <figure class="w-36 h-36 mb-3">
+                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/random.avif">
+                </figure>
+                <h3 class="text-xl text-center">Name of the Body</h3>
+                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
+                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
+            </div>
+        </div>
 
 </main>
 

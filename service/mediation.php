@@ -15,41 +15,41 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Mediation</h4>
+                    <h4 class="text-lg font-bold">Mediation</h4>
                     <p class="">Mediation involves a neutral mediator who facilitates discussions between parties to help them reach a voluntary settlement. The mediator does not impose a decision but assists in identifying issues, exploring options, and fostering constructive dialogue.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-gavel fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-gavel fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Arbitration</h4>
+                    <h4 class="text-lg font-bold">Arbitration</h4>
                     <p class="">Arbitration is a more formal ADR method where parties present their case to an arbitrator or panel of arbitrators who make a binding decision. It resembles a simplified trial process but offers more flexibility in procedure and confidentiality.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Negotiation</h4>
+                    <h4 class="text-lg font-bold">Negotiation</h4>
                     <p class="">Negotiation is a direct discussion between parties to resolve a dispute. It can occur independently or with the assistance of lawyers or mediators to reach a mutually agreeable outcome.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                    <h4 class="text-lg">Conciliation</h4>
+                    <h4 class="text-lg font-bold">Conciliation</h4>
                     <p class="">Conciliation involves a conciliator who helps parties communicate effectively, understand each other’s perspectives, and find common ground to resolve the dispute.
                     </p>
                 </div>
@@ -60,42 +60,42 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-landmark fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-landmark fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Cost-Effective</h4>
+                    <h4 class="text-lg font-bold">Cost-Effective</h4>
                     <p class="">ADR methods are generally less costly than litigation, as they reduce legal fees, court costs, and time spent in lengthy court proceedings.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-hands-helping fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-hands-helping fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Time-Efficient</h4>
+                    <h4 class="text-lg font-bold">Time-Efficient</h4>
                     <p class="">ADR processes can resolve disputes more quickly than traditional litigation, allowing parties to avoid delays associated with court schedules and procedural complexities.
 
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-hands-helping fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-hands-helping fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Preserves Relationships</h4>
+                    <h4 class="text-lg font-bold">Preserves Relationships</h4>
                     <p class="">Mediation and ADR promote cooperation and mutual understanding, preserving relationships between parties compared to adversarial litigation.
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-hands-helping fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-hands-helping fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Confidentiality</h4>
+                    <h4 class="text-lg font-bold">Confidentiality</h4>
                     <p class="">ADR proceedings are often confidential, offering privacy to parties and protecting sensitive information from public disclosure.
                     </p>
                 </div>
@@ -113,22 +113,22 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-dollar-sign fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-dollar-sign fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Enforcement of Settlements</h4>
+                    <h4 class="text-lg font-bold">Enforcement of Settlements</h4>
                     <p class=""> Ensuring compliance with mediated or arbitrated settlements can sometimes be challenging, requiring mechanisms for enforcement and implementation.
 
                     </p>
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md">
-                <div class="w-1/5 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-cogs fa-4x"></i>
+                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-cogs fa-3x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
-                    <h4 class="text-lg">Cultural and Legal Differences</h4>
+                    <h4 class="text-lg font-bold">Cultural and Legal Differences</h4>
                     <p class="">ADR methods may need to be adapted to respect cultural norms and legal requirements in different jurisdictions and communities.
 
                     </p>
