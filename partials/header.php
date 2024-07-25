@@ -123,26 +123,30 @@ function getCurrentPage()
 
 <body>
     <nav class="w-full min-h-12 bg-white items-center">
-        <div class="px-5 sm:px-10 lg:px-16 flex justify-between items-center">
-            <figure class="w-28 h-28">
+        <div class="px-5 sm:px-10 lg:px-16 flex flex-col md:flex-row justify-between items-center">
+            <figure class="w-28 h-28 mb-4 md:mb-0">
                 <img src="<?php ROOT_URL ?>images/npgrc.png" alt="NPGRC" />
             </figure>
-            <div class="">
+            <div class="text-center md:text-left mb-4 md:mb-0">
                 <a href="<?php echo ROOT_URL ?>index.php">
-                    <p class="text-2xl text-center animate-color-change animate-heading font-semibold">राष्ट्रीय लोक शिकायत एवं निवारण आयोग</p>
+                    <p class="text-xl md:text-2xl animate-color-change animate-heading font-semibold">
+                        राष्ट्रीय लोक शिकायत एवं निवारण आयोग
+                    </p>
                 </a>
-                <a class="" href="<?php echo ROOT_URL ?>index.php">
-                    <h1 class="text-xl text-center animate-color-change animate-heading font-semibold">The National Public Grievances & Redressal Commission</h1>
+                <a href="<?php echo ROOT_URL ?>index.php">
+                    <h1 class="text-lg md:text-xl animate-color-change animate-heading font-semibold">
+                        The National Public Grievances & Redressal Commission
+                    </h1>
                 </a>
-                <p class="text-sm text-center">An Autonomous Statutory Body under Indian Constitution Act</p>
+                <p class="text-xs md:text-sm">An Autonomous Statutory Body under Indian Constitution Act</p>
             </div>
-            <figure class="flex gap-10 items-center">
-                <img class="w-32 h-32" src="images/digital-india.png" alt="NPGRC" />
-                <img class="w-32 h-20" src="images/azadi.jpg" alt="NPGRC" />
-                <img class="w-28 h-16" src="images/indian-flag.gif" alt="NPGRC" />
-
+            <figure class="hidden lg:flex gap-10 items-center">
+                <img class="w-16 md:w-32 md:h-32" src="images/digital-india.png" alt="NPGRC" />
+                <img class="w-16 md:w-32 md:h-20" src="images/azadi.jpg" alt="NPGRC" />
+                <img class="w-14 md:w-28 md:h-16" src="images/indian-flag.gif" alt="NPGRC" />
             </figure>
         </div>
+
         <div class="bg-blue h-fit py-3 px-5 sm:px-10 lg:px-16 flex justify-center gap-10">
             <ul class="flex gap-5 md:gap-7 lg:gap-10 items-center justify-center hidden md:flex text-white">
                 <li><a class="<?php echo getCurrentPage() == 'index.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>index.php">Home</a></li>
