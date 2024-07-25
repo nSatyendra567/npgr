@@ -1,5 +1,5 @@
 <?php include 'partials/header.php' ?>
-<main class="max-w-7xl mx-auto flex min-h-screen flex gap-10 max-w-7xl mx-auto py-10 md:py-16">
+<main class="max-w-7xl mx-auto flex flex-col md:flex-row min-h-screen gap-10 py-10 md:py-16">
     <div class="w-2/10">
         <?php include 'partials/sidebar.php' ?>
     </div>
@@ -10,7 +10,7 @@
 text-yellow font-semibold"> IN-DL03344095213687P/ IMPACC(IV)/dl751903077291600501909P</span> <span class="font-semibold">Video Notification No Doc.Reference</span> <span class="text-yellow 
 text-yellow font-semibold"> IS -DLDL75190307729160501909P</span>
         </p>
-        <div class="flex flexc-ol md:flex-row gap-8 lg:gap-10">
+        <div class="flex flex-col md:flex-row gap-8 lg:gap-10">
             <div class="shadow-md w-full md:w-1/2 rounded-md p-5 sm:p-10 hover:scale-105 transition-all duration-200">
                 <h2 class="text-2xl md:text-3xl mb-5">Our Mission</h2>
                 <p class="text-base"> Our intention to sustain,protect and implement the Social privileges of all under-served communities locally and globally.

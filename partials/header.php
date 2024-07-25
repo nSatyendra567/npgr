@@ -123,75 +123,118 @@ function getCurrentPage()
 
 <body>
     <nav class="w-full min-h-12 bg-white items-center">
-        <div class="px-5 sm:px-10 lg:px-16 flex flex-col md:flex-row justify-between items-center">
-            <figure class="w-28 h-28 mb-4 md:mb-0">
-                <img src="<?php ROOT_URL ?>images/npgrc.png" alt="NPGRC" />
-            </figure>
-            <div class="text-center md:text-left mb-4 md:mb-0">
-                <a href="<?php echo ROOT_URL ?>index.php">
-                    <p class="text-xl md:text-2xl animate-color-change animate-heading font-semibold">
-                        राष्ट्रीय लोक शिकायत एवं निवारण आयोग
-                    </p>
-                </a>
-                <a href="<?php echo ROOT_URL ?>index.php">
-                    <h1 class="text-lg md:text-xl animate-color-change animate-heading font-semibold">
-                        The National Public Grievances & Redressal Commission
-                    </h1>
-                </a>
-                <p class="text-xs md:text-sm">An Autonomous Statutory Body under Indian Constitution Act</p>
-            </div>
-            <figure class="hidden lg:flex gap-10 items-center">
-                <img class="w-16 md:w-32 md:h-32" src="images/digital-india.png" alt="NPGRC" />
-                <img class="w-16 md:w-32 md:h-20" src="images/azadi.jpg" alt="NPGRC" />
-                <img class="w-14 md:w-28 md:h-16" src="images/indian-flag.gif" alt="NPGRC" />
-            </figure>
+    <div class="px-5 sm:px-10 lg:px-16 flex flex-col md:flex-row md:justify-between items-center">
+    <div class="flex flex-row items-center mb-4 md:mb-0">
+        <figure class="w-16 h-16 md:w-28 md:h-28">
+            <img src="<?php ROOT_URL ?>images/npgrc.png" alt="NPGRC" />
+        </figure>
+        <div class="ml-3 text-center md:text-left">
+            <a href="<?php echo ROOT_URL ?>index.php">
+                <p class="text-base md:text-xl animate-color-change animate-heading font-semibold">
+                    राष्ट्रीय लोक शिकायत एवं निवारण आयोग
+                </p>
+            </a>
+            <a href="<?php echo ROOT_URL ?>index.php">
+                <h1 class="text-sm md:text-lg animate-color-change animate-heading font-semibold">
+                    The National Public Grievances & Redressal Commission
+                </h1>
+            </a>
+            <p class="text-xs md:text-sm">An Autonomous Statutory Body under Indian Constitution Act</p>
         </div>
+    </div>
+    <figure class="hidden lg:flex gap-10 items-center">
+        <img class="w-16 md:w-32 md:h-32" src="images/digital-india.png" alt="NPGRC" />
+        <img class="w-16 md:w-32 md:h-20" src="images/azadi.jpg" alt="NPGRC" />
+        <img class="w-14 md:w-28 md:h-16" src="images/indian-flag.gif" alt="NPGRC" />
+    </figure>
+</div>
 
-        <div class="bg-blue h-fit py-3 px-5 sm:px-10 lg:px-16 flex justify-center gap-10">
-            <ul class="flex gap-5 md:gap-7 lg:gap-10 items-center justify-center hidden md:flex text-white">
-                <li><a class="<?php echo getCurrentPage() == 'index.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>index.php">Home</a></li>
-                <li class="group relative <?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>">
-                    <p class="flex gap-2 items-center">About Us <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>
-                    </p>
-                    <ul class="hidden absolute top-9 pt-2 left-0 z-40 group-hover:flex flex-col w-64 bg-blue text-white">
-                        <a class="py-2 px-3 border-t border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>about.php">About Us</a>
-                        <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>mission-vision.php">Mission & Vision</a>
-                        <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>acts-rules.php">Acts and Rules
-                        </a>
-                        <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>public-grievance.php">Public Grievances</a>
-                        <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>organisation-structure.php">Organisation Structure</a>
-                      
-                    </ul>
-                </li>
-                <li class="group relative <?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>">
-                    <p class="flex gap-2 items-center">Services <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>
-                    </p>
-                    <ul class="hidden absolute top-9 pt-2 left-0 z-40 group-hover:flex flex-col w-64 bg-blue text-white">
-                        <a class="py-2 px-3 border-t border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/legal-aid.php">Legal Aid</a>
-                        <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/mediation.php">Mediation</a>
-                        <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/investigation.php">Investigation
-                        </a>
-                        <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/adalat.php">Adalat</a>
-                        <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/child-act.php">Child Act</a>
-                        <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'complaint-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/women-act.php">Women Act</a>
-                        <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'complaint-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/human-right-act.php">Human Rights Act</a>
-                        <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'complaint-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/environment-act.php">Environment Act</a>
-                        <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'complaint-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/nmc-act.php">NMC Act </a>
-                        <a class="py-2 px-3<?php echo getCurrentPage() == 'complaint-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/indian-nursing-act.php">Indian Nursing Act
-                        </a>
-                    </ul>
-                </li>
-                <li><a class="<?php echo getCurrentPage() == 'case-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>case-status.php">Case Status</a></li>
-                <li><a class="<?php echo getCurrentPage() == 'governing-bodies.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>governing-bodies.php">Governing Bodies</a></li>
-                <li><a class="<?php echo getCurrentPage() == 'advocate-panel.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>advocate-panel.php">Pan India Advocates</a></li>
-                <li><a class="<?php echo getCurrentPage() == 'contact.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>contact.php">Contact Us</a></li>
-                <li><a class="<?php echo getCurrentPage() == 'blogs.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>blogs.php">Blogs</a></li>
-            </ul>
+
+<div class="bg-blue h-fit py-3 px-5 sm:px-10 lg:px-16 flex justify-start md:justify-center">
+        <ul class="nav_items flex-col md:flex-row gap-5 md:gap-7 lg:gap-10 items-center justify-center hidden md:flex text-white">
+            <li><a class="<?php echo getCurrentPage() == 'index.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>index.php">Home</a></li>
+            <li class="group relative <?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>">
+                <p id="list_id2" class="flex gap-2 items-center">About Us <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>
+                </p>
+                <ul id="list2" class="hidden absolute top-9 pt-2 left-0 z-40 flex flex-col w-64 bg-blue text-white">
+                    <a class="py-2 px-3 border-t border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>about.php">About Us</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>mission-vision.php">Mission & Vision</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>acts-rules.php">Acts and Rules
+                    </a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>public-grievance.php">Public Grievances</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>organisation-structure.php">Organisation Structure</a>
+                </ul>
+            </li>
+            <li class="group relative <?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>">
+                <p id="list_id" class="flex gap-2 items-center">Services <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>
+                </p>
+                <ul id="list" class="hidden absolute top-9 pt-2 left-0 z-40 flex flex-col w-64 bg-blue text-white list">
+                    <a class="py-2 px-3 border-t border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/legal-aid.php">Legal Aid</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/mediation.php">Mediation</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/investigation.php">Investigation
+                    </a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/adalat.php">Adalat</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/child-act.php">Child Act</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'complaint-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/women-act.php">Women Act</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'complaint-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/human-right-act.php">Human Rights Act</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'complaint-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/environment-act.php">Environment Act</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'complaint-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/nmc-act.php">NMC Act </a>
+                    <a class="py-2 px-3<?php echo getCurrentPage() == 'complaint-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/indian-nursing-act.php">Indian Nursing Act
+                    </a>
+                </ul>
+            </li>
+            <li><a class="<?php echo getCurrentPage() == 'case-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>case-status.php">Case Status</a></li>
+            <li><a class="<?php echo getCurrentPage() == 'governing-bodies.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>governing-bodies.php">Governing Bodies</a></li>
+            <li><a class="<?php echo getCurrentPage() == 'advocate-panel.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>advocate-panel.php">Pan India Advocates</a></li>
+            <li><a class="<?php echo getCurrentPage() == 'contact.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>contact.php">Contact Us</a></li>
+            <li><a class="<?php echo getCurrentPage() == 'blogs.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>blogs.php">Blogs</a></li>
             <div class="flex gap-5 items-center text-white">
                 <a class="bg-yellow hover:bg-blue hover:border border-yellow text-center rounded-md px-3 py-2 transition-all duration-150" href="<?php echo ROOT_URL ?>online-complaint.php">Online Complaint</a>
             </div>
-        </div>
-
+        </ul>
+        <i id="showme" class="fa-solid fa-bars fa-2x my-auto text-white md:hidden"></i>
+    </div>
+    <ul id="nav_menu" class="bg-blue nav_items flex-col md:flex-row gap-5 md:gap-7 lg:gap-10 items-center justify-center hidden text-white">
+            <li><a class="<?php echo getCurrentPage() == 'index.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>index.php">Home</a></li>
+            <li class="group relative <?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>">
+                <p id="list_id2" class="flex gap-2 items-center">About Us <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>
+                </p>
+                <ul id="list2" class="hidden absolute top-9 pt-2 left-0 z-40 flex flex-col w-64 bg-blue text-white">
+                    <a class="py-2 px-3 border-t border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>about.php">About Us</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>mission-vision.php">Mission & Vision</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>acts-rules.php">Acts and Rules
+                    </a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>public-grievance.php">Public Grievances</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>organisation-structure.php">Organisation Structure</a>
+                </ul>
+            </li>
+            <li class="group relative <?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>">
+                <p id="list_id" class="flex gap-2 items-center">Services <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>
+                </p>
+                <ul id="list" class="hidden absolute top-9 pt-2 left-0 z-40 flex flex-col w-64 bg-blue text-white list">
+                    <a class="py-2 px-3 border-t border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/legal-aid.php">Legal Aid</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/mediation.php">Mediation</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/investigation.php">Investigation
+                    </a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/adalat.php">Adalat</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/child-act.php">Child Act</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'complaint-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/women-act.php">Women Act</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'complaint-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/human-right-act.php">Human Rights Act</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'complaint-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/environment-act.php">Environment Act</a>
+                    <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'complaint-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/nmc-act.php">NMC Act </a>
+                    <a class="py-2 px-3<?php echo getCurrentPage() == 'complaint-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/indian-nursing-act.php">Indian Nursing Act
+                    </a>
+                </ul>
+            </li>
+            <li><a class="<?php echo getCurrentPage() == 'case-status.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>case-status.php">Case Status</a></li>
+            <li><a class="<?php echo getCurrentPage() == 'governing-bodies.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>governing-bodies.php">Governing Bodies</a></li>
+            <li><a class="<?php echo getCurrentPage() == 'advocate-panel.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>advocate-panel.php">Pan India Advocates</a></li>
+            <li><a class="<?php echo getCurrentPage() == 'contact.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>contact.php">Contact Us</a></li>
+            <li><a class="<?php echo getCurrentPage() == 'blogs.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>blogs.php">Blogs</a></li>
+            <div class="flex gap-5 items-center text-white pb-5">
+                <a class="bg-yellow hover:bg-blue hover:border border-yellow text-center rounded-md px-3 py-2 transition-all duration-150" href="<?php echo ROOT_URL ?>online-complaint.php">Online Complaint</a>
+            </div>
+        </ul>
         <!-- Socials -->
         <div class="fixed bg-transparent h-fit top-[50%] translate-y-[-70%] z-30 right-0">
             <div class="flex flex-col gap-3 itemc-center justify-center">

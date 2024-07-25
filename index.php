@@ -155,7 +155,7 @@
     </section>
 
     <section class="w-full min-h-screen flex gap-10  max-w-7xl mx-auto py-10 md:py-16">
-        <div class="w-9/12 flex flex-col gap-5">
+        <div class="w-9/12 flex flex-col gap-5 mx-auto">
             <h3 class="text-2xl md:text-3xl">Our Objectives and Duties</h3>
             <p class="mb-3">The primary objective of the NPGRC, as defined under the Legal Services Authorities Act, 1987, is to provide a responsive and accountable platform for citizens to seek redressal of grievances against administrative actions. Its duties encompass:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
