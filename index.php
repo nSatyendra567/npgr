@@ -1,107 +1,110 @@
 <?php include 'partials/header.php' ?>
 
 <main class="w-full h-fit">
-    <section class="overflow-x-hidden justify-center">
-        <div class="swiper bannerSwiper w-full flex justify-center items-center">
+    <section class="overflow-x-hidden flex justify-center">
+        <div class="swiper bannerSwiper w-full flex justify-center items-center relative max-h-[70vh] md:max-h-[450px]">
             <div class="swiper-wrapper">
-                <figure class="swiper-slide  h-auto md:h-[450px]  rounded-lg shadow-md bg-white flex flex-col text-brown gap-5">
-                    <img class="w-full h-full object-fill" src="./images/banner1.png" alt="NPGRC" />
+                <figure class="swiper-slide h-auto rounded-lg shadow-md bg-white flex flex-col text-brown gap-5">
+                    <picture>
+                        <!-- Mobile image -->
+                        <source media="(max-width: 767px)" srcset="./images/mobile-image.png" />
+                        <!-- Desktop image -->
+                        <img class="w-full h-full object-cover" src="./images/banner1.png" alt="NPGRC" />
+                    </picture>
                 </figure>
-                <figure class="swiper-slide h-auto md:h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown gap-5">
-                    <img class="w-full h-full object-fill" src="./images/banner2.png" alt="NPGRC" />
+                <figure class="swiper-slide h-auto rounded-lg shadow-md bg-white flex flex-col text-brown gap-5">
+                    <picture>
+                        <!-- Mobile image -->
+                        <source media="(max-width: 767px)" srcset="./images/mobile-image1.png" />
+                        <!-- Desktop image -->
+                        <img class="w-full h-full object-cover" src="./images/banner2.png" alt="NPGRC" />
+                    </picture>
                 </figure>
-                <figure class="swiper-slide h-auto md:h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown gap-5">
-                    <img class="w-full h-full object-cover" src="./images/banner3.png" alt="NPGRC" />
+                <figure class="swiper-slide h-auto rounded-lg shadow-md bg-white flex flex-col text-brown gap-5">
+                    <picture>
+                        <!-- Mobile image -->
+                        <source media="(max-width: 767px)" srcset="./images/mobile-image2.png" />
+                        <!-- Desktop image -->
+                        <img class="w-full h-full object-cover" src="./images/banner3.png" alt="NPGRC" />
+                    </picture>
                 </figure>
             </div>
-            <div class="swiper-button-next custom-swiper-button-next  bg-light-blue w-24 h-24 flex justify-center items-center rounded-[50%] absolute right-0"></div>
-            <div class="swiper-button-prev custom-swiper-button-prev bg-light-blue w-24 h-24 flex justify-center items-center rounded-[50%] absolute left-0"></div>
+            <div class="swiper-button-next custom-swiper-button-next bg-light-blue w-10 h-10 flex justify-center items-center rounded-full absolute right-2 md:right-4"></div>
+            <div class="swiper-button-prev custom-swiper-button-prev bg-light-blue w-10 h-10 flex justify-center items-center rounded-full absolute left-2 md:left-4"></div>
         </div>
     </section>
-    <section class="max-w-7xl mx-auto w-full gap-10 py-16">
-        <h3 class="text-center text-lg">Investigation Department
-        </h3>
-        <div class="flex items-center max-w-7xl mx-auto w-full flex-wrap">
-        <div class="w-2/5">
-            <div class="swiper bannerSwiper w-full flex justify-center items-center">
-                <div class="swiper-wrapper">
-                    <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown">
-                        <img class="w-full h-3/4 object-scale-down" src="./images/judge-birinder.jpg" alt="NPGRC" />
-                        <div class="">
-                            <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
-                            <p class="text-lg text-center text-blue font-bold">Mr. Birinder Singh</p>
-                        </div>
-                    </figure>
-                    <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown ">
-                        <img class="w-full h-3/4 object-scale-down" src="./images/judge-krishna.jpg" alt="NPGRC" />
-                        <div class="">
-                            <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
-                            <p class="text-lg text-center text-blue font-bold">Mr. Krishna Dutt Kalaskar</p>
-                        </div>
-                    </figure>
-                    <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown ">
-                        <img class="w-full h-3/4 object-scale-down" src="./images/judge-nazir.jpg" alt="NPGRC" />
-                        <div class="">
-                            <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
-                            <p class="text-lg text-center text-blue font-bold">Mr. Mohammad Nazir Fida</p>
-                        </div>
-                    </figure>
-                    <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown ">
-                        <img class="w-full h-3/4 object-scale-down" src="./images/judge-praveen.jpg" alt="NPGRC" />
-                        <div class="">
-                            <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
-                            <p class="text-lg text-center text-blue font-bold">Mr. Praveen Shah</p>
-                        </div>
-                    </figure>
-                    <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown ">
-                        <img class="w-full h-3/4 object-scale-down" src="./images/judge-regunath.jpg" alt="NPGRC" />
-                        <div class="">
-                            <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
-                            <p class="text-lg text-center text-blue font-bold">Mr. PT Reghunath</p>
-                        </div>
-                    </figure>
+
+    <section class="max-w-7xl mx-auto w-full gap-10 py-16 px-4">
+        <h3 class="text-center text-lg md:text-xl font-semibold">Investigation Department</h3>
+        <div class="flex flex-col md:flex-row items-center justify-center max-w-7xl mx-auto w-full gap-10">
+            <!-- Swiper Section -->
+            <div class="w-full md:w-2/5">
+                <div class="swiper bannerSwiper w-full flex justify-center items-center relative">
+                    <div class="swiper-wrapper">
+                        <figure class="swiper-slide h-[300px] md:h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown gap-5 relative">
+                            <img class="w-full h-full object-cover" src="./images/judge-birinder.jpg" alt="NPGRC" />
+                            <p class="text-base md:text-lg text-center text-blue font-bold mt-3">Dr. Lijo Kuriydath</p>
+                        </figure>
+                        <figure class="swiper-slide h-[300px] md:h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown gap-5 relative">
+                            <img class="w-full h-full object-cover" src="./images/judge-krishna.jpg" alt="NPGRC" />
+                            <p class="text-base md:text-lg text-center text-blue font-bold mt-3">Dr. Lijo Kuriydath</p>
+                        </figure>
+                        <figure class="swiper-slide h-[300px] md:h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown gap-5 relative">
+                            <img class="w-full h-full object-cover" src="./images/judge-nazir.jpg" alt="NPGRC" />
+                        </figure>
+                        <figure class="swiper-slide h-[300px] md:h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown gap-5 relative">
+                            <img class="w-full h-full object-cover" src="./images/judge-praveen.jpg" alt="NPGRC" />
+                        </figure>
+                        <figure class="swiper-slide h-[300px] md:h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown gap-5 relative">
+                            <img class="w-full h-full object-cover" src="./images/judge-regunath.jpg" alt="NPGRC" />
+                        </figure>
+                    </div>
+                    <div class="swiper-button-next custom-swiper-button-next bg-light-blue w-12 h-12 md:w-24 md:h-24 flex justify-center items-center rounded-full absolute right-2 md:right-4"></div>
+                    <div class="swiper-button-prev custom-swiper-button-prev bg-light-blue w-12 h-12 md:w-24 md:h-24 flex justify-center items-center rounded-full absolute left-2 md:left-4"></div>
                 </div>
-            <div class="swiper-button-next custom-swiper-button-next bg-light-blue w-24 h-24 flex justify-center items-center rounded-[50%] absolute right-0"></div>
-            <div class="swiper-button-prev custom-swiper-button-prev bg-light-blue w-24 h-24 flex justify-center items-center rounded-[50%] absolute left-0"></div>
-        </div>
-</div>
+            </div>
 
-        <figure class="w-1/5">
-            <img class="w-full h-[200px]" src="./images/npgrc-cut.png" alt="NPGRC" />
-        </figure>
-        <figure class="w-2/5 flex flex-col items-center">
-    <img class="w-4/5 h-[350px] object-scale-down" src="./images/lizo-square.jpg" alt="NPGRC" />
-    <p class="text-lg text-center text-blue font-bold mt-3">Dr. Lijo Kuriydath</p>
-    <p class="text-lg text-center text-blue font-bold mb-3">Director General of NPGRC</p>
-    <a href="https://gofindy.com/drlijokuriyadath" target="_blank" class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Connect with DG Button</a>
-</figure>
+            <!-- Center Image -->
+            <figure class="w-full md:w-1/5 flex justify-center">
+                <img class="w-full h-[150px] md:h-[200px] object-contain" src="./images/npgrc-cut.png" alt="NPGRC" />
+            </figure>
 
+            <!-- Right Image -->
+            <figure class="w-full md:w-2/5 flex flex-col items-center">
+                <img class="w-full h-[250px] md:h-[350px] object-cover" src="./images/lizo-square.jpg" alt="NPGRC" />
+                <p class="text-base md:text-lg text-center text-blue font-bold mt-3">Dr. Lijo Kuriydath</p>
+            </figure>
         </div>
-        
     </section>
 
 
-    <section class="max-w-7xl mx-auto w-full flex flex-col gap-5">
-        <h2 class="text-2xl md:text-3xl">About NPGRC</h2>
-        <p class="">Founded on September 9, 2017, the National Public Grievance and Redressal Commission (NPGRC) was established following recommendations made in 2017, aimed at creating a robust legal framework for addressing public grievances in India. Operating independently under the Indian constitution act , the commission holds jurisdiction over grievances spanning both public and private sectors. Led by Honorable Judge Mr. Birendra Singh as Member/Secretary, the NPGRC ensures thorough and impartial resolution of issues, upholding legal standards and promoting justice.
+    <section class="max-w-7xl mx-auto w-full flex flex-col gap-5 px-4 md:px-0">
+        <h2 class="text-2xl md:text-3xl font-semibold text-center">About NPGRC</h2>
+        <p class="text-base md:text-lg leading-relaxed">
+            Founded on September 9, 2017, the National Public Grievance and Redressal Commission (NPGRC) was established following recommendations made in 2017, aimed at creating a robust legal framework for addressing public grievances in India. Operating independently under the Indian constitution act, the commission holds jurisdiction over grievances spanning both public and private sectors. Led by Honorable Judge Mr. Birendra Singh as Member/Secretary, the NPGRC ensures thorough and impartial resolution of issues, upholding legal standards and promoting justice.
         </p>
-        <p class="">The NPGRC operates within a comprehensive legal framework that includes key legislative acts crucial to its mandate. The Human Rights Act empowers the commission to investigate complaints related to violations of fundamental rights. Under the Child Welfare Act, the NPGRC intervenes in matters concerning the welfare and rights of children, ensuring their protection and well-being. The Women's Rights Act enables the commission to address grievances related to gender-based discrimination, harassment, and violence. Additionally, the Environmental Protection Act grants authority to investigate complaints regarding environmental degradation, pollution, and non-compliance with environmental regulations. These acts provide the NPGRC with the legal tools necessary to address a wide array of issues affecting public and private sectors.
+        <p class="text-base md:text-lg leading-relaxed">
+            The NPGRC operates within a comprehensive legal framework that includes key legislative acts crucial to its mandate. The Human Rights Act empowers the commission to investigate complaints related to violations of fundamental rights. Under the Child Welfare Act, the NPGRC intervenes in matters concerning the welfare and rights of children, ensuring their protection and well-being. The Women's Rights Act enables the commission to address grievances related to gender-based discrimination, harassment, and violence. Additionally, the Environmental Protection Act grants authority to investigate complaints regarding environmental degradation, pollution, and non-compliance with environmental regulations. These acts provide the NPGRC with the legal tools necessary to address a wide array of issues affecting public and private sectors.
         </p>
-        <a class="bg-yellow text-center rounded-md px-8 py-2 text-white self-start font-semibold text-lg mt-3" href="<?php ROOT_URL ?>about.php">Know More</a>
+        <a class="bg-yellow-500 text-center rounded-md px-8 py-2 text-white self-start font-semibold text-lg mt-3 block mx-auto md:mx-0" href="<?php ROOT_URL ?>about.php">Know More</a>
     </section>
+
+
 
 
     <section class="py-10 md:py-16 px-5 sm:px-10 md:px-16 lg:px-32">
-        <h3 class="text-2xl md:text-3xl font-semibold mb-5">Our Process</h3>
-        <div class="flex flex-col gap-5 max-w-7xl">
-            <p class="">We have strong policies and procedures to follow. Key areas of case investigation including case management, responding to a case scene, interviewing, statement taking, gathering evidence, search warrants, and file presentation. The process of investigation or the investigative process is a series of activities or steps that include gathering evidence, analysing information, developing and validating theories, forming reasonable grounds to believe, and finally arresting and charging a suspect.</p>
+        <h3 class="text-2xl md:text-3xl font-semibold mb-5 text-center">Our Process</h3>
+        <div class="flex flex-col gap-5 max-w-7xl mx-auto px-4 md:px-0">
+            <p class="text-base md:text-lg leading-relaxed">
+                We have strong policies and procedures to follow. Key areas of case investigation including case management, responding to a case scene, interviewing, statement taking, gathering evidence, search warrants, and file presentation. The process of investigation or the investigative process is a series of activities or steps that include gathering evidence, analysing information, developing and validating theories, forming reasonable grounds to believe, and finally arresting and charging a suspect.
+            </p>
         </div>
-        <div class="max-w-7xl mx-auto w-full mt-10 mb-16 ">
+        <div class="max-w-7xl mx-auto w-full mt-10 mb-16">
             <h3 class="text-3xl font-bold text-center mb-10">The Seven Steps</h3>
-            <div class="flex gap-5 items-center justify-center flex-wrap max-w-5xl mx-auto w-full">
+            <div class="flex flex-wrap gap-5 items-center justify-center max-w-5xl mx-auto">
                 <div class="w-56 h-56 rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
                     <i class="fas fa-lock fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200">Securing the Scene</h4>
+                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200 text-center">Securing the Scene</h4>
                 </div>
                 <div class="w-56 h-56 rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
                     <i class="fa-solid fa-users-between-lines fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
@@ -109,69 +112,25 @@
                 </div>
                 <div class="w-56 h-56 rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
                     <i class="fa-solid fa-user-secret fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200">Scanning the Scene</h4>
+                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200 text-center">Scanning the Scene</h4>
                 </div>
                 <div class="w-56 h-56 rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
                     <i class="fa-solid fa-eye fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200">Seeing the Scene</h4>
+                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200 text-center">Seeing the Scene</h4>
                 </div>
                 <div class="w-56 h-56 rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
                     <i class="fa-solid fa-user-pen fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200">Sketching the Scene</h4>
+                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200 text-center">Sketching the Scene</h4>
                 </div>
                 <div class="w-56 h-56 rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
                     <i class="fa-brands fa-searchengin fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200">Searching for Evidence</h4>
+                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200 text-center">Searching for Evidence</h4>
                 </div>
                 <div class="w-56 h-56 rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
                     <i class="fa-solid fa-user-shield fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
                     <h4 class="text-lg group-hover:text-yellow transition-all duration-200 text-center">Securing and Collecting Evidence</h4>
                 </div>
             </div>
-            <!-- <div class="w-full flex flex-col item-start gap-10">
-                <div class="w-1/2 h-fit p-3 md:p-5 rounded shadow flex items-center gap-3 group hover:scale-105 transition-all duration-200">
-                    <div class="w-20 h-20 rounded-full text-white bg-yellow group-hover:border-2 border-yellow group-hover:text-yellow group-hover:bg-white flex justify-center items-center transition-all duration-200">
-                        <i class="fas fa-lock fa-2x"></i>
-                    </div>
-                    <p class="text-xl font-semibold text-center">Securing the Scene</p>
-                </div>
-                <div class="w-56 h-fit p-5 md:p-10 rounded shadow-md flex items-center flex-col gap-3 group hover:scale-105 transition-all duration-200">
-                    <div class="w-28 h-28 rounded-full text-white bg-yellow group-hover:border-2 border-yellow group-hover:text-yellow group-hover:bg-white flex justify-center items-center transition-all duration-200">
-                        <i class="fas fa-users fa-3x"></i>
-                    </div>
-                    <p class="text-xl font-semibold text-center">Separating the Witnesses</p>
-                </div>
-                <div class="w-56 h-fit p-5 md:p-10 rounded shadow-md flex items-center flex-col gap-3 group hover:scale-105 transition-all duration-200">
-                    <div class="w-28 h-28 rounded-full text-white bg-yellow group-hover:border-2 border-yellow group-hover:text-yellow group-hover:bg-white flex justify-center items-center transition-all duration-200">
-                        <i class="fas fa-search fa-3x"></i>
-                    </div>
-                    <p class="text-xl font-semibold text-center">Scanning the Scene</p>
-                </div>
-                <div class="w-56 h-fit p-5 md:p-10 rounded shadow-md flex items-center flex-col gap-3 group hover:scale-105 transition-all duration-200">
-                    <div class="w-28 h-28 rounded-full text-white bg-yellow group-hover:border-2 border-yellow group-hover:text-yellow group-hover:bg-white flex justify-center items-center transition-all duration-200">
-                        <i class="fas fa-eye fa-3x"></i>
-                    </div>
-                    <p class="text-xl font-semibold text-center">Seeing the Scene</p>
-                </div>
-                <div class="w-56 h-fit p-5 md:p-10 rounded shadow-md flex items-center flex-col gap-3 group hover:scale-105 transition-all duration-200">
-                    <div class="w-28 h-28 rounded-full text-white bg-yellow group-hover:border-2 border-yellow group-hover:text-yellow group-hover:bg-white flex justify-center items-center transition-all duration-200">
-                        <i class="fas fa-pencil-alt fa-3x"></i>
-                    </div>
-                    <p class="text-xl font-semibold text-center">Sketching the Scene</p>
-                </div>
-                <div class="w-56 h-fit p-5 md:p-10 rounded shadow-md flex items-center flex-col gap-3 group hover:scale-105 transition-all duration-200">
-                    <div class="w-28 h-28 rounded-full text-white bg-yellow group-hover:border-2 border-yellow group-hover:text-yellow group-hover:bg-white flex justify-center items-center transition-all duration-200">
-                        <i class="fas fa-search-plus fa-3x"></i>
-                    </div>
-                    <p class="text-xl font-semibold text-center">Searching for Evidence</p>
-                </div>
-                <div class="w-56 h-fit p-5 md:p-10 rounded shadow-md flex items-center flex-col gap-3 group hover:scale-105 transition-all duration-200">
-                    <div class="w-28 h-28 rounded-full text-white bg-yellow group-hover:border-2 border-yellow group-hover:text-yellow group-hover:bg-white flex justify-center items-center transition-all duration-200">
-                        <i class="fas fa-briefcase fa-3x"></i>
-                    </div>
-                    <p class="text-xl font-semibold text-center">Securing and Collecting Evidence</p>
-                </div>
-            </div> -->
         </div>
     </section>
 
