@@ -1,6 +1,6 @@
 <?php include 'partials/header.php' ?>
 
-<main class="w-full min-h-screen flex justify-center">
+<main class="sm:w-full mx-auto w-11/12 min-h-screen flex justify-center">
     <div class="max-w-7xl w-full flex flex-col md:flex-row gap-10  pt-10 pb-10 md:pb-16">
         <div class="w-2/10">
             <?php include 'partials/sidebar.php' ?>

@@ -1,5 +1,5 @@
 <?php include 'partials/header.php' ?>
-<main class="max-w-7xl mx-auto flex flex-col md:flex-row min-h-screen gap-10 py-10 md:py-16">
+<main class="sm:w-full mx-auto w-11/12 max-w-7xl mx-auto flex flex-col md:flex-row min-h-screen gap-10 py-10 md:py-16">
     <div class="w-2/10">
         <?php include 'partials/sidebar.php' ?>
     </div>
