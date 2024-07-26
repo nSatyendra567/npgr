@@ -102,15 +102,15 @@ if(!isset($admin_id)){
    
    <div class="box">
       <?php
-         $select_comments = $conn->prepare("SELECT * FROM `comments` WHERE admin_id = ?");
-         $select_comments->execute([$admin_id]);
-         $select_comments->execute();
-         $numbers_of_comments = $select_comments->rowCount();
+         $select_cases = $conn->prepare("SELECT * FROM `case`");
+         $select_cases->execute();
+         $numbers_of_cases = $select_cases->rowCount();
       ?>
-      <h3><?= $numbers_of_comments; ?></h3>
-      <p>comments added</p>
-      <a href="comments.php" class="btn">see comments</a>
+      <h3><?= $numbers_of_cases; ?></h3>
+      <p>cases added</p>
+      <a href="cases.php" class="btn">see cases</a>
    </div>
+
 
    <div class="box">
       <?php

@@ -312,6 +312,10 @@ section{
    color:var(--black);
 }
 
+.boxxy{
+   text-align: start !important;
+}
+
 .dashboard .box-container .box h3 span{
    font-size: 2rem;
 }
