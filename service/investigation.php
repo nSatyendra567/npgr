@@ -1,6 +1,6 @@
 <?php include '../partials/innerheader.php' ?>
 
-    <main class="w-full min-h-screen flex gap-10 max-w-7xl mx-auto py-10 md:py-16 flex-col md:flex-row">
+    <main class="sm:w-full mx-auto w-11/12 min-h-screen flex gap-10 max-w-7xl mx-auto py-10 md:py-16 flex-col md:flex-row">
         <div class="w-2/10">
             <?php include '../partials/service-sidebar.php' ?>
         </div>
