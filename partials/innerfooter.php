@@ -9,7 +9,7 @@
         <figure class="w-32 h-32">
             <img class="w-full h-full object-cover" src="../images/npgrc.png" alt="NPGRC" />
         </figure>
-        <p class="text-white text-lg">राष्ट्रीय लोक शिकायत एवं निवारण आयोग</p>
+        <p class="text-center text-white text-lg">राष्ट्रीय लोक शिकायत एवं निवारण आयोग</p>
     </div>
     <hr class="mt-8 text-white " />
     <div class="text-center text-base text-white mt-3">
@@ -21,6 +21,7 @@
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/index.js"></script>
 <script>
     // Swiper for banner
     var swiper = new Swiper(".bannerSwiper", {
