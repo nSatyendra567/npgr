@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    font-family: 'Encode Sans';
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Header Styles */
+  .header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  /* Blog Post Styles */
+  .posts-container {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box-container {
+    width: 90%; /* Increased width */
+    max-width: 1000px; /* Maximum width for the content */
+  }
+  
+  .box {
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .post-admin {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  
+  }
+  
+  .post-admin i {
+    margin-right: 8px;
+  }
+  .post-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .post-content {
+    
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+  
+  .post-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .post-card {
+        width: calc(100% - 10px); /* Adjust width for smaller screens */
+    }
+}

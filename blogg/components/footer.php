@@ -9,7 +9,7 @@
         <figure class="w-32 h-32">
             <img class="w-full h-full object-cover" src="./images/npgrc.png" alt="NPGRC" />
         </figure>
-        <p class="text-center text-white text-lg">राष्ट्रीय लोक शिकायत एवं निवारण आयोग</p>
+        <p class="text-white text-lg">राष्ट्रीय लोक शिकायत एवं निवारण आयोग</p>
     </div>
     <hr class="mt-8 text-white " />
     <div class="text-center text-base text-white mt-3">

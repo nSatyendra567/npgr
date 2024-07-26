@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Posts Section Styles */
+.posts-container {
+  padding: 2rem 6rem;
+  /* Adjust the padding for smaller screens */
+}
+
+.posts-container .heading {
+  position: relative;
+  color: #268133;
+  font-size: 2rem;
+  /* Adjust font size for smaller screens */
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  /* Adjust margin for smaller screens */
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.post-card {
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: calc(50% - 20px);
+  /* Adjust the width for smaller screens */
+  max-width: 400px;
+  /* Ensure the card doesn't exceed the screen width */
+  max-height: 600px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.post-card img {
+  max-width: 100%;
+  height: 220px;
+  /* Make the image responsive */
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.post-card .postss {
+  height: 250px;
+  /* Make the content height responsive */
+}
+
+.post-card .post-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post-card .post-content {
+  color: #555;
+  margin-bottom: 15px;
+  max-height: 100px;
+  /* Remove max-height for responsive content */
+  overflow: hidden;
+}
+
+.post-card .read-more {
+  text-align: center;
+  /* Center the "Read More" link */
+}
+
+.read-more a {
+
+  padding: 8px 16px;
+  background: #6cc327;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.read-more a:hover {
+  background: #268133;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .posts-container {
+    padding: 2rem 1rem;
+    /* Adjust the padding for even smaller screens */
+  }
+
+  .post-card {
+    width: calc(100% - 20px);
+    /* Adjust the width for smaller screens */
+  }
+}

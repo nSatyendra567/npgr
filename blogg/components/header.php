@@ -1,6 +1,6 @@
 <?php
 session_start(); // Start the session at the beginning
-require(__DIR__ . '/../config/constants.php');
+require('../config/constants.php');
 
 function getCurrentPage()
 {
@@ -15,8 +15,6 @@ function getCurrentPage()
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/x-icon" href="./images/ASTRO.png">
-    <title>NPGRC</title>
-    <link rel="shortcut icon" href="<?php ROOT_URL ?>images/npgrc.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsive.css">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -128,7 +126,7 @@ function getCurrentPage()
     <div class="px-5 sm:px-10 lg:px-16 flex flex-col md:flex-row md:justify-between items-center">
     <div class="flex flex-row items-center mb-4 md:mb-0">
         <figure class="w-16 h-16 md:w-28 md:h-28">
-            <img src="<?php ROOT_URL ?>images/npgrc.png" alt="NPGRC" />
+            <img src="<?php ROOT_URL ?>/images/npgrc.png" alt="NPGRC" />
         </figure>
         <div class="ml-3 text-center md:text-left">
             <a href="<?php echo ROOT_URL ?>index.php">
@@ -145,9 +143,9 @@ function getCurrentPage()
         </div>
     </div>
     <figure class="hidden lg:flex gap-10 items-center">
-        <img class="w-16 md:w-32 md:h-32" src="images/digital-india.png" alt="NPGRC" />
-        <img class="w-16 md:w-32 md:h-20" src="images/azadi.jpg" alt="NPGRC" />
-        <img class="w-14 md:w-28 md:h-16" src="images/indian-flag.gif" alt="NPGRC" />
+        <img class="w-16 md:w-32 md:h-32" src="<?php echo ROOT_URL ?>/images/digital-india.png" alt="NPGRC" />
+        <img class="w-16 md:w-32 md:h-20" src="<?php echo ROOT_URL ?>/images/azadi.jpg" alt="NPGRC" />
+        <img class="w-14 md:w-28 md:h-16" src="<?php echo ROOT_URL ?>/images/indian-flag.gif" alt="NPGRC" />
     </figure>
 </div>
 
@@ -156,7 +154,7 @@ function getCurrentPage()
         <ul class="nav_items flex-col md:flex-row gap-5 md:gap-7 lg:gap-10 items-center justify-center hidden md:flex text-white">
             <li><a class="<?php echo getCurrentPage() == 'index.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>index.php">Home</a></li>
             <li class="group relative <?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>">
-                <p id="list_id2" class="flex gap-2 items-center cursor-pointer">About Us <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>
+                <p id="list_id2" class="flex gap-2 items-center">About Us <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>
                 </p>
                 <ul id="list2" class="hidden absolute top-9 pt-2 left-0 z-40 flex flex-col w-64 bg-blue text-white">
                     <a class="py-2 px-3 border-t border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>about.php">About Us</a>
@@ -168,7 +166,7 @@ function getCurrentPage()
                 </ul>
             </li>
             <li class="group relative <?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>">
-                <p id="list_id" class="flex gap-2 items-center cursor-pointer">Services <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>
+                <p id="list_id" class="flex gap-2 items-center">Services <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>
                 </p>
                 <ul id="list" class="hidden absolute top-9 pt-2 left-0 z-40 flex flex-col w-64 bg-blue text-white list">
                     <a class="py-2 px-3 border-t border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/legal-aid.php">Legal Aid</a>
