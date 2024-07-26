@@ -35,9 +35,14 @@ include 'partials/header.php';
                         $fileType = $_FILES['complain-file']['type'];
                 
                         // Define the target directory and file path
+                        $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
+
+                        // Generate a unique name for the file
+                        $uniqueFileName = uniqid('', true) . '.' . $fileExtension;
+
+                        // Define the target directory and file path
                         $uploadDir = 'Complaint/'; // Make sure this directory exists and is writable
-                        $filePath = $uploadDir . basename($fileName);
-                
+                        $filePath = $uploadDir . $uniqueFileName;
                         // Move the uploaded file to the target directory
                         if (move_uploaded_file($fileTmpPath, $filePath)) {
                             $referenceNo = generateSecureUniqueId();
