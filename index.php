@@ -106,7 +106,7 @@
         <p class="text-base md:text-lg leading-relaxed">
             The NPGRC operates within a comprehensive legal framework that includes key legislative acts crucial to its mandate. The Human Rights Act empowers the commission to investigate complaints related to violations of fundamental rights. Under the Child Welfare Act, the NPGRC intervenes in matters concerning the welfare and rights of children, ensuring their protection and well-being. The Women's Rights Act enables the commission to address grievances related to gender-based discrimination, harassment, and violence. Additionally, the Environmental Protection Act grants authority to investigate complaints regarding environmental degradation, pollution, and non-compliance with environmental regulations. These acts provide the NPGRC with the legal tools necessary to address a wide array of issues affecting public and private sectors.
         </p>
-        <a class="bg-yellow-500 text-center rounded-md px-8 py-2 text-white self-start font-semibold text-lg mt-3 block mx-auto md:mx-0" href="<?php ROOT_URL ?>about.php">Know More</a>
+        <a style="background-color: rgb(234 179 8);" class="bg-yellow-500 text-center rounded-md px-8 py-2 text-white self-start font-semibold text-lg mt-3 block mx-auto md:mx-0" href="<?php ROOT_URL ?>about.php">Know More</a>
     </section>
 
 

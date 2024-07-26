@@ -199,9 +199,9 @@ function getCurrentPage()
     <ul id="nav_menu" class="bg-blue nav_items flex-col md:flex-row gap-5 md:gap-7 lg:gap-10 items-center justify-center hidden text-white">
             <li><a class="<?php echo getCurrentPage() == 'index.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>index.php">Home</a></li>
             <li class="group relative <?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>">
-                <p id="list_id2" class="flex gap-2 items-center">About Us <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>
+                <p id="mlist_id2" class="flex gap-2 items-center">About Us <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>
                 </p>
-                <ul id="list2" class="hidden absolute top-9 pt-2 left-0 z-40 flex flex-col w-64 bg-blue text-white">
+                <ul id="mlist2" class="hidden absolute top-9 pt-2 left-[-40px] rounded-md z-40 flex flex-col w-64 bg-black text-white">
                     <a class="py-2 px-3 border-t border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>about.php">About Us</a>
                     <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>mission-vision.php">Mission & Vision</a>
                     <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>acts-rules.php">Acts and Rules
@@ -211,9 +211,9 @@ function getCurrentPage()
                 </ul>
             </li>
             <li class="group relative <?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>">
-                <p id="list_id" class="flex gap-2 items-center">Services <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>
+                <p id="mlist_id" class="flex gap-2 items-center">Services <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>
                 </p>
-                <ul id="list" class="hidden absolute top-9 pt-2 left-0 z-40 flex flex-col w-64 bg-blue text-white list">
+                <ul id="mlist" class="hidden absolute top-9 pt-2 right-[-66px] z-40 flex flex-col w-64 bg-black rounded-md text-white list">
                     <a class="py-2 px-3 border-t border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/legal-aid.php">Legal Aid</a>
                     <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/mediation.php">Mediation</a>
                     <a class="py-2 px-3 border-b border-gray<?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>service/investigation.php">Investigation

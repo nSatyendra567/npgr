@@ -6,7 +6,7 @@ include 'blogg/components/connect.php';
     <div class="max-w-7xl px-5 sm:px-10 w-full">
         <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center mb-10">Pan India Advocate</h2>
         <div class="flex justify-center gap-10 flex-wrap">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem voluptatem maiores corrupti aspernatur nisi aut molestiae laudantium ut minus quaerat praesentium commodi magni repellat tempora esse quibusdam, ipsam, dolorum exercitationem? Voluptatem totam incidunt velit hic cum eos maiores est id soluta officiis obcaecati similique magnam minima impedit nesciunt placeat aperiam deserunt, repellendus quisquam dolore culpa ex. Voluptatum dolore voluptas labore facere consectetur deleniti explicabo, neque praesentium est nihil atque corporis dicta commodi totam quidem magni vel vitae doloribus beatae nesciunt?</p>
+            <p>National Public Grievance and Redressal commission (NPGRC) is one of the biggest organization in India in which advocates and Judges work for the benefit of general public by addressing their issues and grievances brought to the notice of the commission. NPGRC's advocate panel is available throughout India in every State and District levels. More than 4000 advocates are associated and working with this organization in various parts of the country. The objective of the organization is to resolve the complaints and grievances making sure that the resolution to any issue is done by strictly ensuring justice to the complainant after thorough validation of the issue.</p>
         </div>
     </div>
     
