@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['approve_id'])) {
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Advocate</title>
+   <title>Users Accounts</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -45,12 +45,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['approve_id'])) {
 
 <section class="accounts">
 
-   <h1 class="heading">Advocates</h1>
+   <h1 class="heading">Not Approved Advocate</h1>
 
    <div class="box-container">
     <?php
   
-    $select_account = $conn->prepare("SELECT * FROM `advocate`");
+    $select_account = $conn->prepare("SELECT * FROM `advocate` WHERE approved = 0");
     $select_account->execute();
     if ($select_account->rowCount() > 0) {
         while ($fetch_accounts = $select_account->fetch(PDO::FETCH_ASSOC)) {

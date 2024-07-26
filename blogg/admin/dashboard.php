@@ -80,13 +80,13 @@ if(!isset($admin_id)){
 
    <div class="box">
       <?php
-         $select_users = $conn->prepare("SELECT * FROM `users`");
+         $select_users = $conn->prepare("SELECT * FROM `advocate`");
          $select_users->execute();
          $numbers_of_users = $select_users->rowCount();
       ?>
       <h3><?= $numbers_of_users; ?></h3>
-      <p>users account</p>
-      <a href="users_accounts.php" class="btn">see users</a>
+      <p>Advocate account</p>
+      <a href="users_accounts.php" class="btn">see advocate</a>
    </div>
 
    <div class="box">
@@ -114,14 +114,13 @@ if(!isset($admin_id)){
 
    <div class="box">
       <?php
-         $select_likes = $conn->prepare("SELECT * FROM `likes` WHERE admin_id = ?");
-         $select_likes->execute([$admin_id]);
-         $select_likes->execute();
-         $numbers_of_likes = $select_likes->rowCount();
+         $not_approved = $conn->prepare("SELECT * FROM `advocate` WHERE approved = 0");
+         $not_approved->execute();
+         $numbers_of_not_approved = $not_approved->rowCount();
       ?>
-      <h3><?= $numbers_of_likes; ?></h3>
-      <p>total likes</p>
-      <a href="view_posts.php" class="btn">see posts</a>
+      <h3><?= $numbers_of_not_approved; ?></h3>
+      <p>Not Approved</p>
+      <a href="not_aproved.php" class="btn">see not aproved</a>
    </div>
 
    </div>

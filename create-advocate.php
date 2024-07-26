@@ -1,8 +1,60 @@
-<?php include 'partials/header.php';
-include 'config/data.php'
+<?php 
+include 'partials/header.php';
+include 'config/data.php';
+include 'blogg/components/connect.php';
  ?>
+
+<?php
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            // Sanitize user inputs
+            $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+            $court = filter_var($_POST['court'], FILTER_SANITIZE_STRING);
+            $state = filter_var($_POST['states'], FILTER_SANITIZE_STRING);
+            $officeAddress = filter_var($_POST['office-address'], FILTER_SANITIZE_STRING);
+            $chamberAddress = filter_var($_POST['chamber-address'], FILTER_SANITIZE_STRING);
+            $mobileNumber = filter_var($_POST['mobile_number'], FILTER_SANITIZE_STRING);
+            $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+            $enrollmentId = filter_var($_POST['enrollment-id'], FILTER_SANITIZE_STRING);
+            $courtId = filter_var($_POST['court-id'], FILTER_SANITIZE_STRING);
+            $date = date('Y-m-d'); // Assuming the current date
+            $approved = isset($_POST['urgent']) ? 1 : 0;
+        
+            // Handle file upload
+            if (isset($_FILES['photo']) && $_FILES['photo']['error'] == UPLOAD_ERR_OK) {
+                $fileTmpPath = $_FILES['photo']['tmp_name'];
+                $fileName = $_FILES['photo']['name'];
+                $fileSize = $_FILES['photo']['size'];
+                $fileType = $_FILES['photo']['type'];
+                $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
+        
+                // Generate a unique name for the file
+                $uniqueFileName = uniqid('', true) . '.' . $fileExtension;
+                $uploadDir = 'advocate/'; // Make sure this directory exists and is writable
+                $filePath = $uploadDir . $uniqueFileName;
+        
+                // Move the uploaded file to the target directory
+                if (move_uploaded_file($fileTmpPath, $filePath)) {
+                    // Prepare SQL query using PDO
+                    $sql = "INSERT INTO advocate (Name, Photo, Court, State, officeAdd, chamberAdd, Email, Phone, EnrollmentId, CourtId, date, approved) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+                    $stmt = $conn->prepare($sql);
+        
+                    // Execute the statement
+                    if ($stmt->execute([$name, $filePath, $court, $state, $officeAddress, $chamberAddress, $email, $mobileNumber, $enrollmentId, $courtId, $date, $approved])) {
+                        echo "<p class='text-green-600 text-center font-semibold'>Record inserted successfully.</p>";
+                    } else {
+                        echo "<p class='text-red-600 text-center font-semibold'>Error inserting record: " . $stmt->errorInfo()[2] . "</p>";
+                    }
+                } else {
+                    echo "<p class='text-red-600 text-center font-semibold'>Error uploading file.</p>";
+                }
+            } else {
+                echo "<p class='text-red-600'>Error: " . $_FILES['photo']['error'] . "</p>";
+            }
+        }
+    ?>
 <main class="w-full min-h-screen flex justify-center py-10">
-    <form action="create-advocate-action.php" method="POST" enctype="multipart/form-data" class="bg-white p-6 rounded shadow-md w-full max-w-xl">
+
+    <form action="" method="POST" enctype="multipart/form-data" class="bg-white p-6 rounded shadow-md w-full max-w-xl">
         <div class="mb-4">
             <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
             <input type="text" name="name" id="name" required class="mt-1 p-2 w-full border border-gray-300 rounded">
@@ -54,4 +106,5 @@ include 'config/data.php'
         </div>
     </form>
 </main>
+
 <?php include 'partials/footer.php' ?>
