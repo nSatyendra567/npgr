@@ -1,7 +1,7 @@
 <?php include 'partials/header.php' ?>
 
 <main class="w-full h-fit">
-    <section class="overflow-x-hidden flex justify-center">
+    <div class="overflow-x-hidden flex justify-center">
         <div class="swiper bannerSwiper w-full flex justify-center items-center relative max-h-[70vh] md:max-h-[450px]">
             <div class="swiper-wrapper">
                 <figure class="swiper-slide h-auto rounded-lg shadow-md bg-white flex flex-col text-brown gap-5">
@@ -32,7 +32,7 @@
             <div class="swiper-button-next custom-swiper-button-next bg-light-blue w-10 h-10 flex justify-center items-center rounded-full absolute right-2 md:right-4"></div>
             <div class="swiper-button-prev custom-swiper-button-prev bg-light-blue w-10 h-10 flex justify-center items-center rounded-full absolute left-2 md:left-4"></div>
         </div>
-    </section>
+    </div>
 
     <section class="max-w-7xl mx-auto w-full gap-10 py-16 px-4">
         <h3 class="text-2xl md:text-3xl font-semibold text-center mb-5">Investigation Department</h3>
@@ -118,7 +118,7 @@
         </div>
     </section>
 
-    <section class="w-full min-h-screen flex gap-10  max-w-7xl mx-auto py-10 md:py-16">
+    <div class="w-full min-h-screen flex gap-10  max-w-7xl mx-auto py-10 md:py-16">
         <div class="sm:w-9/12 w-11/12 flex flex-col gap-5 mx-auto">
             <h3 class="text-2xl md:text-3xl">Our Objectives and Duties</h3>
             <p class="mb-3">The primary objective of the NPGRC, as defined under the Legal Services Authorities Act, 1987, is to provide a responsive and accountable platform for citizens to seek redressal of grievances against administrative actions. Its duties encompass:</p>
@@ -302,7 +302,7 @@
             </ul>
             </div>
         </div> -->
-    </section>
+    </div>
 </main>
 <?php include 'partials/logos.php' ?>
 <?php include 'partials/footer.php' ?>
