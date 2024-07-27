@@ -35,64 +35,28 @@
     </section>
 
     <section class="max-w-7xl mx-auto w-full gap-10 py-16 px-4">
-        <h3 class="text-center text-lg md:text-xl font-semibold">Investigation Department</h3>
-        <div class="flex flex-col md:flex-row items-center justify-center max-w-7xl mx-auto w-full gap-10">
+        <h3 class="text-2xl md:text-3xl font-semibold text-center mb-5">Investigation Department</h3>
+        <div class="flex flex-col md:flex-row items-start justify-center max-w-7xl mx-auto w-full gap-10">
             <!-- Swiper Section -->
-            <div class="w-2/5">
-                <div class="swiper bannerSwiper w-full flex justify-center items-center">
-                    <div class="swiper-wrapper">
-                        <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown">
-                            <img class="w-full h-3/4 object-scale-down" src="./images/judge-birinder.jpg" alt="NPGRC" />
-                            <div class="">
-                                <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
-                                <p class="text-lg text-center text-blue font-bold">Mr. Birinder Singh</p>
-                            </div>
-                        </figure>
-                        <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown ">
-                            <img class="w-full h-3/4 object-scale-down" src="./images/judge-krishna.jpg" alt="NPGRC" />
-                            <div class="">
-                                <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
-                                <p class="text-lg text-center text-blue font-bold">Mr. Krishna Dutt Kalaskar</p>
-                            </div>
-                        </figure>
-                        <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown ">
-                            <img class="w-full h-3/4 object-scale-down" src="./images/judge-nazir.jpg" alt="NPGRC" />
-                            <div class="">
-                                <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
-                                <p class="text-lg text-center text-blue font-bold">Mr. Mohammad Nazir Fida</p>
-                            </div>
-                        </figure>
-                        <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown ">
-                            <img class="w-full h-3/4 object-scale-down" src="./images/judge-praveen.jpg" alt="NPGRC" />
-                            <div class="">
-                                <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
-                                <p class="text-lg text-center text-blue font-bold">Mr. Praveen Shah</p>
-                            </div>
-                        </figure>
-                        <figure class="swiper-slide h-[450px] rounded-lg shadow-md bg-white flex flex-col text-brown ">
-                            <img class="w-full h-3/4 object-scale-down" src="./images/judge-regunath.jpg" alt="NPGRC" />
-                            <div class="">
-                                <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
-                                <p class="text-lg text-center text-blue font-bold">Mr. PT Reghunath</p>
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="swiper-button-next custom-swiper-button-next bg-light-blue w-12 h-12 md:w-24 md:h-24 flex justify-center items-center rounded-full absolute right-2 md:right-4"></div>
-                    <div class="swiper-button-prev custom-swiper-button-prev bg-light-blue w-12 h-12 md:w-24 md:h-24 flex justify-center items-center rounded-full absolute left-2 md:left-4"></div>
-                </div>
-            </div>
-
-            <!-- Center Image -->
-            <figure class="w-full md:w-1/5 flex justify-center">
-                <img class="w-full h-[150px] md:h-[200px] object-contain" src="./images/npgrc-cut.png" alt="NPGRC" />
+            <figure class="md:w-2/5 w-full flex flex-col items-center">
+                <img class="w-4/5 h-[350px] object-cover" src="./images/judge-praveen.jpg" alt="NPGRC" />
+                <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
+                <p class="text-lg text-center text-blue font-bold mb-3">Mr. Praveen Shah</p>
             </figure>
 
+            <!-- Center Image -->
+            <div class="w-full md:w-1/5 md:h-[350px] flex items-center">
+            <figure class="w-full flex justify-center">
+                <img class="w-full h-[150px] md:h-[200px] object-contain" src="./images/npgrc-cut.png" alt="NPGRC" />
+            </figure>
+            </div>
+
             <!-- Right Image -->
-            <figure class="w-2/5 flex flex-col items-center">
-                <img class="w-4/5 h-[350px] object-scale-down" src="./images/lizo-square.jpg" alt="NPGRC" />
+            <figure class="md:w-2/5 w-full flex flex-col items-center">
+                <img class="w-4/5 h-[350px] object-cover" src="./images/lizo-square.jpg" alt="NPGRC" />
                 <p class="text-lg text-center text-blue font-bold mt-3">Dr. Lijo Kuriydath</p>
                 <p class="text-lg text-center text-blue font-bold mb-3">Director General of NPGRC</p>
-                <a href="https://gofindy.com/drlijokuriyadath" target="_blank" class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Connect with DG Button</a>
+                <a href="https://gofindy.com/drlijokuriyadath" target="_blank" class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Connect with DG</a>
             </figure>
         </div>
     </section>
