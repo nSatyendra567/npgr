@@ -39,7 +39,7 @@
         <div class="flex flex-col md:flex-row items-start justify-center max-w-7xl mx-auto w-full gap-10">
             <!-- Swiper Section -->
             <figure class="md:w-2/5 w-full flex flex-col items-center">
-                <img class="w-4/5 h-[350px] object-cover" src="./images/judge-praveen.jpg" alt="NPGRC" />
+                <img class="w-4/5 h-[350px] object-cover rounded-full" src="./images/judge-praveen.jpg" alt="NPGRC" />
                 <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
                 <p class="text-lg text-center text-blue font-bold mb-3">Mr. Praveen Shah</p>
             </figure>
@@ -53,7 +53,7 @@
 
             <!-- Right Image -->
             <figure class="md:w-2/5 w-full flex flex-col items-center">
-                <img class="w-4/5 h-[350px] object-cover" src="./images/lizo-square.jpg" alt="NPGRC" />
+                <img class="w-4/5 h-[350px] object-cover rounded-full" src="./images/lizo-square.jpg" alt="NPGRC" />
                 <p class="text-lg text-center text-blue font-bold mt-3">Dr. Lijo Kuriydath</p>
                 <p class="text-lg text-center text-blue font-bold mb-3">Director General of NPGRC</p>
                 <a href="https://gofindy.com/drlijokuriyadath" target="_blank" class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Connect with DG</a>
@@ -123,7 +123,7 @@
             <h3 class="text-2xl md:text-3xl">Our Objectives and Duties</h3>
             <p class="mb-3">The primary objective of the NPGRC, as defined under the Legal Services Authorities Act, 1987, is to provide a responsive and accountable platform for citizens to seek redressal of grievances against administrative actions. Its duties encompass:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-balance-scale sm:fa-3x fa-2x"></i>
                     </div>
@@ -133,7 +133,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-gavel sm:fa-3x fa-2x"></i>
                     </div>
@@ -143,7 +143,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt sm:fa-3x fa-2x"></i>
                     </div>
@@ -158,7 +158,7 @@
             <h3 class="mt-3 text-2xl md:text-3xl">Grievance Redressal Mechanisms</h3>
             <p class="mb-3">Central to its mandate, the NPGRC employs structured grievance redressal mechanisms outlined in the Legal Services Authorities Act, 1987. These include:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-balance-scale sm:fa-3x fa-2x"></i>
                     </div>
@@ -168,7 +168,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-gavel sm:fa-3x fa-2x"></i>
                     </div>
@@ -178,7 +178,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt sm:fa-3x fa-2x"></i>
                     </div>
@@ -193,7 +193,7 @@
             <h3 class="mt-3 text-2xl md:text-3xl ">Types of Cases Handled</h3>
             <p class="mb-3">The NPGRC addresses diverse grievances impacting public welfare and individual rights, including:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-balance-scale sm:fa-3x fa-2x"></i>
                     </div>
@@ -204,7 +204,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-gavel sm:fa-3x fa-2x"></i>
                     </div>
@@ -215,7 +215,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt sm:fa-3x fa-2x"></i>
                     </div>
@@ -225,7 +225,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt sm:fa-3x fa-2x"></i>
                     </div>
@@ -236,7 +236,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt sm:fa-3x fa-2x"></i>
                     </div>
@@ -253,7 +253,7 @@
             <p class="mb-3">Despite its achievements, the NPGRC faces challenges such as resource constraints, procedural complexities, and the need for continuous improvement. Reform initiatives include:
             </p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-balance-scale sm:fa-3x fa-2x"></i>
                     </div>
@@ -263,7 +263,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-gavel sm:fa-3x fa-2x"></i>
                     </div>
@@ -274,7 +274,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt md:fa-3x fa-2x"></i>
                     </div>
