@@ -10,7 +10,7 @@
         </h3>
         <p class="mb-3">The Indian Nursing Council (INC) Act, 1947, establishes the Indian Nursing Council as the regulatory body for nursing education and practice in India. Key provisions include</p>
         <div class="w-full h-fit flex flex-col gap-5 mt-3">
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
@@ -20,7 +20,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-gavel fa-3x"></i>
                 </div>
@@ -30,7 +30,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-file-alt fa-3x"></i>
                 </div>
@@ -46,7 +46,7 @@
         </h3>
         <p class="mb-3">The Nursing Council of India (NCI) Act, 1951, establishes the Nursing Council of India as another regulatory body overseeing nursing education and practice. Key provisions include </p>
         <div class="w-full h-fit flex flex-col gap-5 mt-3">
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
@@ -56,7 +56,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-gavel fa-3x"></i>
                 </div>
@@ -66,7 +66,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-file-alt fa-3x"></i>
                 </div>
@@ -84,7 +84,7 @@
         </h3>
         <p class="mb-3">The Nurses and Midwives Act, 1956, regulates the registration and practice of nurses and midwives in India. Key provisions include </p>
         <div class="w-full h-fit flex flex-col gap-5 mt-3">
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
@@ -94,7 +94,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-gavel fa-3x"></i>
                 </div>
@@ -104,7 +104,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-file-alt fa-3x"></i>
                 </div>

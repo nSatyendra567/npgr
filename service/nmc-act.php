@@ -10,7 +10,7 @@
         <h3 class="mb-3 text-2xl">Provisions of the NMC Act
         </h3>
         <div class="w-full h-fit flex flex-col gap-5 mt-3">
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
@@ -20,7 +20,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-gavel fa-3x"></i>
                 </div>
@@ -30,7 +30,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-file-alt fa-3x"></i>
                 </div>
@@ -40,7 +40,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-file-alt fa-3x"></i>
                 </div>
@@ -50,7 +50,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-file-alt fa-3x"></i>
                 </div>
@@ -60,7 +60,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-file-alt fa-3x"></i>
                 </div>

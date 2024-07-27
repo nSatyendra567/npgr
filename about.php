@@ -29,7 +29,7 @@
             <h3 class="text-xl md:text-2xl">Legal Framework</h3>
             <p class="mb-3">The NPGRC operates within a robust legal framework defined by the provisions of the Legal Services Authorities Act, 1987. Under this legislation:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-balance-scale fa-3x"></i>
                     </div>
@@ -40,7 +40,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-gavel fa-3x"></i>
                     </div>
@@ -51,7 +51,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt fa-3x"></i>
                     </div>
@@ -71,7 +71,7 @@
             <h3 class="text-xl md:text-2xl">Objectives and Duties</h3>
             <p class="mb-3">The primary objective of the NPGRC, as defined under the Legal Services Authorities Act, 1987, is to provide a responsive and accountable platform for citizens to seek redressal of grievances against administrative actions. Its duties encompass:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-balance-scale fa-3x"></i>
                     </div>
@@ -82,7 +82,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-gavel fa-3x"></i>
                     </div>
@@ -93,7 +93,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt fa-3x"></i>
                     </div>
@@ -110,7 +110,7 @@
             <h3 class="text-xl md:text-2xl">Grievance Redressal Mechanisms</h3>
             <p class="mb-3">Central to its mandate, the NPGRC employs structured grievance redressal mechanisms outlined in the Legal Services Authorities Act, 1987. These include:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-balance-scale fa-3x"></i>
                     </div>
@@ -120,7 +120,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-gavel fa-3x"></i>
                     </div>
@@ -131,7 +131,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt fa-3x"></i>
                     </div>
@@ -146,7 +146,7 @@
             <h3 class="text-xl md:text-2xl">Types of Cases Handled</h3>
             <p class="mb-3">The NPGRC addresses diverse grievances impacting public welfare and individual rights, including:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-balance-scale fa-3x"></i>
                     </div>
@@ -156,7 +156,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-gavel fa-3x"></i>
                     </div>
@@ -168,7 +168,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt fa-3x"></i>
                     </div>
@@ -181,7 +181,7 @@
                     </div>
                 </div>
 
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt fa-3x"></i>
                     </div>
@@ -192,7 +192,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt fa-3x"></i>
                     </div>
@@ -210,7 +210,7 @@
             <p class="mb-3">Despite its achievements, the NPGRC faces challenges such as resource constraints, procedural complexities, and the need for continuous improvement. Reform initiatives include:
                 </p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-balance-scale fa-3x"></i>
                     </div>
@@ -220,7 +220,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-gavel fa-3x"></i>
                     </div>
@@ -230,7 +230,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt fa-3x"></i>
                     </div>
@@ -251,7 +251,7 @@
             <p class="mb-3">Relevant Legal Sections and Terms:
             </p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-balance-scale fa-3x"></i>
                     </div>
@@ -261,7 +261,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-gavel fa-3x"></i>
                     </div>
@@ -272,7 +272,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt fa-3x"></i>
                     </div>
@@ -291,7 +291,7 @@
             <p class="mb-3">Relevant Legal Sections and Terms:
             </p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-balance-scale fa-3x"></i>
                     </div>
@@ -301,7 +301,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-gavel fa-3x"></i>
                     </div>
@@ -311,7 +311,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt fa-3x"></i>
                     </div>
@@ -328,7 +328,7 @@
             <h2 class="text-xl md:text-2xl">3. Violation of Legal Rights</h2>
             <p class="mb-3">Relevant Legal Sections and Terms:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-balance-scale fa-3x"></i>
                     </div>
@@ -337,7 +337,7 @@
                         <p class="">Ensures protection against discrimination and arbitrary actions by the state.</p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-gavel fa-3x"></i>
                     </div>
@@ -346,7 +346,7 @@
                         <p class="">Legal action initiated in the interest of the public or to enforce constitutional rights.</p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt fa-3x"></i>
                     </div>
@@ -361,7 +361,7 @@
             <h2 class="text-xl md:text-2xl">4. Service Deficiencies</h2>
             <p class="mb-3">Relevant Legal Sections and Terms:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-balance-scale fa-3x"></i>
                     </div>
@@ -370,7 +370,7 @@
                         <p class="">Covers grievances related to inadequate quality or delivery of public services under the Public Grievance Redressal Act.</p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-gavel fa-3x"></i>
                     </div>
@@ -379,7 +379,7 @@
                         <p class="">Contracts defining the level of service expected from service providers, ensuring accountability.</p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt fa-3x"></i>
                     </div>
@@ -394,7 +394,7 @@
             <h2 class="text-xl md:text-2xl">5. Environmental Concerns</h2>
             <p class="mb-3">Relevant Legal Sections and Terms:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-balance-scale fa-3x"></i>
                     </div>
@@ -403,7 +403,7 @@
                         <p class="">Legislation regulating environmental standards, pollution control, and conservation efforts.</p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-gavel fa-3x"></i>
                     </div>
@@ -412,7 +412,7 @@
                         <p class="">Grants authority to the NPGRC to investigate complaints related to environmental degradation or non-compliance.</p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt fa-3x"></i>
                     </div>
@@ -427,7 +427,7 @@
             <h2 class="text-xl md:text-2xl">6. Public Safety and Security</h2>
             <p class="mb-3">Relevant Legal Sections and Terms:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-balance-scale fa-3x"></i>
                     </div>
@@ -436,7 +436,7 @@
                         <p class="">Addresses grievances related to lapses in public safety or security measures.</p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-gavel fa-3x"></i>
                     </div>
@@ -445,7 +445,7 @@
                         <p class="">Standard operating procedures for government agencies to handle emergencies and ensure public safety.</p>
                     </div>
                 </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md">
+                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                         <i class="fas fa-file-alt fa-3x"></i>
                     </div>

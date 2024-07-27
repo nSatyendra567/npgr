@@ -9,7 +9,7 @@
         <p class="">In India, several crucial legislations collectively known as the Women Act have been enacted to safeguard the rights and welfare of women across various domains. The Protection of Women from Domestic Violence Act, 2005, stands as a landmark legislation offering civil remedies and protective measures against domestic abuse, encompassing physical, emotional, sexual, and economic violence. Similarly, the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013, mandates safe working environments free from harassment, with mechanisms for complaints and redressal. The Maternity Benefit (Amendment) Act, 2017, extends maternity leave to 26 weeks and requires crèche facilities in workplaces, enhancing support for working mothers. The Dowry Prohibition Act, 1961, prohibits the giving and receiving of dowry, aiming to curb related offences and protect women from financial exploitation in marriages. Furthermore, the Prohibition of Child Marriage Act, 2006, prevents early and forced marriages, safeguarding young girls' rights to education and development. Recent amendments like the Medical Termination of Pregnancy (Amendment) Act, 2021, and the Criminal Law (Amendment) Act, 2013, further strengthen reproductive rights and address sexual offences against women, reflecting ongoing efforts to ensure gender equality and empower women in India.</p>
 
         <div class="w-full h-fit flex flex-col gap-5 mt-3">
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
@@ -19,7 +19,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-gavel fa-3x"></i>
                 </div>
@@ -29,7 +29,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-file-alt fa-3x"></i>
                 </div>
@@ -39,7 +39,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-file-alt fa-3x"></i>
                 </div>
@@ -50,7 +50,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-file-alt fa-3x"></i>
                 </div>
@@ -60,7 +60,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-file-alt fa-3x"></i>
                 </div>
@@ -70,7 +70,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-file-alt fa-3x"></i>
                 </div>

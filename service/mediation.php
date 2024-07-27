@@ -14,7 +14,7 @@
         <h3 class="text-2xl mb-3">Types of ADR Methods
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-balance-scale fa-3x"></i>
                 </div>
@@ -24,7 +24,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-gavel fa-3x"></i>
                 </div>
@@ -34,7 +34,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-file-alt fa-3x"></i>
                 </div>
@@ -44,7 +44,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-file-alt fa-3x"></i>
                 </div>
@@ -59,7 +59,7 @@
         <h3 class="text-2xl mt-3 mb-3">Benefits of Mediation and ADR
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-landmark fa-3x"></i>
                 </div>
@@ -69,7 +69,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-hands-helping fa-3x"></i>
                 </div>
@@ -80,7 +80,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-hands-helping fa-3x"></i>
                 </div>
@@ -90,7 +90,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-hands-helping fa-3x"></i>
                 </div>
@@ -112,7 +112,7 @@
         <h3 class="text-2xl mt-3 mb-3"> Challenges and Considerations
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-dollar-sign fa-3x"></i>
                 </div>
@@ -123,7 +123,7 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center relative shadow w-full h-full rounded-md">
+            <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                 <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
                     <i class="fas fa-cogs fa-3x"></i>
                 </div>
