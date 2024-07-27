@@ -35,7 +35,7 @@
     </div>
 
     <section class="max-w-7xl mx-auto w-full gap-10 py-16 px-4">
-        <h3 class="text-2xl md:text-3xl font-semibold text-center mb-5">Investigation Department</h3>
+        <!-- <h3 class="text-2xl md:text-3xl font-semibold text-center mb-5">Investigation Department</h3> -->
         <div class="flex flex-col md:flex-row items-start justify-center max-w-7xl mx-auto w-full gap-10">
             <!-- Swiper Section -->
             <figure class="md:w-2/5 w-full flex flex-col items-center">
