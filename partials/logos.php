@@ -14,8 +14,8 @@
             <div class="swiper-button-next custom-swiper-button-next  bg-light-blue w-24 h-24 flex justify-center items-center rounded-[50%] absolute right-0"></div>
             <div class="swiper-button-prev custom-swiper-button-prev bg-light-blue w-24 h-24 flex justify-center items-center rounded-[50%] absolute left-0"></div>
         </div>
-        <div class="flex flex-wrap  w-11/12 mx-auto gap-5 items-center pt-10 md:pt-16 justify-center">
-            <p class="">Let's fight together for your rights! Get in touch with us in case of any kind of violations :</p>
+        <div class="flex flex-wrap  w-11/12 mx-auto gap-5 items-center pt-10 md:pt-16 md:justify-between justify-center">
+            <p class="md:text-xl">Let's fight together for your rights! Get in touch with us in case of any kind of violations :</p>
             <a target="_blank" class="py-2 px-3 h-fit rounded bg-yellow hover:bg-blue text-white text-lg text-center transition-all duration-200" href="./online-complaint.php">Raise Your Complaint</a>
             <!-- <a target="_blank" class="py-2 px-3 h-fit rounded bg-yellow hover:bg-blue text-white text-lg text-center transition-all duration-200" href="https://pgms.delhi.gov.in/Main.aspx">Delhi Complaints</a>
             <a target="_blank" class="py-2 px-3 h-fit rounded bg-yellow hover:bg-blue text-white text-lg text-center transition-all duration-200" href="https://dpg.gov.in/Lc_ViewStatus.aspx">Central Complaints</a>

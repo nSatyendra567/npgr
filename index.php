@@ -86,33 +86,33 @@
         <div class="max-w-7xl mx-auto w-full mt-10 mb-16">
             <h3 class="text-3xl font-bold text-center mb-10">The Seven Steps</h3>
             <div class="flex flex-wrap gap-5 items-center justify-center max-w-5xl mx-auto">
-                <div class="w-56 h-56 rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
+                <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
                     <i class="fas fa-lock fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200 text-center">Securing the Scene</h4>
+                    <h4 class="sm:text-lg text-[15px] group-hover:text-yellow transition-all duration-200 text-center">Securing the Scene</h4>
                 </div>
-                <div class="w-56 h-56 rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
+                <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
                     <i class="fa-solid fa-users-between-lines fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200 text-center">Separating the<br>Witnesses</h4>
+                    <h4 class="sm:text-lg text-[15px] group-hover:text-yellow transition-all duration-200 text-center">Separating the<br>Witnesses</h4>
                 </div>
-                <div class="w-56 h-56 rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
+                <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
                     <i class="fa-solid fa-user-secret fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200 text-center">Scanning the Scene</h4>
+                    <h4 class="sm:text-lg text-[15px] group-hover:text-yellow transition-all duration-200 text-center">Scanning the Scene</h4>
                 </div>
-                <div class="w-56 h-56 rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
+                <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
                     <i class="fa-solid fa-eye fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200 text-center">Seeing the Scene</h4>
+                    <h4 class="sm:text-lg text-[15px] group-hover:text-yellow transition-all duration-200 text-center">Seeing the Scene</h4>
                 </div>
-                <div class="w-56 h-56 rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
+                <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
                     <i class="fa-solid fa-user-pen fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200 text-center">Sketching the Scene</h4>
+                    <h4 class="sm:text-lg text-[15px] group-hover:text-yellow transition-all duration-200 text-center">Sketching the Scene</h4>
                 </div>
-                <div class="w-56 h-56 rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
+                <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
                     <i class="fa-brands fa-searchengin fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200 text-center">Searching for Evidence</h4>
+                    <h4 class="sm:text-lg text-[15px] group-hover:text-yellow transition-all duration-200 text-center">Searching for Evidence</h4>
                 </div>
-                <div class="w-56 h-56 rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
+                <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
                     <i class="fa-solid fa-user-shield fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="text-lg group-hover:text-yellow transition-all duration-200 text-center">Securing and Collecting Evidence</h4>
+                    <h4 class="sm:text-lg text-[15px] group-hover:text-yellow transition-all duration-200 text-center">Securing and Collecting Evidence</h4>
                 </div>
             </div>
         </div>

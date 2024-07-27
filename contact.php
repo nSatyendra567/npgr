@@ -87,17 +87,6 @@ switch ($state) {
             <p class="text-lg text-gray-600">Open from 10 AM to 5 PM, Closed on Saturdays and Sundays</p>
         </div>
         
-        <div class="flex flex-col md:flex-row w-4/5 mx-auto mb-10 space-y-4 md:space-y-0 md:space-x-4">
-        <div class="bg-white shadow-lg rounded-lg p-8 flex-1">
-            <h2 class="text-md font-semibold text-blue-700 mb-4">State Legal Responsive Centre - for Mediation, Arbitration, Pre-Litigation Conciliation and Settlements. (SLRC)</h2>
-            <p class="mb-2">CH.NO 313, 3rd floor, E Block Karkardooma Court</p>
-            <p class="mb-4"><strong>New Delhi 110035</strong></p>
-        
-            <div class="relative h-0 pb-[56.25%]">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14029.156442371704!2d77.27626482929995!3d28.662412938491277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfbff84444455%3A0x1c9a93f48e1ef25!2sKarkardooma%20Court%2C%20Karkardooma%2C%20Anand%20Vihar%2C%20Delhi%2C%20110032!5e0!3m2!1sen!2sin!4v1623938244537!5m2!1sen!2sin" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-    </div>
         <div class="flex flex-col md:flex-row gap-8">
             <div class="bg-white shadow-lg rounded-lg p-8 flex-1">
                 <h2 class="text-2xl font-semibold text-blue-700 mb-4">Language Support: Hindi, English, Malayalam, Telugu</h2>
