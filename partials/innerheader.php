@@ -61,6 +61,9 @@ function getCurrentPage()
                         yellow: '#F7B00B',
                         blue: "#092531",
                     },
+                    fontFamily: {
+                        sans: ['Courier New', 'sans-serif'], // Set Courier New as default sans font
+                    },
 
                 },
                 listStyleType: {
