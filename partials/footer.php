@@ -43,17 +43,46 @@
 
      // Swiper for logos
      var logoswiper = new Swiper(".logoSwiper", {
-        slidesPerView: 5,
-        spaceBetween: 30,
-        loop: true,
-        autoplay:true,
-       delay:3000,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+    slidesPerView: 5, // Default value for larger screens
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        // When the window width is >= 320px
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 10,
         },
+        // When the window width is >= 480px
+        480: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        // When the window width is >= 640px
+        640: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+        // When the window width is >= 768px
+        768: {
+            slidesPerView: 5,
+            spaceBetween: 30,
+        },
+        // When the window width is >= 1024px
+        1024: {
+            slidesPerView: 6,
+            spaceBetween: 30,
+        },
+    }
+});
 
-    });
 </script>
 </body>
 
