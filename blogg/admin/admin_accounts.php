@@ -81,7 +81,7 @@ if(isset($_POST['delete'])){
             if($fetch_accounts['id'] == $admin_id){
          ?>
             <a href="update_profile.php" class="option-btn" style="margin-bottom: .5rem;">update</a>
-            <form action="" method="POST">
+            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
                <input type="hidden" name="post_id" value="<?= $fetch_accounts['id']; ?>" on>
                <button type="submit" name="delete"onclick="return confirm('delete the account?');" class="delete-btn" style="margin-bottom: .5rem;">delete</button>
             </form>

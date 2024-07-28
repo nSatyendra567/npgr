@@ -79,7 +79,7 @@ if(isset($_POST['delete_comment'])){
             $total_post_likes = $count_post_likes->rowCount();
 
    ?>
-   <form method="post">
+   <form method="post"  action="<?php echo $_SERVER['PHP_SELF']; ?>">
       <input type="hidden" name="post_id" value="<?= $post_id; ?>">
       <div class="status" style="background-color:<?php if($fetch_posts['status'] == 'active'){echo 'limegreen'; }else{echo 'coral';}; ?>;"><?= $fetch_posts['status']; ?></div>
       <?php if($fetch_posts['image'] != ''){ ?>
@@ -125,7 +125,7 @@ if(isset($_POST['delete_comment'])){
          </div>
       </div>
       <div class="text"><?= $fetch_comments['comment']; ?></div>
-      <form action="" method="POST">
+      <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
          <input type="hidden" name="comment_id" value="<?= $fetch_comments['id']; ?>">
          <button type="submit" class="inline-delete-btn" name="delete_comment" onclick="return confirm('delete this comment?');">delete comment</button>
       </form>

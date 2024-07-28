@@ -125,7 +125,7 @@ if(isset($_POST['delete_image'])){
       if($select_posts->rowCount() > 0){
          while($fetch_posts = $select_posts->fetch(PDO::FETCH_ASSOC)){
    ?>
-   <form action="" method="post" enctype="multipart/form-data">
+   <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" enctype="multipart/form-data">
       <input type="hidden" name="old_image" value="<?= $fetch_posts['image']; ?>">
       <input type="hidden" name="post_id" value="<?= $fetch_posts['id']; ?>">
       <p>post status <span>*</span></p>

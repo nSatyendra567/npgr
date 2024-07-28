@@ -81,7 +81,7 @@ if(isset($_POST['submit'])){
 
 <section class="form-container">
 
-   <form action="" method="POST">
+   <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
       <h3>update profile</h3>
       <input type="text" name="name" maxlength="20" class="box" oninput="this.value = this.value.replace(/\s/g, '')" placeholder="<?= $fetch_profile['name']; ?>">
       <input type="password" name="old_pass" maxlength="20" placeholder="enter your old password" class="box" oninput="this.value = this.value.replace(/\s/g, '')">

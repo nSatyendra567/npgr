@@ -71,7 +71,7 @@ if(isset($_POST['delete'])){
                $total_post_likes = $count_post_likes->rowCount();
 
       ?>
-      <form method="post" class="box">
+      <form method="post" class="box" action="<?php echo $_SERVER['PHP_SELF']; ?>">
          <input type="hidden" name="post_id" value="<?= $post_id; ?>">
          <?php if($fetch_posts['image'] != ''){ ?>
             <img src="../uploaded_img/<?= $fetch_posts['image']; ?>" class="image" alt="">

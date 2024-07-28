@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['case_id'], $_POST['new
    <div class="box-container">
 
    <?php
-      $select_cases = $conn->prepare("SELECT * FROM `case`");
+      $select_cases = $conn->prepare("SELECT * FROM `case` WHERE `Status` = 'pending'");
       $select_cases->execute();
       if ($select_cases->rowCount() > 0) {
          while ($fetch_cases = $select_cases->fetch(PDO::FETCH_ASSOC)) { 

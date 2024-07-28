@@ -55,7 +55,7 @@ if(isset($_POST['submit'])){
 
 <section class="form-container">
 
-   <form action="" method="post">
+   <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
       <h3>login now</h3>
       <input type="email" name="email" required placeholder="enter your email" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" name="pass" required placeholder="enter your password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">

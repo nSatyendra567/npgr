@@ -79,7 +79,7 @@ if (isset($_POST['publish']) || isset($_POST['draft'])) {
 
       <h1 class="heading">Add New Post</h1>
 
-      <form action="" method="post" enctype="multipart/form-data">
+      <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" enctype="multipart/form-data">
          <input type="hidden" name="name" value="<?= $fetch_profile['name']; ?>">
          <p>Post Title <span>*</span></p>
          <input type="text" name="title" maxlength="100" required placeholder="Add post title" class="box">

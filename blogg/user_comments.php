@@ -74,7 +74,7 @@ if(isset($_POST['delete_comment'])){
       $select_edit_comment->execute([$comment_id]);
       $fetch_edit_comment = $select_edit_comment->fetch(PDO::FETCH_ASSOC);
    ?>
-   <form action="" method="POST">
+   <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
       <input type="hidden" name="edit_comment_id" value="<?= $comment_id; ?>">
       <textarea name="comment_edit_box" required cols="30" rows="10" placeholder="please enter your comment"><?= $fetch_edit_comment['comment']; ?></textarea>
       <button type="submit" class="inline-btn" name="edit_comment">edit comment</button>

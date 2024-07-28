@@ -67,7 +67,7 @@ if(!isset($admin_id)){
       <a href="view_posts.php" class="btn">see posts</a>
    </div>
 
-   <div class="box">
+   <!-- <div class="box">
       <?php
          $select_deactive_posts = $conn->prepare("SELECT * FROM `posts` WHERE admin_id = ? AND status = ?");
          $select_deactive_posts->execute([$admin_id, 'deactive']);
@@ -76,7 +76,7 @@ if(!isset($admin_id)){
       <h3><?= $numbers_of_deactive_posts; ?></h3>
       <p>deactive posts</p>
       <a href="view_posts.php" class="btn">see posts</a>
-   </div>
+   </div> -->
 
    <div class="box">
       <?php
@@ -85,7 +85,7 @@ if(!isset($admin_id)){
          $numbers_of_users = $select_users->rowCount();
       ?>
       <h3><?= $numbers_of_users; ?></h3>
-      <p>Advocate account</p>
+      <p>Total No. Advocate</p>
       <a href="users_accounts.php" class="btn">see advocate</a>
    </div>
 
@@ -119,8 +119,18 @@ if(!isset($admin_id)){
          $numbers_of_not_approved = $not_approved->rowCount();
       ?>
       <h3><?= $numbers_of_not_approved; ?></h3>
-      <p>Not Approved</p>
+      <p>Not Approved Advocate</p>
       <a href="not_aproved.php" class="btn">see not aproved</a>
+   </div>
+   <div class="box">
+      <?php
+         $not_approved = $conn->prepare("SELECT * FROM `advocate` WHERE approved = 1");
+         $not_approved->execute();
+         $numbers_of_not_approved = $not_approved->rowCount();
+      ?>
+      <h3><?= $numbers_of_not_approved; ?></h3>
+      <p>Approved Advocate</p>
+      <a href="aproved.php" class="btn">see aproved Advocate</a>
    </div>
 
    </div>

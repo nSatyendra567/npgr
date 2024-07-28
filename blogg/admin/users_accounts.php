@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['approve_id'])) {
                 <p>Date : <span><?= htmlspecialchars($fetch_accounts['date']); ?></span></p>
                 <p>Approved : <span><?= $fetch_accounts['approved'] ? 'Yes' : 'No'; ?></span></p>
                 <?php if (!$fetch_accounts['approved']) { ?>
-                    <form method="POST" action="">
+                    <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                         <input type="hidden" name="approve_id" value="<?= htmlspecialchars($user_id); ?>">
                         <button type="submit" class="btn">Approve</button>
                     </form>

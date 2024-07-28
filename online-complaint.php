@@ -13,7 +13,7 @@
     </div>
     <div class="flex flex-col items-center gap-4">
         <img src="images/npgrc.png" alt="NPGRC Logo" class="w-40 h-32">
-        <a class="py-3 h-fit rounded bg-yellow hover:bg-blue text-white text-lg text-center transition-all duration-200 w-full" href="<?php echo ROOT_URL ?>complaint.php">Complaint with NPGRC</a>
+        <a class="py-3 h-fit rounded bg-yellow hover:bg-blue text-white text-lg text-center transition-all duration-200 w-full" href="<?php echo ROOT_URL ?>complaintnpgrc.php">Complaint with NPGRC</a>
         <p class="text-center">Raise your complaints/ Grievance with NPGRC,Let’s fight together for your rights.</p>
     </div>
 </main>

@@ -27,9 +27,10 @@ if(isset($message)){
 
    <nav class="navbar">
       <a href="dashboard.php"><i class="fas fa-home"></i> <span>home</span></a>
-      <a href="add_posts.php"><i class="fas fa-pen"></i> <span>add posts</span></a>
-      <a href="view_posts.php"><i class="fas fa-eye"></i> <span>view posts</span></a>
-      <a href="admin_accounts.php"><i class="fas fa-user"></i> <span>accounts</span></a>
+      <a href="PostSec.php"><i class="fas fa-eye"></i> <span>posts</span></a>
+      <a href="AdvoSec.php"><i class="fas fa-user"></i> <span>Advocate</span></a>
+      <a href="CaseSec.php"><i class="fas fa-user"></i> <span>Case</span></a>
+      <a href="admin_accounts.php"><i class="fas fa-user"></i> <span>admin accounts</span></a>
       <a href="../components/admin_logout.php" style="color:var(--red);" onclick="return confirm('logout from the website?');"><i class="fas fa-right-from-bracket"></i><span>logout</span></a>
    </nav>
 

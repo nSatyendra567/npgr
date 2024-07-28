@@ -87,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-            <form class="flex flex-col gap-5" action="" method="POST" enctype="multipart/form-data">
+            <form class="flex flex-col gap-5" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" enctype="multipart/form-data">
                 <div class="flex flex-col gap-2">
                     <label class="text-base font-semibold text-gray-700" for="name">Name: <span class="text-red-500">*</span></label>
                     <input name="name" class="focus:outline-none focus:border border-black py-2 px-2 w-full rounded-md text-lg" type="text" placeholder="Enter your Full Name" autocomplete="off" required />

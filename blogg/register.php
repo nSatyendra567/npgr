@@ -70,7 +70,7 @@ if(isset($_POST['submit'])){
 
 <section class="form-container">
 
-   <form action="" method="post">
+   <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
       <h3>register now</h3>
       <input type="text" name="name" required placeholder="enter your name" class="box" maxlength="50">
       <input type="email" name="email" required placeholder="enter your email" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">

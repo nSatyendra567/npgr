@@ -6,7 +6,7 @@ include 'partials/header.php';
 <main class="w-full  h-auto flex justify-center">
 <div class="max-w-7xl px-5 sm:px-10 w-full flex flex-col items-center">
     <h2 class="text-2xl sm:text-3xl md:text-4xl pb-10 text-center">Check your Case Status</h2>
-    <form class="flex flex-col sm:flex-row border border-black max-w-xl w-full rounded-md" action="" method="POST" enctype="multipart/form-data">
+    <form class="flex flex-col sm:flex-row border border-black max-w-xl w-full rounded-md" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" enctype="multipart/form-data">
         <input class="w-full sm:flex-1 py-2 px-2 rounded-tl-md rounded-tr-md sm:rounded-tr-none sm:rounded-bl-md" name="referenceId" type="text" placeholder="Enter Reference ID" required>
         <input class="w-full sm:w-auto px-8 py-2 bg-yellow text-white rounded-bl-md sm:rounded-bl-none rounded-br-md cursor-pointer text-lg hover:scale-105 transition-all duration-150" type="submit" value="Search" />
     </form>

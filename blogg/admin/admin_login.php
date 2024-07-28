@@ -60,7 +60,7 @@ if(isset($message)){
 
 <section class="form-container">
 
-   <form action="" method="POST">
+   <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
       <h3>login now</h3>
       
       <input type="text" name="name" maxlength="20" required placeholder="enter your username" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
