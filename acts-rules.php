@@ -4,10 +4,8 @@
                 <?php include 'partials/sidebar.php' ?>
         </div>
         <div class="w-8/10 flex flex-col gap-5">
-                <h2 class="text-3xl max-w-5xl mb-5">
-                        National Public Grievance & Redressal Commission following
-                </h2>
-                <p class="text-lg">The Legal Services Authorities Act, 1987</p>
+        <p class="">The NPGRC is a national-level is an online platform available for the citizens 24x7 to lodge their grievances to the public authorities on any subject .based on web technology, operational under the proceedings of various laws in India.the commission holds jurisdiction over grievances spanning both public and private sectors. Led by Honorable Judge Mr. Birendra Singh as Member/Secretary, the NPGRC ensures thorough and impartial resolution of issues, upholding legal standards and promoting justice.
+        </p>
                 <a class="px-3 py-2 md:py-3 md:px-5 w-fit text-center text-white bg-yellow rounded hover:bg-blue transition-all duration-200" href="">Download LSA Act PDF</a>
                 <h3 class="text-2xl">THE NATIONAL LEGAL SERVICES AUTHORITY
                         RULES, 1995
@@ -45,28 +43,6 @@
                                         <li>all other words and expressions used in these rules but not defined
                                                 shall have the same meaning assigned to them in the Act.
                                         </li>
-                                </ul>
-                        </li>
-
-                        <li class="">
-                                <h4 class="text-xl mb-5">The number, experience and qualifications of other Members of the
-                                        Central Authority
-                                </h4>
-                                <ul class="list-roman flex flex-col gap-2 ml-10">
-                                        <li class="">The Central Authority shall consist of not more than
-                                                twelve Members.
-                                        </li>
-                                        <li class="">
-                                                <h4 class="">The following shall be the ex-officio Members of the Central Authority,
-                                                        namely
-                                                </h4>
-                                                <ul class="flex flex-col gap-2 list-disc ml-10">
-                                                        <li>Secretary</li>
-                                                        <li>Department of Justice</li>
-                                                        <li>Ministry of Law and Justice</li>
-                                                </ul>
-                                        </li>
-
                                 </ul>
                         </li>
                 </ul>

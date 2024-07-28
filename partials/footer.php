@@ -93,6 +93,45 @@
     }
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    const prevButton = document.querySelector('.carousel-button-prev');
+    const nextButton = document.querySelector('.carousel-button-next');
+    const carouselWrapper = document.querySelector('.carousel-wrapper');
+    const carouselItems = document.querySelectorAll('.carousel-item');
+
+    let currentIndex = 0;
+    let autoSlideInterval;
+
+    prevButton.addEventListener('click', () => {
+        clearInterval(autoSlideInterval); // Clear the interval to prevent conflicts
+        currentIndex = (currentIndex === 0) ? carouselItems.length - 1 : currentIndex - 1;
+        updateCarousel();
+        startAutoSlide(); // Restart the interval
+    });
+
+    nextButton.addEventListener('click', () => {
+        clearInterval(autoSlideInterval); // Clear the interval to prevent conflicts
+        currentIndex = (currentIndex === carouselItems.length - 1) ? 0 : currentIndex + 1;
+        updateCarousel();
+        startAutoSlide(); // Restart the interval
+    });
+
+    function updateCarousel() {
+        const newTransformValue = -currentIndex * 100 + '%';
+        carouselWrapper.style.transform = `translateX(${newTransformValue})`;
+    }
+
+    function startAutoSlide() {
+        autoSlideInterval = setInterval(() => {
+            currentIndex = (currentIndex === carouselItems.length - 1) ? 0 : currentIndex + 1;
+            updateCarousel();
+        }, 3000); // Change slides every 3 seconds
+    }
+
+    startAutoSlide();
+});
+
+
 </script>
 </body>
 

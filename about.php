@@ -70,7 +70,7 @@
             <p class="">The commission's organizational structure is designed to ensure effective grievance redressal and administrative oversight. Comprising members appointed based on specific qualifications and experience, the NPGRC upholds diversity and competence in adjudicating grievances across various domains. Administrative support units and a dedicated secretariat play pivotal roles in managing case files, coordinating hearings, and maintaining records to uphold transparency and accountability in its proceedings.
             </p>
             <h3 class="text-xl md:text-2xl">Objectives and Duties</h3>
-            <p class="mb-3">The primary objective of the NPGRC, as defined under the Legal Services Authorities Act, 1987, is to provide a responsive and accountable platform for citizens to seek redressal of grievances against administrative actions. Its duties encompass:</p>
+            <p class="mb-3">The NPGRC is a national-level online public grievance redressal based on web technology, operational under the proceedings of various laws in India.</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
                 <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">

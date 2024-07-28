@@ -44,24 +44,25 @@
                 <p class="text-lg text-center text-blue font-bold mb-3">Mr. Praveen Shah</p>
                 <p class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Patron-in-Chief</p>
             </figure> -->
-            <div class="swiper mySwiper md:w-2/5 w-full flex flex-col items-center">
-                <div class="swiper-wrapper">
-                    <figure class="swiper-slide md:w-2/5 w-full flex flex-col items-center">
-                        <img class="w-4/5 h-[350px] object-cover rounded-full" src="./images/judge-praveen.jpg" alt="NPGRC" />
-                            <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
-                            <p class="text-lg text-center text-blue font-bold mb-3">Mr. Praveen Shah</p>
-                            <p class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Patron-in-Chief</p>
-                    </figure>
-                    <figure class="swiper-slide md:w-2/5 w-full flex flex-col items-center">
-                        <img class="w-4/5 h-[350px] object-cover rounded-full" src="./images/Rony.jpg" alt="NPGRC" />
-                        <p class="text-lg text-center text-blue font-bold mt-3">Rony VP Advocate</p>
-                        <p class="text-lg text-center text-blue font-bold mb-3">High Court Of Delhi</p>
-                        <p class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Chairman</p>
-                    </figure>
-                </div>
-                <div class="swiper-button-next custom-swiper-button-next bg-light-blue w-10 h-10 flex justify-center items-center rounded-full absolute right-2 md:right-4"></div>
-                <div class="swiper-button-prev custom-swiper-button-prev bg-light-blue w-10 h-10 flex justify-center items-center rounded-full absolute left-2 md:left-4"></div>
-            </div>
+            <div class="carousel-container relative md:w-2/5 w-full flex flex-col items-center overflow-hidden">
+    <div class="carousel-wrapper flex transition-transform duration-500 ease-in-out">
+        <figure class="carousel-item w-full flex-shrink-0 flex flex-col items-center">
+            <img class="w-4/5 h-[350px] object-cover rounded-full" src="./images/judge-praveen.jpg" alt="NPGRC" />
+            <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
+            <p class="text-lg text-center text-blue font-bold mb-3">Mr. Praveen Shah</p>
+            <p class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Patron-in-Chief</p>
+        </figure>
+        <figure class="carousel-item w-full flex-shrink-0 flex flex-col items-center">
+            <img class="w-4/5 h-[350px] object-cover rounded-full" src="./images/Rony.jpg" alt="NPGRC" />
+            <p class="text-lg text-center text-blue font-bold mt-3">Rony VP Advocate</p>
+            <p class="text-lg text-center text-blue font-bold mb-3">High Court Of Delhi</p>
+            <p class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Chairman</p>
+        </figure>
+    </div>
+    <button class="text-[#007aff] carousel-button-prev absolute left-2 md:left-4 bg-light-blue w-10 h-10 flex justify-center items-center rounded-full top-1/2 transform -translate-y-1/2">&#9664;</button>
+    <button class="text-[#007aff] carousel-button-next absolute right-2 md:right-4 bg-light-blue w-10 h-10 flex justify-center items-center rounded-full top-1/2 transform -translate-y-1/2">&#9654;</button>
+</div>
+
     <!-- <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">Slide 1</div>
