@@ -19,61 +19,70 @@ function generateSecureUniqueId($length = 8) {
 
 // Process form submission
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Sanitize user inputs
-    $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
-    $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
-    $phone = filter_var($_POST['phone'], FILTER_SANITIZE_STRING);
-    $subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
-    $description = filter_var($_POST['description'], FILTER_SANITIZE_STRING);
-    $urgent = isset($_POST['urgent']) ? 1 : 0;
-    
-    // Initialize file path as null
-    $filePath = null;
-    $fileUploadError = null;
+    $captcha = $_POST['g-recaptcha-response'];
+    $secretKey = '6LcLGBoqAAAAAHmPGsTCVDGT_W-XJZnC0aq6Vpgd';
+    $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$captcha");
+    $responseKeys = json_decode($response, true);
 
-    // Handle file upload
-    if (isset($_FILES['complain-file']) && $_FILES['complain-file']['error'] != UPLOAD_ERR_NO_FILE) {
-        if ($_FILES['complain-file']['error'] == UPLOAD_ERR_OK) {
-            $fileTmpPath = $_FILES['complain-file']['tmp_name'];
-            $fileName = $_FILES['complain-file']['name'];
-            $fileSize = $_FILES['complain-file']['size'];
-            $fileType = $_FILES['complain-file']['type'];
+    if (intval($responseKeys["success"]) !== 1) {
+        echo "<p class='text-red-600 text-center font-semibold'>Please complete the captcha.</p>";
+    } else {
+        // Sanitize user inputs
+        $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+        $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+        $phone = filter_var($_POST['phone'], FILTER_SANITIZE_STRING);
+        $subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
+        $description = filter_var($_POST['description'], FILTER_SANITIZE_STRING);
+        $urgent = isset($_POST['urgent']) ? 1 : 0;
 
-            // Define the target directory and file path
-            $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
+        // Initialize file path as null
+        $filePath = null;
+        $fileUploadError = null;
 
-            // Generate a unique name for the file
-            $uniqueFileName = uniqid('', true) . '.' . $fileExtension;
+        // Handle file upload
+        if (isset($_FILES['complain-file']) && $_FILES['complain-file']['error'] != UPLOAD_ERR_NO_FILE) {
+            if ($_FILES['complain-file']['error'] == UPLOAD_ERR_OK) {
+                $fileTmpPath = $_FILES['complain-file']['tmp_name'];
+                $fileName = $_FILES['complain-file']['name'];
+                $fileSize = $_FILES['complain-file']['size'];
+                $fileType = $_FILES['complain-file']['type'];
 
-            // Define the target directory and file path
-            $uploadDir = 'Complaint/'; // Make sure this directory exists and is writable
-            $filePath = $uploadDir . $uniqueFileName;
-            
-            // Move the uploaded file to the target directory
-            if (!move_uploaded_file($fileTmpPath, $filePath)) {
-                $fileUploadError = "Error uploading file.";
+                // Define the target directory and file path
+                $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
+
+                // Generate a unique name for the file
+                $uniqueFileName = uniqid('', true) . '.' . $fileExtension;
+
+                // Define the target directory and file path
+                $uploadDir = 'Complaint/'; // Make sure this directory exists and is writable
+                $filePath = $uploadDir . $uniqueFileName;
+
+                // Move the uploaded file to the target directory
+                if (!move_uploaded_file($fileTmpPath, $filePath)) {
+                    $fileUploadError = "Error uploading file.";
+                }
+            } else {
+                $fileUploadError = "Error: " . $_FILES['complain-file']['error'];
+            }
+        }
+
+        if ($fileUploadError === null) {
+            $referenceNo = generateSecureUniqueId();
+
+            // Prepare SQL query using PDO
+            $sql = "INSERT INTO `case` (Name, Email, Phone, Subject, Complain_File, Description, Status, Urgent, ReferenceNo) VALUES (?, ?, ?, ?, ?, ?, 'Pending', ?, ?)";
+            $stmt = $conn->prepare($sql);
+
+            // Execute the statement
+            if ($stmt->execute([$name, $email, $phone, $subject, $filePath, $description, $urgent, $referenceNo])) {
+                echo "<p class='text-green-600 text-center font-semibold'>Record inserted successfully.</p>
+                      <p class='text-green-600 text-center font-semibold'>Your Reference No. for this Registered Case is : $referenceNo</p>";
+            } else {
+                echo "<p class='text-red-600 text-center font-semibold'>Error inserting record: " . $stmt->errorInfo()[2] . "</p>";
             }
         } else {
-            $fileUploadError = "Error: " . $_FILES['complain-file']['error'];
+            echo "<p class='text-red-600 text-center font-semibold'>$fileUploadError</p>";
         }
-    }
-
-    if ($fileUploadError === null) {
-        $referenceNo = generateSecureUniqueId();
-
-        // Prepare SQL query using PDO
-        $sql = "INSERT INTO `case` (Name, Email, Phone, Subject, Complain_File, Description, Status, Urgent, ReferenceNo) VALUES (?, ?, ?, ?, ?, ?, 'Pending', ?, ?)";
-        $stmt = $conn->prepare($sql);
-
-        // Execute the statement
-        if ($stmt->execute([$name, $email, $phone, $subject, $filePath, $description, $urgent, $referenceNo])) {
-            echo "<p class='text-green-600 text-center font-semibold'>Record inserted successfully.</p>
-                  <p class='text-green-600 text-center font-semibold'>Your Reference No. for this Registered Case is : $referenceNo</p>";
-        } else {
-            echo "<p class='text-red-600 text-center font-semibold'>Error inserting record: " . $stmt->errorInfo()[2] . "</p>";
-        }
-    } else {
-        echo "<p class='text-red-600 text-center font-semibold'>$fileUploadError</p>";
     }
 }
 ?>
@@ -96,13 +105,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <input name="subject" class="outline-none focus:outline-none border border-black py-2 px-2 w-full rounded-md text-lg" type="text" placeholder="Enter complaint subject" autocomplete="off" required>
                 </div>
                 <div class="flex flex-col gap-2">
-                    <label class="text-base font-semibold text-gray-700" for="complain-file">Complain File: <span class="text-red-500">*</span></label>
+                    <label class="text-base font-semibold text-gray-700" for="complain-file">Complain File:</label>
                     <input name="complain-file" class="outline-none focus:outline-none border border-black py-2 px-2 w-full rounded-md text-lg" type="file" >
                 </div>
                 <div class="flex flex-col gap-2">
                     <label class="text-base font-semibold text-gray-700" for="description">Description:</label>
                     <textarea name="description" class="outline-none focus:outline-none border border-black py-2 px-2 w-full rounded-md text-lg" placeholder="Enter complaint description" rows="4"></textarea>
                 </div>
+                <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
                 <div class="flex flex-col gap-2">
                     <input class="outline-none focus:outline-none py-2 px-2 w-full rounded-md text-lg bg-yellow cursor-pointer text-white hover:text-xl transition-all duration-150" type="submit" value="Submit" />
                 </div>
@@ -118,6 +128,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div> -->
     </div>
 </main>
+<script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6LcLGBoqAAAAAJEx3TS4qATMFnqoEPJbzCn_FzXR', {action: 'submit'}).then(function(token) {
+            document.getElementById('g-recaptcha-response').value = token;
+        });
+    });
+</script>
 
 <?php include 'partials/logos.php' ?>
 <?php include 'partials/footer.php' ?>

@@ -83,7 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['case_id'], $_POST['new
       <form method="POST" action="">
          <input type="hidden" name="case_id" value="<?= $case_id; ?>">
          <p>Update Status:</p>
-         <select name="new_status" id="new_status" required>
+         <select name="new_status" id="new_status" required style="font-size:18px ">
             <option value="ongoing" <?= $fetch_cases['Status'] == 'ongoing' ? 'selected' : ''; ?>>Ongoing</option>
             <option value="pending" <?= $fetch_cases['Status'] == 'Pending' ? 'selected' : ''; ?>>Pending</option>
             <option value="completed" <?= $fetch_cases['Status'] == 'completed' ? 'selected' : ''; ?>>Completed</option>

@@ -19,6 +19,7 @@ function getCurrentPage()
     <link rel="shortcut icon" href="<?php ROOT_URL ?>images/npgrc.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsive.css">
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcLGBoqAAAAAJEx3TS4qATMFnqoEPJbzCn_FzXR"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />

@@ -8,49 +8,55 @@
                 <figure class="w-36 h-36 mb-3">
                     <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/1.jpg">
                 </figure>
-                <h3 class="text-xl text-center">Name of the Body</h3>
-                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
-                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
+                <h3 class="text-base text-center">Hon'ble Adv</h3>
+                <h3 class="text-base text-center">Mr. Siva Balamurali</h3>
+                <h4 class="text-lg text-center font-bold text-maroon">Member</h4>
+                <!-- <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p> -->
             </div>
             <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
                 <figure class="w-36 h-36 mb-3">
                     <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/2.jpg">
                 </figure>
-                <h3 class="text-xl text-center">Name of the Body</h3>
-                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
-                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
+                <h3 class="text-base text-center">Hon'ble Fr. Dr. Adv.</h3>
+                <h3 class="text-base text-center">Mr. Shaji George</h3>
+                <h4 class="text-lg text-center font-bold text-maroon">Law Office</h4>
+                <!-- <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p> -->
             </div>
             <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
                 <figure class="w-36 h-36 mb-3">
-                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/judge-krishna.jpg">
+                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/praveen.jpg">
                 </figure>
-                <h3 class="text-xl text-center">Name of the Body</h3>
-                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
-                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
+                <h3 class="text-base text-center">Hon'ble Judge</h3>
+                <h3 class="text-base text-center">Mr. Praveen Shah</h3>
+                <h4 class="text-lg text-center font-bold text-maroon">Member</h4>
+                <!-- <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p> -->
             </div>
             <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
                 <figure class="w-36 h-36 mb-3">
                     <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/judge-nazir.jpg">
                 </figure>
-                <h3 class="text-xl text-center">Name of the Body</h3>
-                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
-                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
+                <h3 class="text-base text-center">Hon'ble Justice</h3>
+                <h3 class="text-base text-center">Mr. Mohammad Nazir Fida</h3>
+                <h4 class="text-lg text-center font-bold text-maroon">Member</h4>
+                <!-- <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p> -->
             </div>
             <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
                 <figure class="w-36 h-36 mb-3">
-                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/5.jpg">
+                    <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/judge-regunath.jpg">
                 </figure>
-                <h3 class="text-xl text-center">Name of the Body</h3>
-                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
-                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
+                <h3 class="text-base text-center">Hon'ble Judge</h3>
+                <h3 class="text-base text-center">Mr. PT Reghunath</h3>
+                <h4 class="text-lg text-center font-bold text-maroon">Member</h4>
+                <!-- <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p> -->
             </div>
             <div class="w-[350px] h-fit p-5 sm:p-10 md:p-5 lg:p-10 rounded-md hover:scale-110 transition-all duration-200 bg-white flex flex-col items-center shadow-lg gap-1">
                 <figure class="w-36 h-36 mb-3">
                     <img class="w-full h-full object-cover rounded-full" src="<?php ROOT_URL ?>images/judge-birinder.jpg">
                 </figure>
-                <h3 class="text-xl text-center">Name of the Body</h3>
-                <h4 class="text-lg text-center font-bold text-maroon">Designation</h4>
-                <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p>
+                <h3 class="text-base text-center">Hon'ble Judge</h3>
+                <h3 class="text-base text-center">Mr. Birinder Singh</h3>
+                <h4 class="text-lg text-center font-bold text-maroon">Member - Secretary</h4>
+                <!-- <p class="text-base text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quae nesciunt nemo totam voluptatibus eum quisquam qui nam rem mollitia accusamus odit dolorem itaque quaerat officia quidem porro eligendi. Neque.</p> -->
             </div>
         </div>
     </div>

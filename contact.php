@@ -97,8 +97,11 @@ if (isset($_POST['state'])) {
             break;
         case 'uttar_pradesh':
             $addresses[] = 'State Legal Responsive Centre - for Mediation, Arbitration, Pre-Litigation Conciliation and Settlements (SLRC)<br>Rakesh Tripathi (Advocate), Allahabad High Court Uttar Pradesh.<br><strong>Email: </strong>complaint@npgrcommission.in';
+            $addresses[] = 'State Legal Responsive Centre - for Mediation, Arbitration, Pre-Litigation Conciliation and Settlements (SLRC)<br>Arvind Tripathi (Advocate)<br>CH NO-203 Allahabad High Court, Prayagraj, Uttar Pradesh, India<br><strong>Email: </strong>complaint@npgrcommission.in';
+            $addresses[] = 'State Legal Responsive Centre - for Mediation, Arbitration, Pre-Litigation Conciliation and Settlements (SLRC)<br>Sudha Pandey (Advocate)<br>CH.NO 163, New Building<br>Allahabad, High Court<br>Uttar Pradesh, India<br><strong>Email: </strong>complaint@npgrcommission.in';
             break;
         case 'west_bengal':
+            $addresses[] = 'State Legal Responsive Centre - for Mediation, Arbitration, Pre-Litigation Conciliation and Settlements (SLRC)<br>Paratha Pratin Biswas (Advocate)<br>Chamber, Near Main Gate District Bar Library, Judge\'s Court, at Barasat, North -24 Purganas, Kolkata 700124<br>West Bengal<br><strong>Email: </strong>complaint@npgrcommission.in';
             $addresses[] = 'State Legal Responsive Centre - for Mediation, Arbitration, Pre-Litigation Conciliation and Settlements (SLRC)<br>Avijit Bose (Advocate), Kolkata High Court, West Bengal.<br><strong>Email: </strong>complaint@npgrcommission.in';
             break;
         default:
