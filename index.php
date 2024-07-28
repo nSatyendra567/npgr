@@ -44,16 +44,16 @@
                 <p class="text-lg text-center text-blue font-bold mb-3">Mr. Praveen Shah</p>
                 <p class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Patron-in-Chief</p>
             </figure> -->
-            <div class="carousel-container relative md:w-2/5 w-full flex flex-col items-center overflow-hidden">
+            <!-- <div class="carousel-container relative md:w-1/5 w-full flex flex-col items-center overflow-hidden">
     <div class="carousel-wrapper flex transition-transform duration-500 ease-in-out">
-        <figure class="carousel-item w-full flex-shrink-0 flex flex-col items-center">
-            <img class="w-4/5 h-[350px] object-cover rounded-full" src="./images/judge-praveen.jpg" alt="NPGRC" />
+        <figure class="md:w-36 md:h-36 w-full carousel-item flex-shrink-0 flex flex-col items-center">
+            <img class="w-4/5 h-[250px] object-cover rounded-full" src="./images/judge-praveen.jpg" alt="NPGRC" />
             <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
-            <p class="text-lg text-center text-blue font-bold mb-3">Mr. Praveen Shah</p>
+            <p class="text-lg text-center text-blue font-bold mb-3">Mr. Praveen Shah (Retd.)</p>
             <p class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Patron-in-Chief</p>
         </figure>
-        <figure class="carousel-item w-full flex-shrink-0 flex flex-col items-center">
-            <img class="w-4/5 h-[350px] object-cover rounded-full" src="./images/Rony.jpg" alt="NPGRC" />
+        <figure class="md:w-36 md:h-36 w-full carousel-item flex-shrink-0 flex flex-col items-center">
+            <img class="w-4/5 h-[250px] object-cover rounded-full" src="./images/Rony.jpg" alt="NPGRC" />
             <p class="text-lg text-center text-blue font-bold mt-3">Rony VP Advocate</p>
             <p class="text-lg text-center text-blue font-bold mb-3">High Court Of Delhi</p>
             <p class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Chairman</p>
@@ -61,7 +61,35 @@
     </div>
     <button class="text-[#007aff] carousel-button-prev absolute left-2 md:left-4 bg-light-blue w-10 h-10 flex justify-center items-center rounded-full top-1/2 transform -translate-y-1/2">&#9664;</button>
     <button class="text-[#007aff] carousel-button-next absolute right-2 md:right-4 bg-light-blue w-10 h-10 flex justify-center items-center rounded-full top-1/2 transform -translate-y-1/2">&#9654;</button>
+</div> -->
+
+<div class="carousel-container flex flex-col items-center overflow-hidden w-full md:w-2/5 relative">
+    <div class="carousel-wrapper flex transition-transform duration-500 ease-in-out">
+        <div class="carousel-item w-full flex-shrink-0">
+            <div class="flex flex-col items-center w-full">
+                <figure class="md:w-36 md:h-36 w-full flex flex-col items-center">
+                    <img class="w-4/5 h-[150px] object-cover rounded-full" src="./images/judge-praveen.jpg" alt="NPGRC" />
+                </figure>
+                <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
+                <p class="text-lg text-center text-blue font-bold mb-3">Mr. Praveen Shah (Retd.)</p>
+                <p class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Patron-in-Chief</p>
+            </div>
+        </div>
+        <div class="carousel-item w-full flex-shrink-0">
+            <div class="flex flex-col items-center w-full">
+                <figure class="md:w-36 md:h-36 w-full flex flex-col items-center">
+                    <img class="w-4/5 h-[250px] object-cover rounded-full" src="./images/Rony.jpg" alt="NPGRC" />
+                </figure>
+                <p class="text-lg text-center text-blue font-bold mt-3">Rony VP Advocate</p>
+                <p class="text-lg text-center text-blue font-bold mb-3">High Court Of Delhi</p>
+                <p class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Chairman</p>
+            </div>
+        </div>
+    </div>
+    <button class="text-[#007aff] opacity-15 carousel-button-prev absolute left-2 md:left-4 bg-light-blue w-10 h-10 flex justify-center items-center rounded-full top-1/2 transform -translate-y-1/2">&#9664;</button>
+    <button class="text-[#007aff] opacity-15 carousel-button-next absolute right-2 md:right-4 bg-light-blue w-10 h-10 flex justify-center items-center rounded-full top-1/2 transform -translate-y-1/2">&#9654;</button>
 </div>
+
 
     <!-- <div class="swiper mySwiper">
     <div class="swiper-wrapper">
@@ -87,12 +115,14 @@
             </div>
 
             <!-- Right Image -->
-            <figure class="md:w-2/5 w-full flex flex-col items-center">
-                <img class="w-4/5 h-[350px] object-cover rounded-full" src="./images/lizo-square.jpg" alt="NPGRC" />
+            <div class="flex flex-col items-center w-full md:w-2/5">
+                 <figure class="md:w-36 md:h-36 w-full flex flex-col items-center">
+                     <img class="w-4/5 h-[250px] object-cover rounded-full" src="./images/lizo-square.jpg" alt="NPGRC" />
+                </figure>
                 <p class="text-lg text-center text-blue font-bold mt-3">Dr. Lijo Kuriydath</p>
                 <p class="text-lg text-center text-blue font-bold mb-3">Director General</p>
                 <a href="https://gofindy.com/drlijokuriyadath" target="_blank" class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Connect with DG</a>
-            </figure>
+             </div>
         </div>
     </section>
 

@@ -109,7 +109,7 @@
 
 
             <h3 class="text-xl md:text-2xl">Grievance Redressal Mechanisms</h3>
-            <p class="mb-3">Central to its mandate, the NPGRC employs structured grievance redressal mechanisms outlined in the Legal Services Authorities Act, 1987. These include:</p>
+            <p class="mb-3">National Public Grievance and Redressal Commission (NPGRC) is Legal Statutory Body Under the Proceedings of Various Laws in India. We as a  commission aim at resolving the Public complaints brought to our notice. Any compliment that we receive will be thoroughly validated and resolution will be provided making sure that it is fully justified following each and every legal aspect.</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
                 <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
