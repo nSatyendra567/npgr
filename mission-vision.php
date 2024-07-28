@@ -6,8 +6,8 @@
     <div class="w-8/10">
         <p class="text-lg text-center max-w-5xl mb-10 ">
             National Public Grievance and Redressal Commission is Legal Statutory body under the legislation of Indian Constitution act
-            <span class="font-semibold">Video Notification No.</span> <span class="text-yellow 
-text-yellow font-semibold"> IN-DL03344095213687P/ IMPACC(IV)/dl751903077291600501909P</span> <span class="font-semibold">Video Notification No Doc.Reference</span> <span class="text-yellow 
+            <span class="font-semibold">Vide Notification No.</span> <span class="text-yellow 
+text-yellow font-semibold"> IN-DL03344095213687P/ IMPACC(IV)/dl751903077291600501909P</span> <span class="font-semibold">Vide Notification No Doc.Reference</span> <span class="text-yellow 
 text-yellow font-semibold"> IS -DLDL75190307729160501909P</span>
         </p>
         <div class="flex flex-col md:flex-row gap-8 lg:gap-10">

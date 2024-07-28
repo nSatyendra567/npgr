@@ -144,7 +144,7 @@ function getCurrentPage()
                     National Public Grievances & Redressal Commission
                 </h1>
             </a>
-            <p class="text-xs md:text-sm">An Autonomous Statutory Body under Indian Constitution Act</p>
+            <p class="text-xs md:text-sm">Online Legal Statutory Body Under the Proceedings of Various Laws in India.</p>
         </div>
     </div>
     <figure class="hidden lg:flex gap-10 items-center">
