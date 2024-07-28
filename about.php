@@ -245,7 +245,7 @@
             </div>
             <h3 class="text-xl md:text-2xl">Conclusion
             </h3>
-            <p class="">In conclusion, the NPGRC, as an adopted statutory body under the Legal Services Authorities Act, 1987, plays a pivotal role in ensuring administrative accountability and promoting citizen-centric governance. Through its adherence to legal principles, structured grievance redressal mechanisms, and proactive advocacy for policy reforms, the commission contributes significantly to enhancing public trust in governmental institutions and advancing the rule of law. As it continues to evolve, the NPGRC remains committed to upholding constitutional values and fostering a more transparent and inclusive governance framework.
+            <p class="">The NPGRC is a National-level online Public Grievance Redressal based on web technology, operational under the proceedings of various laws in India. plays a pivotal role in ensuring administrative accountability and promoting citizen-centric governance. Through its adherence to legal principles, structured grievance redressal mechanisms, and proactive advocacy for policy reforms, the commission contributes significantly to enhancing public trust in governmental institutions and advancing the rule of law. As it continues to evolve, the NPGRC remains committed to upholding constitutional values and fostering a more transparent and inclusive governance framework.
             </p>
             <h2 class="text-xl md:text-2xl">1. Administrative Delays
             </h2>

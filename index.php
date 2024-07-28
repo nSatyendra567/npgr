@@ -165,7 +165,7 @@
     </div>
     <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
         <div class="flex items-center justify-center h-full w-full">
-            <img class="max-h-full" src="./images/sci.png" alt="Ministry of Home Affairs">
+            <img class="max-h-full" src="./images/mha.png" alt="Ministry of Home Affairs">
         </div>
         <a target="_blank" class="py-2 px-3 h-fit rounded hover:bg-yellow bg-blue text-white text-lg text-center transition-all duration-200" href="https://www.mha.gov.in/en">Ministry of Home Affairs</a>
     </div>
@@ -195,7 +195,7 @@
     <div class="w-full min-h-screen flex gap-10  max-w-7xl mx-auto py-10 md:py-16">
         <div class="sm:w-9/12 w-11/12 flex flex-col gap-5 mx-auto">
             <h3 class="text-2xl md:text-3xl">Our Objectives and Duties</h3>
-            <p class="mb-3 md:text-justify">The primary objective of the NPGRC, as defined under the Legal Services Authorities Act, 1987, is to provide a responsive and accountable platform for citizens to seek redressal of grievances against administrative actions. Its duties encompass:</p>
+            <!-- <p class="mb-3 md:text-justify">The primary objective of the NPGRC, as defined under the Legal Services Authorities Act, 1987, is to provide a responsive and accountable platform for citizens to seek redressal of grievances against administrative actions. Its duties encompass:</p> -->
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
                 <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
@@ -230,7 +230,7 @@
 
             </div>
             <h3 class="mt-3 text-2xl md:text-3xl">Grievance Redressal Mechanisms</h3>
-            <p class="mb-3">Central to its mandate, the NPGRC employs structured grievance redressal mechanisms outlined in the Legal Services Authorities Act, 1987. These include:</p>
+            <p class="mb-3">The NPGRC is a National-level online Public Grievance Redressal based on web technology, operational under the proceedings of various laws in India.</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
                 <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
