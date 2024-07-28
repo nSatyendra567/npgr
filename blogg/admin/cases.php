@@ -77,7 +77,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['case_id'], $_POST['new
       <p> Urgent : <span><?= $fetch_cases['Urgent'] ? 'Yes' : 'No'; ?></span> </p>
       <p> Description : <span><?= htmlspecialchars($fetch_cases['Description']); ?></span> </p>
       <p> Reference No : <span><?= htmlspecialchars($fetch_cases['ReferenceNo']); ?></span> </p>
+      <?php if (!empty($file_path)): ?>
       <p> Complain File : <a href="../../<?= $file_path ?>" download="<?= basename($file_path) ?>" class="btn">Download File</a></p>
+      <?php endif; ?>
       <form method="POST" action="">
          <input type="hidden" name="case_id" value="<?= $case_id; ?>">
          <p>Update Status:</p>

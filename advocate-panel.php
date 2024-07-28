@@ -70,8 +70,8 @@ include 'blogg/components/connect.php';
                     <h4 class="text-lg text-center font-bold text-maroon">Chamber: <?= htmlspecialchars($advocate['chamberAdd']); ?></h4>
                     <h4 class="text-lg text-center font-bold text-maroon">Office: <?= htmlspecialchars($advocate['officeAdd']); ?></h4>
                     <h4 class="text-lg text-center font-bold text-maroon">Court: <?= htmlspecialchars($advocate['Court']); ?></h4>
-                    <p class="text-base text-center">Mobile: <?= htmlspecialchars($advocate['Phone']); ?></p>
-                    <p class="text-base text-center">Email: <?= htmlspecialchars($advocate['Email']); ?></p>
+                    <!-- <p class="text-base text-center">Mobile: <?= htmlspecialchars($advocate['Phone']); ?></p>
+                    <p class="text-base text-center">Email: <?= htmlspecialchars($advocate['Email']); ?></p> -->
                 </div>
         <?php
             }

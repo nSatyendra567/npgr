@@ -53,8 +53,8 @@ include 'blogg/components/connect.php';
         }
     ?>
 <main class="w-full min-h-screen flex justify-center py-10">
-
     <form action="" method="POST" enctype="multipart/form-data" class="bg-white p-6 rounded shadow-md w-full max-w-xl">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl text-center font-semibold text-gray-800 mb-5">Register With NPGRC</h2>
         <div class="mb-4">
             <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
             <input type="text" name="name" id="name" required class="mt-1 p-2 w-full border border-gray-300 rounded">
