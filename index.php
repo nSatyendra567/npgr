@@ -64,10 +64,10 @@
 
     <section class="max-w-7xl mx-auto w-full flex flex-col gap-5 px-4 md:px-0">
         <h2 class="text-2xl md:text-3xl font-semibold text-center">About NPGRC</h2>
-        <p class="text-base md:text-lg leading-relaxed">
+        <p class="text-base md:text-lg leading-relaxed md:text-justify">
             Founded on September 9, 2017, the National Public Grievance and Redressal Commission (NPGRC) was established following recommendations made in 2017, aimed at creating a robust legal framework for addressing public grievances in India. Operating independently under the Indian constitution act, the commission holds jurisdiction over grievances spanning both public and private sectors. Led by Honorable Judge Mr. Birendra Singh as Member/Secretary, the NPGRC ensures thorough and impartial resolution of issues, upholding legal standards and promoting justice.
         </p>
-        <p class="text-base md:text-lg leading-relaxed">
+        <p class="text-base md:text-lg leading-relaxed md:text-justify">
             The NPGRC operates within a comprehensive legal framework that includes key legislative acts crucial to its mandate. The Human Rights Act empowers the commission to investigate complaints related to violations of fundamental rights. Under the Child Welfare Act, the NPGRC intervenes in matters concerning the welfare and rights of children, ensuring their protection and well-being. The Women's Rights Act enables the commission to address grievances related to gender-based discrimination, harassment, and violence. Additionally, the Environmental Protection Act grants authority to investigate complaints regarding environmental degradation, pollution, and non-compliance with environmental regulations. These acts provide the NPGRC with the legal tools necessary to address a wide array of issues affecting public and private sectors.
         </p>
         <a style="background-color: rgb(234 179 8);" class="bg-yellow-500 text-center rounded-md px-8 py-2 text-white self-start font-semibold text-lg mt-3 block mx-auto md:mx-0" href="<?php ROOT_URL ?>about.php">Know More</a>
@@ -79,7 +79,7 @@
     <section class="py-10 md:py-16 px-5 sm:px-10 md:px-16 lg:px-32">
         <h3 class="text-2xl md:text-3xl font-semibold mb-5 text-center">Our Process</h3>
         <div class="flex flex-col gap-5 max-w-7xl mx-auto px-4 md:px-0">
-            <p class="text-base md:text-lg leading-relaxed">
+            <p class="text-base md:text-lg leading-relaxed md:text-justify">
                 We have strong policies and procedures to follow. Key areas of case investigation including case management, responding to a case scene, interviewing, statement taking, gathering evidence, search warrants, and file presentation. The process of investigation or the investigative process is a series of activities or steps that include gathering evidence, analysing information, developing and validating theories, forming reasonable grounds to believe, and finally arresting and charging a suspect.
             </p>
         </div>
@@ -121,7 +121,7 @@
     <div class="w-full min-h-screen flex gap-10  max-w-7xl mx-auto py-10 md:py-16">
         <div class="sm:w-9/12 w-11/12 flex flex-col gap-5 mx-auto">
             <h3 class="text-2xl md:text-3xl">Our Objectives and Duties</h3>
-            <p class="mb-3">The primary objective of the NPGRC, as defined under the Legal Services Authorities Act, 1987, is to provide a responsive and accountable platform for citizens to seek redressal of grievances against administrative actions. Its duties encompass:</p>
+            <p class="mb-3 md:text-justify">The primary objective of the NPGRC, as defined under the Legal Services Authorities Act, 1987, is to provide a responsive and accountable platform for citizens to seek redressal of grievances against administrative actions. Its duties encompass:</p>
             <div class="w-full h-fit flex flex-col gap-5 mt-3">
                 <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
                     <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
