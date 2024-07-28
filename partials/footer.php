@@ -40,6 +40,16 @@
         },
 
     });
+    var swiper = new Swiper(".mySwiper", {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: true,
+        },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
 
      // Swiper for logos
      var logoswiper = new Swiper(".logoSwiper", {
@@ -57,12 +67,12 @@
     breakpoints: {
         // When the window width is >= 320px
         320: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 10,
         },
         // When the window width is >= 480px
         480: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 20,
         },
         // When the window width is >= 640px

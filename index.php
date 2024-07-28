@@ -38,11 +38,45 @@
         <!-- <h3 class="text-2xl md:text-3xl font-semibold text-center mb-5">Investigation Department</h3> -->
         <div class="flex flex-col md:flex-row items-start justify-center max-w-7xl mx-auto w-full gap-10">
             <!-- Swiper Section -->
-            <figure class="md:w-2/5 w-full flex flex-col items-center">
+            <!-- <figure class="md:w-2/5 w-full flex flex-col items-center">
                 <img class="w-4/5 h-[350px] object-cover rounded-full" src="./images/judge-praveen.jpg" alt="NPGRC" />
                 <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
                 <p class="text-lg text-center text-blue font-bold mb-3">Mr. Praveen Shah</p>
-            </figure>
+                <p class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Patron-in-Chief</p>
+            </figure> -->
+            <div class="swiper mySwiper md:w-2/5 w-full flex flex-col items-center">
+                <div class="swiper-wrapper">
+                    <figure class="swiper-slide md:w-2/5 w-full flex flex-col items-center">
+                        <img class="w-4/5 h-[350px] object-cover rounded-full" src="./images/judge-praveen.jpg" alt="NPGRC" />
+                            <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
+                            <p class="text-lg text-center text-blue font-bold mb-3">Mr. Praveen Shah</p>
+                            <p class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Patron-in-Chief</p>
+                    </figure>
+                    <figure class="swiper-slide md:w-2/5 w-full flex flex-col items-center">
+                        <img class="w-4/5 h-[350px] object-cover rounded-full" src="./images/Rony.jpg" alt="NPGRC" />
+                        <p class="text-lg text-center text-blue font-bold mt-3">Rony VP</p>
+                        <p class="text-lg text-center text-blue font-bold mb-3">Advocate</p>
+                        <p class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Chairman</p>
+                    </figure>
+                </div>
+                <div class="swiper-button-next custom-swiper-button-next bg-light-blue w-10 h-10 flex justify-center items-center rounded-full absolute right-2 md:right-4"></div>
+                <div class="swiper-button-prev custom-swiper-button-prev bg-light-blue w-10 h-10 flex justify-center items-center rounded-full absolute left-2 md:left-4"></div>
+            </div>
+    <!-- <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div> -->
 
             <!-- Center Image -->
             <div class="w-full md:w-1/5 md:h-[350px] flex items-center">
@@ -55,7 +89,7 @@
             <figure class="md:w-2/5 w-full flex flex-col items-center">
                 <img class="w-4/5 h-[350px] object-cover rounded-full" src="./images/lizo-square.jpg" alt="NPGRC" />
                 <p class="text-lg text-center text-blue font-bold mt-3">Dr. Lijo Kuriydath</p>
-                <p class="text-lg text-center text-blue font-bold mb-3">Director General of NPGRC</p>
+                <p class="text-lg text-center text-blue font-bold mb-3">Director General</p>
                 <a href="https://gofindy.com/drlijokuriyadath" target="_blank" class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Connect with DG</a>
             </figure>
         </div>

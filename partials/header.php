@@ -141,7 +141,7 @@ function getCurrentPage()
             </a>
             <a href="<?php echo ROOT_URL ?>index.php">
                 <h1 class="text-sm md:text-lg animate-color-change animate-heading font-semibold">
-                    The National Public Grievances & Redressal Commission
+                    National Public Grievances & Redressal Commission
                 </h1>
             </a>
             <p class="text-xs md:text-sm">An Autonomous Statutory Body under Indian Constitution Act</p>
