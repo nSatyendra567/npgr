@@ -70,7 +70,7 @@ include 'blogg/components/connect.php';
         <div class="mb-4">
             <label for="states" class="block text-sm font-medium text-gray-700">State</label>
 
-            <select id="states" name="states" class="mt-1 py-2 w-full px-2 outline-none w-full text-lg rounded">
+            <select id="states" name="states" class="mt-1 py-2 w-full px-2 outline-none w-full text-lg rounded" required>
                 <option value="">Select a state</option>
                 <?php foreach (STATE_NAME as $state) : ?>
                     <option value="<?php echo $state; ?>"><?php echo $state; ?></option>
@@ -94,7 +94,7 @@ include 'blogg/components/connect.php';
             <input type="email" name="email" id="email" required class="mt-1 p-2 w-full border border-gray-300 rounded">
         </div>
         <div class="mb-4">
-            <label for="enrollment-id" class="block text-sm font-medium text-gray-700">Enrollment Id</label>
+            <label for="enrollment-id" class="block text-sm font-medium text-gray-700">NPGRC Id</label>
             <input type="text" name="enrollment-id" id="enrollment-id" required class="mt-1 p-2 w-full border border-gray-300 rounded">
         </div>
         <div class="mb-4">

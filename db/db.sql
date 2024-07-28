@@ -85,8 +85,8 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES
-(1, 'Kush Tiwari', 'test@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef');
 
 INSERT INTO `admin` (`id`, `name`, `password`) VALUES
 (1, 'admin', '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2');
+INSERT INTO `admin` (`id`, `name`, `password`) VALUES
+(2, 'admin2', '40bd001563085fc35165329ea1ff5c5ecbdbbeef');

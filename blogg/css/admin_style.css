@@ -322,11 +322,11 @@ section{
 
 .dashboard .box-container .box p{
    padding:1.5rem;
-   border-radius: .5rem;
-   background-color: var(--light-bg);
-   border-radius: .5rem;
+   /* border-radius: .5rem; */
+   /* background-color: var(--light-bg); */
+   /* border-radius: .5rem; */
    font-size: 1.8rem;
-   border:var(--border);
+   /* border:var(--border); */
    margin:1rem 0;
    color:var(--light-color);
 }

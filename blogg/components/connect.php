@@ -1,8 +1,8 @@
 <?php
 
-   $db_name = 'mysql:host=localhost;dbname=u381425347_npgrc_db';
-   $user_name = 'u381425347_npgrc';
-   $user_password = 'Npgrc@12345';
+   $db_name = 'mysql:host=localhost;port=3306;dbname=blog_db';
+   $user_name = 'root';
+   $user_password = 'qwerty';
 
    $conn = new PDO($db_name, $user_name, $user_password);
 
