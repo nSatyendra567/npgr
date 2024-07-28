@@ -12,8 +12,8 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Definition and Scope (Section 2)</h4>
@@ -22,8 +22,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-gavel fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-gavel text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Protection from Exploitation and Abuse (Sections 13-15)</h4>
@@ -32,8 +32,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Education and Development (Sections 23-27)</h4>
@@ -45,8 +45,8 @@
 
 
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold"> Healthcare and Nutrition (Sections 29-32)</h4>
@@ -56,8 +56,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Care and Protection (Sections 34-40)</h4>
@@ -67,8 +67,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Legal Proceedings and Juvenile Justice (Sections 42-45)</h4>
@@ -82,8 +82,8 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-landmark fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-landmark text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">POCSO Act (Protection of Children from Sexual Offences Act, 2012)</h4>
@@ -93,8 +93,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-hands-helping fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-hands-helping text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">JJ Act (Juvenile Justice (Care and Protection of Children) Act, 2015)</h4>
@@ -103,8 +103,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-hands-helping fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-hands-helping text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">National Commission for Protection of Child Rights (NCPCR) Act, 2005</h4>
@@ -118,8 +118,8 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-dollar-sign fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-dollar-sign text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Roles of Stakeholders</h4>
@@ -129,8 +129,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-cogs fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-cogs text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Monitoring and Reporting</h4>
@@ -145,8 +145,8 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">
@@ -158,8 +158,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Future Reforms</h4>

@@ -11,8 +11,8 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5 mt-3">
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Constitution of the National Medical Commission (NMC)</h4>
@@ -21,8 +21,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-gavel fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-gavel text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Functions of the NMC</h4>
@@ -31,8 +31,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Medical Advisory Council (MAC)</h4>
@@ -41,8 +41,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Entrance Examinations</h4>
@@ -51,8 +51,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Ethics and Professional Conduct</h4>
@@ -61,8 +61,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Repeal of the Indian Medical Council Act</h4>

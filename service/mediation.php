@@ -15,8 +15,8 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Mediation</h4>
@@ -25,8 +25,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-gavel fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-gavel text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Arbitration</h4>
@@ -35,8 +35,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Negotiation</h4>
@@ -45,8 +45,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Conciliation</h4>
@@ -60,8 +60,8 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-landmark fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-landmark text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Cost-Effective</h4>
@@ -70,8 +70,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-hands-helping fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-hands-helping text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Time-Efficient</h4>
@@ -81,8 +81,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-hands-helping fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-hands-helping text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Preserves Relationships</h4>
@@ -91,8 +91,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-hands-helping fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-hands-helping text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Confidentiality</h4>
@@ -113,8 +113,8 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-dollar-sign fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-dollar-sign text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Enforcement of Settlements</h4>
@@ -124,8 +124,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-cogs fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-cogs text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Cultural and Legal Differences</h4>

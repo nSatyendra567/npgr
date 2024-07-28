@@ -9,8 +9,8 @@
         <h3 class="mb-3 text-2xl">Environmental Acts in India</h3>
         <div class="w-full h-fit flex flex-col gap-5 mt-3">
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">The Environment (Protection) Act, 1986</h4>
@@ -19,8 +19,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-gavel fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-gavel text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">The Water (Prevention and Control of Pollution) Act, 1974</h4>
@@ -29,8 +29,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">The Air (Prevention and Control of Pollution) Act, 1981</h4>
@@ -39,8 +39,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">The Wildlife Protection Act, 1972</h4>
@@ -49,8 +49,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">The Forest (Conservation) Act, 1980</h4>
@@ -59,8 +59,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold"> The Biological Diversity Act, 2002</h4>
@@ -70,8 +70,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">The Hazardous and Other Wastes (Management and Transboundary Movement) Rules, 2016</h4>
@@ -81,8 +81,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">The National Green Tribunal Act, 2010</h4>

@@ -13,8 +13,8 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Supreme Court of India</h4>
@@ -23,8 +23,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-gavel fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-gavel text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">High Courts</h4>
@@ -34,8 +34,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-file-alt fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-file-alt text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
                     <h4 class="text-lg font-bold">Subordinate Courts</h4>
@@ -49,8 +49,8 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-landmark fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-landmark text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Challenges and Reforms</h4>
@@ -59,8 +59,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-hands-helping fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-hands-helping text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Appointment of Judges</h4>
@@ -72,8 +72,8 @@
 
 
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-hands-helping fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-hands-helping text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Jurisdictional Clarity</h4>
@@ -88,8 +88,8 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-dollar-sign fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-dollar-sign text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold"> Protection of Fundamental Rights</h4>
@@ -99,8 +99,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-cogs fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-cogs text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Public Interest Litigation (PIL)</h4>
@@ -115,8 +115,8 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Backlog of Cases</h4>
@@ -125,8 +125,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Access to Justice</h4>
@@ -144,8 +144,8 @@
             Structure and Function </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">District Courts (Subordinate Courts)</h4>
@@ -155,8 +155,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Sessions Courts</h4>
@@ -167,8 +167,8 @@
             </div>
 
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">High Courts</h4>
@@ -177,8 +177,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Supreme Court</h4>
@@ -200,8 +200,8 @@
         </h3>
         <div class="w-full h-fit flex flex-col gap-5">
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Backlog of Cases</h4>
@@ -210,8 +210,8 @@
                 </div>
             </div>
             <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                <div class="w-1/6 flex justify-center items-center relative bg-yellow text-white h-full rounded-tl-md rounded-bl-md">
-                    <i class="fas fa-balance-scale fa-3x"></i>
+                <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
+                    <i class="fas fa-balance-scale text-yellow fa-2x"></i>
                 </div>
                 <div class="w-4/5 flex flex-col gap-2 p-5 pl-10">
                     <h4 class="text-lg font-bold">Access to Justice</h4>
