@@ -77,6 +77,73 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if ($stmt->execute([$name, $email, $phone, $subject, $filePath, $description, $urgent, $referenceNo])) {
                 echo "<p class='text-green-600 text-center font-semibold'>Record inserted successfully.</p>
                       <p class='text-green-600 text-center font-semibold'>Your Reference No. for this Registered Case is : $referenceNo</p>";
+                      // Send email to the user
+                $to = $email;
+                $userSubject = "Your Case Registration Confirmation";
+                $headers = "From: no-reply@npgrcomission.in\r\n";
+                $headers .= "Reply-To: no-reply@npgrcomission.in\r\n";
+                $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+                // Email content
+                $message = "
+                <html>
+                <head>
+                    <title>Case Registration Confirmation</title>
+                </head>
+                <body>
+                    <p>Your case has been registered with us.</p>
+                    <p>You can check your case status using the reference number below:</p>
+                    <p><strong>Reference No: $referenceNo</strong></p>
+                    <p>To check your case status, please click the button below:</p>
+                    <p><a href='http://npgrcomission.in/case-status' style='display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;'>Check Your Case Status</a></p>
+                    <p>Thank you for contacting us!</p>
+                </body>
+                </html>
+                ";
+                // Send notification email to admin
+                $adminEmail = ''; // Replace with your admin email address
+                $adminSubject = "New Case Registration Notification";
+                $adminHeaders = "From: no-reply@npgrcomission.in\r\n";
+                $adminHeaders .= "Reply-To: no-reply@npgrcomission.in\r\n";
+                $adminHeaders .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+                // Email content for admin
+                $adminMessage = "
+                <html>
+                <head>
+                    <title>New Case Registration Notification</title>
+                </head>
+                <body>
+                    <p>A new case has been registered by a user.</p>
+                    <p><strong>User Details:</strong></p>
+                    <ul>
+                        <li><strong>Name:</strong> $name</li>
+                        <li><strong>Email:</strong> $email</li>
+                        <li><strong>Phone:</strong> $phone</li>
+                        <li><strong>Subject:</strong> $subject</li>
+                        <li><strong>Description:</strong> $description</li>";
+
+                // Check if a file was uploaded
+                if (isset($_FILES['complain-file']) && $_FILES['complain-file']['error'] != UPLOAD_ERR_NO_FILE) {
+                    $adminMessage .= "<li><strong>File:</strong> <a href='https://npgrcomission.in/$filePath'>$filePath</a></li>";
+                }
+
+                $adminMessage .= "
+                        <li><strong>Reference No:</strong> $referenceNo</li>
+                    </ul>
+                    <p>Thank you!</p>
+                </body>
+                </html>
+                ";
+
+                // Send the email to the admin
+                // Send the email
+                if (mail($to, $userSubject, $message, $headers) && mail($adminEmail, $adminSubject, $adminMessage, $adminHeaders)) {
+                    echo "<p class='text-green-600 text-center font-semibold'>A confirmation email with refrence no has been sent to your email.</p>";
+                } else {
+                    echo "<p class='text-red-600 text-center font-semibold'>Error sending email.(please take note of the refrence no.)</p>";
+                }
+
             } else {
                 echo "<p class='text-red-600 text-center font-semibold'>Error inserting record: " . $stmt->errorInfo()[2] . "</p>";
             }

@@ -40,7 +40,66 @@ include 'blogg/components/connect.php';
         
                     // Execute the statement
                     if ($stmt->execute([$name, $filePath, $court, $state, $officeAddress, $chamberAddress, $email, $mobileNumber, $enrollmentId, $courtId, $date, $approved])) {
-                        echo "<p class='text-green-600 text-center font-semibold'>Record inserted successfully.</p>";
+                        $to = $email;
+                $userSubject = "Onboarding Confirmation";
+                $headers = "From: no-reply@npgrcomission.in\r\n";
+                $headers .= "Reply-To: no-reply@npgrcomission.in\r\n";
+                $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+                // Email content for user
+                $message = "
+                <html>
+                <head>
+                    <title>Onboarding Confirmation</title>
+                </head>
+                <body>
+                    <p>Your profile has been successfully registered with us.</p>
+                    <p>Thank you for joining our platform!</p>
+                </body>
+                </html>
+                ";
+
+                // Send notification email to admin
+                $adminEmail = ''; // Replace with your admin email address
+                $adminSubject = "New Advocate Onboarding Notification";
+                $adminHeaders = "From: no-reply@npgrcomission.in\r\n";
+                $adminHeaders .= "Reply-To: no-reply@npgrcomission.in\r\n";
+                $adminHeaders .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+                // Email content for admin
+                $adminMessage = "
+                <html>
+                <head>
+                    <title>New Advocate Onboarding Notification</title>
+                </head>
+                <body>
+                    <p>A new advocate has been onboarded by a user.</p>
+                    <p><strong>Advocate Details:</strong></p>
+                    <ul>
+                        <li><strong>Name:</strong> $name</li>
+                        <li><strong>Email:</strong> $email</li>
+                        <li><strong>Phone:</strong> $mobileNumber</li>
+                        <li><strong>Court:</strong> $court</li>
+                        <li><strong>State:</strong> $state</li>
+                        <li><strong>Office Address:</strong> $officeAddress</li>
+                        <li><strong>Chamber Address:</strong> $chamberAddress</li>
+                        <li><strong>Enrollment ID:</strong> $enrollmentId</li>
+                        <li><strong>Court ID:</strong> $courtId</li>
+                        <li><strong>Photo:</strong> <a href='https://npgrcomission.in/$filePath'>Profile Photo</a></li>
+                        <li><strong>Date:</strong> $date</li>
+                        <li><strong>Approved:</strong> $approved</li>
+                    </ul>
+                    <p>Thank you!</p>
+                </body>
+                </html>
+                ";
+
+                // Send the email to the user and admin
+                if (mail($to, $userSubject, $message, $headers) && mail($adminEmail, $adminSubject, $adminMessage, $adminHeaders)) {
+                    echo "<p class='text-green-600 text-center font-semibold'>Record inserted successfully and emails sent.</p>";
+                } else {
+                    echo "<p class='text-red-600 text-center font-semibold'>Record inserted, but error sending emails.</p>";
+                }
                     } else {
                         echo "<p class='text-red-600 text-center font-semibold'>Error inserting record: " . $stmt->errorInfo()[2] . "</p>";
                     }
