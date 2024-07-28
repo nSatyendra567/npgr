@@ -68,7 +68,7 @@
         <div class="carousel-item w-full flex-shrink-0">
             <div class="flex flex-col items-center w-full">
                 <figure class="md:w-36 md:h-36 w-full flex flex-col items-center">
-                    <img class="w-4/5 h-[150px] object-cover rounded-full" src="./images/judge-praveen.jpg" alt="NPGRC" />
+                    <img class="w-4/5 md:h-[150px] h-[250px] object-cover rounded-full" src="./images/judge-praveen.jpg" alt="NPGRC" />
                 </figure>
                 <p class="text-lg text-center text-blue font-bold mt-3">Hon'ble Judge</p>
                 <p class="text-lg text-center text-blue font-bold mb-3">Mr. Praveen Shah (Retd.)</p>
@@ -127,10 +127,10 @@
     </section>
 
 
-    <section class="max-w-7xl mx-auto w-full flex flex-col gap-5 px-4 md:px-0">
+    <section class="max-w-7xl mx-auto w-full flex flex-col gap-5 px-5 sm:px-10">
         <h2 class="text-2xl md:text-3xl font-semibold text-center">About NPGRC</h2>
         <p class="text-base md:text-lg leading-relaxed md:text-justify">
-        The NPGRC is a national-level is an online platform available for the citizens 24x7 to lodge their grievances to the public authorities on any subject .based on web technology, operational under the proceedings of various laws in India.the commission holds jurisdiction over grievances spanning both public and private sectors. Led by Honorable Judge Mr. Birendra Singh as Member/Secretary, the NPGRC ensures thorough and impartial resolution of issues, upholding legal standards and promoting justice.
+        The NPGRC is a National-level is an online platform available for the citizens 24x7 to lodge their grievances to the public authorities on any subject .based on web technology, operational under the proceedings of various laws in India.the commission holds jurisdiction over grievances spanning both public and private sectors. Led by Honorable Judge Mr. Birendra Singh as Member/Secretary, the NPGRC ensures thorough and impartial resolution of issues, upholding legal standards and promoting justice.
         </p>
         <p class="text-base md:text-lg leading-relaxed md:text-justify">
             The NPGRC operates within a comprehensive legal framework that includes key legislative acts crucial to its mandate. The Human Rights Act empowers the commission to investigate complaints related to violations of fundamental rights. Under the Child Welfare Act, the NPGRC intervenes in matters concerning the welfare and rights of children, ensuring their protection and well-being. The Women's Rights Act enables the commission to address grievances related to gender-based discrimination, harassment, and violence. Additionally, the Environmental Protection Act grants authority to investigate complaints regarding environmental degradation, pollution, and non-compliance with environmental regulations. These acts provide the NPGRC with the legal tools necessary to address a wide array of issues affecting public and private sectors.
@@ -148,38 +148,47 @@
                 We have strong policies and procedures to follow. Key areas of case investigation including case management, responding to a case scene, interviewing, statement taking, gathering evidence, search warrants, and file presentation. The process of investigation or the investigative process is a series of activities or steps that include gathering evidence, analysing information, developing and validating theories, forming reasonable grounds to believe, and finally arresting and charging a suspect.
             </p>
         </div>
-        <div class="max-w-7xl mx-auto w-full mt-10 mb-16">
-            <h3 class="text-3xl font-bold text-center mb-10">The Seven Steps</h3>
+        <div class="max-w-7xl mx-auto w-full mt-10">
+            <h3 class="text-3xl font-bold text-center mb-10">Usefull Links</h3>
             <div class="flex flex-wrap gap-5 items-center justify-center max-w-5xl mx-auto">
-                <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
-                    <i class="fas fa-lock fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="sm:text-lg text-[15px] group-hover:text-yellow transition-all duration-200 text-center">Securing the Scene</h4>
-                </div>
-                <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
-                    <i class="fa-solid fa-users-between-lines fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="sm:text-lg text-[15px] group-hover:text-yellow transition-all duration-200 text-center">Separating the<br>Witnesses</h4>
-                </div>
-                <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
-                    <i class="fa-solid fa-user-secret fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="sm:text-lg text-[15px] group-hover:text-yellow transition-all duration-200 text-center">Scanning the Scene</h4>
-                </div>
-                <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
-                    <i class="fa-solid fa-eye fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="sm:text-lg text-[15px] group-hover:text-yellow transition-all duration-200 text-center">Seeing the Scene</h4>
-                </div>
-                <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
-                    <i class="fa-solid fa-user-pen fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="sm:text-lg text-[15px] group-hover:text-yellow transition-all duration-200 text-center">Sketching the Scene</h4>
-                </div>
-                <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
-                    <i class="fa-brands fa-searchengin fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="sm:text-lg text-[15px] group-hover:text-yellow transition-all duration-200 text-center">Searching for Evidence</h4>
-                </div>
-                <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
-                    <i class="fa-solid fa-user-shield fa-4x text-yellow group-hover:text-blue transition-all duration-200"></i>
-                    <h4 class="sm:text-lg text-[15px] group-hover:text-yellow transition-all duration-200 text-center">Securing and Collecting Evidence</h4>
-                </div>
-            </div>
+    <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
+        <div class="flex items-center justify-center h-full w-full">
+            <img class="max-h-full" src="./images/sci.png" alt="Supreme Court of India">
+        </div>
+        <a target="_blank" class="py-2 px-3 h-fit rounded hover:bg-yellow bg-blue text-white text-lg text-center transition-all duration-200" href="https://www.sci.gov.in/">Supreme Court of India</a>
+    </div>
+    <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
+        <div class="flex items-center justify-center h-full w-full">
+            <img class="max-h-full" src="./images/nhrc-logo.png" alt="National Human Rights Commission">
+        </div>
+        <a target="_blank" class="py-2 px-3 h-fit rounded hover:bg-yellow bg-blue text-white text-lg text-center transition-all duration-200" href="https://nhrc.nic.in/">National Human Rights Commission</a>
+    </div>
+    <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
+        <div class="flex items-center justify-center h-full w-full">
+            <img class="max-h-full" src="./images/sci.png" alt="Ministry of Home Affairs">
+        </div>
+        <a target="_blank" class="py-2 px-3 h-fit rounded hover:bg-yellow bg-blue text-white text-lg text-center transition-all duration-200" href="https://www.mha.gov.in/en">Ministry of Home Affairs</a>
+    </div>
+    <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
+        <div class="flex items-center justify-center h-full w-full">
+            <img class="max-h-full" src="https://lawmin.gov.in/sites/all/themes/landj/images/emblem-dark.png" alt="Ministry of Law & Justice">
+        </div>
+        <a target="_blank" class="py-2 px-3 h-fit rounded hover:bg-yellow bg-blue text-white text-lg text-center transition-all duration-200" href="https://lawmin.gov.in/">Ministry of Law & Justice</a>
+    </div>
+    <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
+        <div class="flex items-center justify-center h-full w-full">
+            <img class="max-h-full" src="./images/pmi.png" alt="Ministry of Home Affairs">
+        </div>
+        <a target="_blank" class="py-2 px-3 h-fit rounded hover:bg-yellow bg-blue text-white text-lg text-center transition-all duration-200" href="https://www.pmindia.gov.in/en">PMO, PM India</a>
+    </div>
+    <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
+        <div class="flex items-center justify-center h-full w-full">
+            <img class="max-h-full" src="https://delhihighcourt.nic.in/assets/front/images/logo.png" alt="Delhi HighCourt">
+        </div>
+        <a target="_blank" class="py-2 px-3 h-fit rounded hover:bg-yellow bg-blue text-white text-lg text-center transition-all duration-200" href="https://delhihighcourt.nic.in/">Delhi HighCourt</a>
+    </div>
+</div>
+
         </div>
     </section>
 

@@ -128,19 +128,19 @@ function getCurrentPage()
 
 <body>
     <nav class="w-full min-h-12 bg-white items-center">
-    <div class="px-5 sm:px-10 lg:px-16 flex flex-col md:flex-row md:justify-between items-center">
-    <div class="flex flex-row items-center mb-4 md:mb-0">
-        <figure class="w-16 h-16 md:w-28 md:h-28">
+    <div class="px-2 sm:px-10 lg:px-16 flex flex-col md:flex-row md:justify-between items-center">
+    <div class="flex flex-row items-center mb-4 md:mb-0 md:mt-0 mt-2">
+        <figure class="w-16 h-16 md:w-28 md:h-28 md:block hidden">
             <img src="<?php ROOT_URL ?>../images/npgrc.png" alt="NPGRC" />
         </figure>
         <div class="ml-3 text-center md:text-left">
-            <a href="<?php echo ROOT_URL ?>index.php">
-                <p class="text-base md:text-xl animate-color-change animate-heading font-semibold">
+        <a href="<?php echo ROOT_URL ?>">
+        <p class="text-base md:text-xl animate-color-change animate-heading font-semibold">
                     राष्ट्रीय लोक शिकायत एवं निवारण आयोग
                 </p>
             </a>
-            <a href="<?php echo ROOT_URL ?>index.php">
-                <h1 class="text-sm md:text-lg animate-color-change animate-heading font-semibold">
+            <a href="<?php echo ROOT_URL ?>">
+                <h1 class="text-[22px] animate-color-change animate-heading font-semibold md:text-[24px]">
                     National Public Grievances & Redressal Commission
                 </h1>
             </a>

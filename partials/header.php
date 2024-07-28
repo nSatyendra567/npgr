@@ -129,19 +129,19 @@ function getCurrentPage()
 
 <body>
     <nav class="w-full min-h-12 bg-white items-center">
-    <div class="px-5 sm:px-10 lg:px-16 flex flex-col md:flex-row md:justify-between items-center">
-    <div class="flex flex-row items-center mb-4 md:mb-0">
-        <figure class="w-16 h-16 md:w-28 md:h-28">
+    <div class="px-2 sm:px-10 lg:px-16 flex flex-col md:flex-row md:justify-between items-center">
+    <div class="flex flex-row items-center mb-4 md:mb-0 md:mt-0 mt-2">
+        <figure class="w-16 h-16 md:w-28 md:h-28 md:block hidden">
             <img src="<?php ROOT_URL ?>images/npgrc.png" alt="NPGRC" />
         </figure>
         <div class="ml-3 text-center md:text-left">
-            <a href="<?php echo ROOT_URL ?>index.php">
+            <a href="<?php echo ROOT_URL ?>">
                 <p class="text-base md:text-xl animate-color-change animate-heading font-semibold">
                     राष्ट्रीय लोक शिकायत एवं निवारण आयोग
                 </p>
             </a>
-            <a href="<?php echo ROOT_URL ?>index.php">
-                <h1 class="text-sm md:text-lg animate-color-change animate-heading font-semibold">
+            <a href="<?php echo ROOT_URL ?>">
+                <h1 class="text-[22px] animate-color-change animate-heading font-semibold md:text-[24px]">
                     National Public Grievances & Redressal Commission
                 </h1>
             </a>
@@ -156,7 +156,7 @@ function getCurrentPage()
 </div>
 
 
-<div class="bg-blue h-fit py-3 px-5 sm:px-10 lg:px-16 flex justify-start md:justify-center">
+<div class="bg-blue h-fit py-3 px-5 sm:px-10 lg:px-16 flex justify-between md:justify-center">
         <ul class="nav_items flex-col md:flex-row gap-5 md:gap-7 lg:gap-10 items-center justify-center hidden md:flex text-white">
             <li><a class="<?php echo getCurrentPage() == 'index.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>index.php">Home</a></li>
             <li class="group relative <?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>">
@@ -199,6 +199,9 @@ function getCurrentPage()
             </div>
         </ul>
         <i id="showme" class="fa-solid fa-bars fa-2x my-auto text-white md:hidden"></i>
+        <figure class="w-9 h-9 md:hidden  block">
+            <img src="<?php ROOT_URL ?>images/npgrc.png" alt="NPGRC" />
+        </figure>
     </div>
     <ul id="nav_menu" class="bg-blue nav_items flex-col md:flex-row gap-5 md:gap-7 lg:gap-10 items-center justify-center hidden text-white">
             <li><a class="<?php echo getCurrentPage() == 'index.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>index.php">Home</a></li>
