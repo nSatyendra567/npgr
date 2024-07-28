@@ -54,8 +54,8 @@
                     </figure>
                     <figure class="swiper-slide md:w-2/5 w-full flex flex-col items-center">
                         <img class="w-4/5 h-[350px] object-cover rounded-full" src="./images/Rony.jpg" alt="NPGRC" />
-                        <p class="text-lg text-center text-blue font-bold mt-3">Rony VP</p>
-                        <p class="text-lg text-center text-blue font-bold mb-3">Advocate</p>
+                        <p class="text-lg text-center text-blue font-bold mt-3">Rony VP Advocate</p>
+                        <p class="text-lg text-center text-blue font-bold mb-3">High Court Of Delhi</p>
                         <p class="text-center bg-yellow text-white rounded-md px-8 py-2 font-semibold">Chairman</p>
                     </figure>
                 </div>
