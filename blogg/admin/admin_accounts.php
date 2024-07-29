@@ -9,22 +9,36 @@ $admin_id = $_SESSION['admin_id'];
 if(!isset($admin_id)){
    header('location:admin_login.php');
 }
+$check_super_admin = $conn->prepare("SELECT super_admin FROM `admin` WHERE id = ?");
+$check_super_admin->execute([$admin_id]);
+$admin_data = $check_super_admin->fetch(PDO::FETCH_ASSOC);
+$is_super_admin = $admin_data['super_admin'];
 
 if(isset($_POST['delete'])){
+   $target_admin_id = $_POST['admin_id'];
+   if ($target_admin_id != $admin_id && !$is_super_admin) {
+      header('location:admin_dashboard.php'); // Redirect to the dashboard or some other page
+      exit();
+   }
    $delete_image = $conn->prepare("SELECT * FROM `posts` WHERE admin_id = ?");
-   $delete_image->execute([$admin_id]);
+   $delete_image->execute([$target_admin_id]);
    while($fetch_delete_image = $delete_image->fetch(PDO::FETCH_ASSOC)){
       unlink('../uploaded_img/'.$fetch_delete_image['image']);
    }
    $delete_posts = $conn->prepare("DELETE FROM `posts` WHERE admin_id = ?");
-   $delete_posts->execute([$admin_id]);
+   $delete_posts->execute([$target_admin_id]);
    $delete_likes = $conn->prepare("DELETE FROM `likes` WHERE admin_id = ?");
-   $delete_likes->execute([$admin_id]);
+   $delete_likes->execute([$target_admin_id]);
    $delete_comments = $conn->prepare("DELETE FROM `comments` WHERE admin_id = ?");
-   $delete_comments->execute([$admin_id]);
+   $delete_comments->execute([$target_admin_id]);
    $delete_admin = $conn->prepare("DELETE FROM `admin` WHERE id = ?");
-   $delete_admin->execute([$admin_id]);
-   header('location:../components/admin_logout.php');
+   $delete_admin->execute([$target_admin_id]);
+   if($target_admin_id == $admin_id){
+      header('location:../components/admin_logout.php');
+      exit();
+   } else {
+      $message[] = 'Admin account deleted successfully!';
+   }
 }
 
 ?>
@@ -55,12 +69,16 @@ if(isset($_POST['delete'])){
    <h1 class="heading">admins account</h1>
 
    <div class="box-container">
-
+   <?php
+      if($is_super_admin){
+   ?>
    <div class="box" style="order: -2;">
       <p>register new admin</p>
       <a href="register_admin.php" class="option-btn" style="margin-bottom: .5rem;">register</a>
    </div>
-
+   <?php
+            }
+         ?>
    <?php
       $select_account = $conn->prepare("SELECT * FROM `admin`");
       $select_account->execute();
@@ -78,11 +96,17 @@ if(isset($_POST['delete'])){
       <p> total posts : <span><?= $total_admin_posts; ?></span> </p>
       <div class="flex-btn">
          <?php
-            if($fetch_accounts['id'] == $admin_id){
+            if($fetch_accounts['id'] == $admin_id ){
          ?>
-            <a href="update_profile.php" class="option-btn" style="margin-bottom: .5rem;">update</a>
+         <a href="update_profile.php" class="option-btn" style="margin-bottom: .5rem;">update</a>
+         <?php
+            }
+         ?>
+         <?php
+            if($fetch_accounts['id'] == $admin_id || $is_super_admin){
+         ?>
             <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
-               <input type="hidden" name="post_id" value="<?= $fetch_accounts['id']; ?>" on>
+               <input type="hidden" name="admin_id" value="<?= $fetch_accounts['id']; ?>" on>
                <button type="submit" name="delete"onclick="return confirm('delete the account?');" class="delete-btn" style="margin-bottom: .5rem;">delete</button>
             </form>
          <?php

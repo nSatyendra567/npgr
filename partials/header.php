@@ -198,10 +198,10 @@ function getCurrentPage()
                 <a class="bg-yellow hover:bg-blue hover:border border-yellow text-center rounded-md px-3 py-2 transition-all duration-150" href="<?php echo ROOT_URL ?>online-complaint.php">Online Complaint</a>
             </div>
         </ul>
-        <i id="showme" class="fa-solid fa-bars fa-2x my-auto text-white md:hidden"></i>
         <figure class="w-9 h-9 md:hidden  block">
             <img src="<?php ROOT_URL ?>images/npgrc.png" alt="NPGRC" />
         </figure>
+        <i id="showme" class="fa-solid fa-bars fa-2x my-auto text-white md:hidden"></i>
     </div>
     <ul id="nav_menu" class="bg-blue nav_items flex-col md:flex-row gap-5 md:gap-7 lg:gap-10 items-center justify-center hidden text-white">
             <li><a class="<?php echo getCurrentPage() == 'index.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>index.php">Home</a></li>
@@ -245,21 +245,6 @@ function getCurrentPage()
             </div>
         </ul>
         <!-- Socials -->
-        <div class="fixed bg-transparent h-fit top-[50%] translate-y-[-70%] z-30 right-0">
-            <div class="flex flex-col gap-3 itemc-center justify-center">
-                <a class="bg-yellow rounded p-2 flex justify-center items-center text-white" href="">
-                    <i class="fab fa-facebook-f fa-x"></i>
-                </a>
-                <a class="bg-yellow rounded p-2 flex justify-center items-center text-white" href="">
-                    <i class="fab fa-twitter fa-x"></i>
-                </a>
-                <a class="bg-yellow rounded p-2 flex justify-center items-center text-white" href=""><i class="fab fa-instagram fa-x"></i>
-                </a>
-                <a class="bg-yellow rounded p-2 flex justify-center items-center text-white" href="">
-                    <i class="fab fa-youtube fa-1x"></i>
-                </a>
-            </div>
-        </div>
     </nav>
 </body>
 

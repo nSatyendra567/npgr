@@ -19,6 +19,7 @@ function getCurrentPage()
     <link rel="shortcut icon" href="<?php ROOT_URL ?>../images/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsive.css">
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcLGBoqAAAAAJEx3TS4qATMFnqoEPJbzCn_FzXR"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -155,7 +156,7 @@ function getCurrentPage()
 </div>
 
 
-<div class="bg-blue h-fit py-3 px-5 sm:px-10 lg:px-16 flex justify-start md:justify-center">
+<div class="bg-blue h-fit py-3 px-5 sm:px-10 lg:px-16 flex justify-start md:justify-center justify-between">
         <ul class="nav_items flex-col md:flex-row gap-5 md:gap-7 lg:gap-10 items-center justify-center hidden md:flex text-white">
             <li><a class="<?php echo getCurrentPage() == 'index.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>index.php">Home</a></li>
             <li class="group relative <?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>">
@@ -197,6 +198,9 @@ function getCurrentPage()
                 <a class="bg-yellow hover:bg-blue hover:border border-yellow text-center rounded-md px-3 py-2 transition-all duration-150" href="<?php echo ROOT_URL ?>online-complaint.php">Online Complaint</a>
             </div>
         </ul>
+        <figure class="w-9 h-9 md:hidden  block">
+            <img src="<?php ROOT_URL ?>../images/npgrc.png" alt="NPGRC" />
+        </figure>
         <i id="showme" class="fa-solid fa-bars fa-2x my-auto text-white md:hidden"></i>
     </div>
     <ul id="nav_menu" class="bg-blue nav_items flex-col md:flex-row gap-5 md:gap-7 lg:gap-10 items-center justify-center hidden text-white">
@@ -241,21 +245,6 @@ function getCurrentPage()
             </div>
         </ul>
         <!-- Socials -->
-        <div class="fixed bg-transparent h-fit top-[50%] translate-y-[-70%] z-30 right-0">
-            <div class="flex flex-col gap-3 itemc-center justify-center">
-                <a class="bg-yellow rounded p-2 flex justify-center items-center text-white" href="">
-                    <i class="fab fa-facebook-f fa-x"></i>
-                </a>
-                <a class="bg-yellow rounded p-2 flex justify-center items-center text-white" href="">
-                    <i class="fab fa-twitter fa-x"></i>
-                </a>
-                <a class="bg-yellow rounded p-2 flex justify-center items-center text-white" href=""><i class="fab fa-instagram fa-x"></i>
-                </a>
-                <a class="bg-yellow rounded p-2 flex justify-center items-center text-white" href="">
-                    <i class="fab fa-youtube fa-1x"></i>
-                </a>
-            </div>
-        </div>
     </nav>
     <script src="../js/index.js"></script>
 </body>

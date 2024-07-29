@@ -3,6 +3,7 @@ CREATE TABLE `admin` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(20) NOT NULL,
   `password` varchar(50) NOT NULL,
+  `super_admin` BOOLEAN NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -86,7 +87,7 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
-INSERT INTO `admin` (`id`, `name`, `password`) VALUES
-(1, 'admin', '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2');
-INSERT INTO `admin` (`id`, `name`, `password`) VALUES
-(2, 'admin2', '40bd001563085fc35165329ea1ff5c5ecbdbbeef');
+INSERT INTO `admin` (`id`, `name`, `password`, `super_admin`) VALUES
+(1, 'admin', '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2', '1');
+INSERT INTO `admin` (`id`, `name`, `password`, `super_admin`) VALUES
+(2, 'admin2', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', '0');

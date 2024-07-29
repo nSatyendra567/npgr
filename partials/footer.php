@@ -10,8 +10,32 @@
             <img class="w-full h-full object-cover" src="./images/npgrc.png" alt="NPGRC" />
         </figure>
         <p class="text-center text-white text-lg">राष्ट्रीय लोक शिकायत एवं निवारण आयोग</p>
+        <div class="flex gap-3 itemc-center justify-center">
+            <a class="bg-yellow rounded-full p-2 flex justify-center items-center text-white" href="">
+                <i class="fab fa-facebook-f fa-x"></i>
+            </a>
+            <a class="bg-yellow rounded-full p-2 flex justify-center items-center text-white" href="">
+                <i class="fab fa-twitter fa-x"></i>
+            </a>
+            <a class="bg-yellow rounded-full p-2 flex justify-center items-center text-white" href=""><i class="fab fa-instagram fa-x"></i>
+            </a>
+            <a class="bg-yellow rounded-full p-2 flex justify-center items-center text-white" href="">
+                <i class="fab fa-youtube fa-1x"></i>
+            </a>
+        </div>
     </div>
     <hr class="mt-8 text-white " />
+    <ul class="foote_bottom_ul_amrc flex flex-wrap text-white font-bold justify-center space-x-4 mt-2 mb-10">
+        <li><a href="./index.php" class="hover:underline hover:text-yellow">Home</a></li>
+        <li><a href="./about.php" class="hover:underline hover:text-yellow">About</a></li>
+        <li><a href="./service/legal-aid" class="hover:underline hover:text-yellow">Services</a></li>
+        <li><a href="./case-status.php" class="hover:underline hover:text-yellow">Case Status</a></li>
+        <li><a href="./governing-bodies.php" class="hover:underline hover:text-yellow">Governing Bodies</a></li>
+        <li><a href="./advocate-panel.php" class="hover:underline hover:text-yellow">Pan India Advocates</a></li>
+        <li><a href="./contact.php" class="hover:underline hover:text-yellow">Contact</a></li>
+        <li><a href="./blogs.php" class="hover:underline hover:text-yellow">Blog</a></li>
+    </ul>
+
     <div class="text-center text-base text-white mt-3">
         <p>Copyright <a href="https://npgrcomission.in/" class="text-white font-semibold">© NPGRC</a> The National Public Grievances
             & Redressal Commission 2024. All Rights Reserved </p>

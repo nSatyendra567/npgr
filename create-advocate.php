@@ -60,7 +60,7 @@ include 'blogg/components/connect.php';
                 ";
 
                 // Send notification email to admin
-                $adminEmail = ''; // Replace with your admin email address
+                $adminEmail = 'complaints@npgrcommission.in'; // Replace with your admin email address
                 $adminSubject = "New Advocate Onboarding Notification";
                 $adminHeaders = "From: no-reply@npgrcomission.in\r\n";
                 $adminHeaders .= "Reply-To: no-reply@npgrcomission.in\r\n";

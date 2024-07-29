@@ -10,6 +10,12 @@ if(!isset($admin_id)){
    header('location:admin_login.php');
 }
 
+$check_super_admin = $conn->prepare("SELECT super_admin FROM `admin` WHERE id = ?");
+$check_super_admin->execute([$admin_id]);
+$admin_data = $check_super_admin->fetch(PDO::FETCH_ASSOC);
+$is_super_admin = $admin_data['super_admin'];
+
+
 if(isset($_POST['delete'])){
 
    $p_id = $_POST['post_id'];
@@ -56,8 +62,13 @@ if(isset($_POST['delete'])){
    <div class="box-container">
 
       <?php
-         $select_posts = $conn->prepare("SELECT * FROM `posts` WHERE admin_id = ?");
-         $select_posts->execute([$admin_id]);
+         if ($is_super_admin) {
+            $select_posts = $conn->prepare("SELECT * FROM `posts`");
+            $select_posts->execute();
+        } else {
+            $select_posts = $conn->prepare("SELECT * FROM `posts` WHERE admin_id = ?");
+            $select_posts->execute([$admin_id]);
+        }
          if($select_posts->rowCount() > 0){
             while($fetch_posts = $select_posts->fetch(PDO::FETCH_ASSOC)){
                $post_id = $fetch_posts['id'];
@@ -78,6 +89,7 @@ if(isset($_POST['delete'])){
          <?php } ?>
          <div class="status" style="background-color:<?php if($fetch_posts['status'] == 'active'){echo 'limegreen'; }else{echo 'coral';}; ?>;"><?= $fetch_posts['status']; ?></div>
             <div class="title"><?= $fetch_posts['title']; ?></div>
+            <div class="title">By - <?= $fetch_posts['name']; ?></div>
          <div class="posts-content"><?= $fetch_posts['content']; ?></div>
          <div class="icons">
             <div class="likes"><i class="fas fa-heart"></i><span><?= $total_post_likes; ?></span></div>
