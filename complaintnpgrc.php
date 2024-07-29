@@ -8,9 +8,9 @@ include 'partials/header.php';
 
 <main class="w-full min-h-screen flex justify-center bg-gray-100">
     <div class="max-w-7xl flex flex-col md:flex-row w-full justify-center gap-10 py-10 md:py-16 px-10">
-        <div class="w-full md:w-1/2 flex flex-col gap-5 bg-white rounded-lg p-8">
+        <div class="w-full md:w-1/2 flex flex-col gap-5 bg-white rounded-lg md:p-8 p-4">
             <h2 class="text-2xl sm:text-3xl md:text-4xl text-center font-semibold text-gray-800">Register Your Complaint</h2>
-            <p class="text-sm text-gray-600 text-right">Fields marked with <span class="text-red-500">*</span> are mandatory</p>
+            <p class="text-sm text-gray-600 sm:text-right">Fields marked with <span class="text-red-500">*</span> are mandatory</p>
             <?php
 function generateSecureUniqueId($length = 8) {
     $currentYear = date('ymd');
@@ -178,6 +178,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="flex flex-col gap-2">
                     <label class="text-base font-semibold text-gray-700" for="description">Description:</label>
                     <textarea name="description" class="outline-none focus:outline-none border border-black py-2 px-2 w-full rounded-md text-lg" placeholder="Enter complaint description" rows="4"></textarea>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <label class="text-base font-semibold text-gray-700">
+                        <input type="checkbox" name="declaration-consent" class="mr-2" required>
+                        I hereby consent to accept the declaration to collaborate with the National Public Grievances Redressal Commission (NPGRC).
+                    </label>
                 </div>
                 <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
                 <div class="flex flex-col gap-2">

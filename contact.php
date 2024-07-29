@@ -145,7 +145,7 @@
                     addresses.push('State Legal Responsive Centre - for Mediation, Arbitration, Pre-Litigation Conciliation and Settlements (SLRC)<br>Uttam Prabhan (Advocate), 45 Jhalupara Cantonment Meghalaya.<br><strong>Email: </strong>complaint@npgrcommission.in');
                     break;
                 case 'mizoram':
-                    addresses.push('State Legal Responsive Centre - for Mediation, Arbitration, Pre-Litigation Conciliation and Settlements (SLRC)<br>Rosilin (Advocate), Mizoram India.<br><strong>Email: </strong>complaint@npgrcommission.in');
+                    addresses.push('State Legal Responsive Centre - for Mediation, Arbitration, Pre-Litigation Conciliation and Settlements (SLRC)<br>Rosilin (Advocate), <br>Hope Legal Solutions MINECO, KVI Quarters, Room No.8, Mizoram lndia<br><strong>Email: </strong>complaint@npgrcommission.in');
                     break;
                 case 'odisha':
                     addresses.push('State Legal Responsive Centre - for Mediation, Arbitration, Pre-Litigation Conciliation and Settlements (SLRC)<br>Hiralal Kumawat (Advocate), Office No-3 Civil Court Campus Bhubaneswar Odisha.<br><strong>Email: </strong>complaint@npgrcommission.in');

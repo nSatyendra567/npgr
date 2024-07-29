@@ -127,7 +127,7 @@
     </section>
 
 
-    <section class="max-w-7xl mx-auto w-full flex flex-col gap-5 px-5 sm:px-10">
+    <div class="max-w-7xl mx-auto w-full flex flex-col gap-5 px-5 sm:px-10">
         <h2 class="text-2xl md:text-3xl font-semibold text-center">About NPGRC</h2>
         <p class="text-base md:text-lg leading-relaxed md:text-justify">
         The NPGRC is a National-level is an online platform available for the citizens 24x7 to lodge their grievances to the public authorities on any subject .based on web technology, operational under the proceedings of various laws in India.the commission holds jurisdiction over grievances spanning both public and private sectors. Led by Honorable Judge Mr. Birendra Singh as Member/Secretary, the NPGRC ensures thorough and impartial resolution of issues, upholding legal standards and promoting justice.
@@ -136,7 +136,7 @@
             The NPGRC operates within a comprehensive legal framework that includes key legislative acts crucial to its mandate. The Human Rights Act empowers the commission to investigate complaints related to violations of fundamental rights. Under the Child Welfare Act, the NPGRC intervenes in matters concerning the welfare and rights of children, ensuring their protection and well-being. The Women's Rights Act enables the commission to address grievances related to gender-based discrimination, harassment, and violence. Additionally, the Environmental Protection Act grants authority to investigate complaints regarding environmental degradation, pollution, and non-compliance with environmental regulations. These acts provide the NPGRC with the legal tools necessary to address a wide array of issues affecting public and private sectors.
         </p>
         <a style="background-color: rgb(234 179 8);" class="bg-yellow-500 text-center rounded-md px-8 py-2 text-white self-start font-semibold text-lg mt-3 block mx-auto md:mx-0" href="<?php ROOT_URL ?>about.php">Know More</a>
-    </section>
+    </div>
 
 
 
@@ -148,8 +148,8 @@
                 We have strong policies and procedures to follow. Key areas of case investigation including case management, responding to a case scene, interviewing, statement taking, gathering evidence, search warrants, and file presentation. The process of investigation or the investigative process is a series of activities or steps that include gathering evidence, analysing information, developing and validating theories, forming reasonable grounds to believe, and finally arresting and charging a suspect.
             </p>
         </div>
-        <div class="max-w-7xl mx-auto w-full mt-10">
-            <h3 class="text-3xl font-bold text-center mb-10">Usefull Links</h3>
+        <div class="max-w-7xl mx-auto w-full mt-20">
+            <h3 class="text-3xl font-bold text-center mb-10 animate-color-change animate-heading">Important Government Website</h3>
             <div class="flex flex-wrap gap-5 items-center justify-center max-w-5xl mx-auto">
             <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
                 <div class="flex items-center justify-center h-full w-full">
@@ -188,7 +188,18 @@
                 <a target="_blank" class="py-2 px-3 h-fit rounded hover:bg-yellow bg-blue text-white text-lg text-center transition-all duration-200" href="https://delhihighcourt.nic.in/">Delhi HighCourt</a>
             </div>
         </div>
-        <div class="max-w-7xl mx-auto w-full mt-10 mb-16">
+        
+        
+    </section>
+    <div class="max-w-7xl mx-auto w-full flex flex-col gap-5 px-5 mt-20 sm:px-10">
+        <h2 class="text-2xl md:text-3xl font-semibold text-center">Department of Public Relation & General investigation</h2>
+        <p class="text-base md:text-lg leading-relaxed md:text-justify">
+        An investigation is a thorough search for facts, especially those that are hidden or need to be sorted out in a complex situation. The goal of an investigation is usually to determine how or why something happened. Investigations are usually formal and official.
+        </p>
+        <p class="text-base md:text-lg leading-relaxed md:text-justify">
+        An investigation is a thorough search for facts, especially those that are hidden or need to be sorted out in a complex situation. The goal of an investigation is usually to determine how or why something happened. Investigations are usually formal and official.
+        </p>
+        <div class="max-w-7xl mx-auto w-full mt-20 mb-16">
             <h3 class="text-3xl font-bold text-center mb-10">The Seven Steps</h3>
             <div class="flex flex-wrap gap-5 items-center justify-center max-w-5xl mx-auto">
                 <div class="md:w-56 md:h-56 h-[12rem] w-[12rem] rounded-full border-8 border-yellow flex flex-col items-center justify-center gap-3 hover:border-blue group transition-all duration-200 cursor-pointer">
@@ -220,193 +231,10 @@
                     <h4 class="sm:text-lg text-[15px] group-hover:text-yellow transition-all duration-200 text-center">Securing and Collecting Evidence</h4>
                 </div>
             </div>
-    </section>
-
-    <div class="w-full min-h-screen flex gap-10  max-w-7xl mx-auto py-10 md:py-16">
-        <div class="sm:w-9/12 w-11/12 flex flex-col gap-5 mx-auto">
-            <h3 class="text-2xl md:text-3xl">Our Objectives and Duties</h3>
-            <!-- <p class="mb-3 md:text-justify">The primary objective of the NPGRC, as defined under the Legal Services Authorities Act, 1987, is to provide a responsive and accountable platform for citizens to seek redressal of grievances against administrative actions. Its duties encompass:</p> -->
-            <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                    <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-balance-scale text-yellow fa-2x"></i>
-                    </div>
-                    <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg font-bold">Facilitating Access to Justice</h4>
-                        <p class="">Ensuring equitable access to grievance redressal mechanisms for all citizens, particularly the disadvantaged and marginalised.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                    <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-gavel text-yellow fa-2x"></i>
-                    </div>
-                    <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg font-bold">Monitoring Government Agencies</h4>
-                        <p class="">Overseeing the implementation of policies and programs to uphold procedural fairness and adherence to legal standards.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                    <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-file-alt text-yellow fa-2x"></i>
-                    </div>
-                    <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg font-bold">Policy Advocacy</h4>
-                        <p class="">Recommending systemic reforms and policy changes based on grievance outcomes to improve governance practices and public service delivery.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-            <h3 class="mt-3 text-2xl md:text-3xl">Grievance Redressal Mechanisms</h3>
-            <p class="mb-3">The NPGRC is a National-level online Public Grievance Redressal based on web technology, operational under the proceedings of various laws in India.</p>
-            <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                    <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-balance-scale text-yellow fa-2x"></i>
-                    </div>
-                    <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg font-bold">Complaint Registration</h4>
-                        <p class="">Allowing citizens to lodge complaints through various channels, including online portals, helplines, or physical submissions.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                    <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-gavel text-yellow fa-2x"></i>
-                    </div>
-                    <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg font-bold">Inquiry and Investigation</h4>
-                        <p class="">Conducting impartial inquiries, gathering evidence, and conducting hearings to resolve grievances efficiently and transparently.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                    <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-file-alt text-yellow fa-2x"></i>
-                    </div>
-                    <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg font-bold">Timely Resolution</h4>
-                        <p class="">Ensuring prompt responses and clear communication with complainants to maintain trust and confidence in the grievance redressal process.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-            <h3 class="mt-3 text-2xl md:text-3xl ">Types of Cases Handled</h3>
-            <p class="mb-3">The NPGRC addresses diverse grievances impacting public welfare and individual rights, including:</p>
-            <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                    <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-balance-scale text-yellow fa-2x"></i>
-                    </div>
-                    <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg font-bold">Administrative Delays</h4>
-                        <p class="">Complaints regarding delays in service delivery or response from government agencies.
-
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                    <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-gavel text-yellow fa-2x"></i>
-                    </div>
-                    <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg font-bold">Corruption Allegations</h4>
-                        <p class="">Allegations of malpractice, bribery, or misuse of public resources by government officials.
-
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                    <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-file-alt text-yellow fa-2x"></i>
-                    </div>
-                    <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg font-bold">Service Deficiencies</h4>
-                        <p class=""> Issues related to poor quality of service, negligence, or misconduct affecting public welfare.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                    <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-file-alt text-yellow fa-2x"></i>
-                    </div>
-                    <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg font-bold">
-                            Environmental Concerns</h4>
-                        <p class=""> Grievances concerning environmental degradation, pollution, or non-compliance with environmental regulations.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                    <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-file-alt text-yellow fa-2x"></i>
-                    </div>
-                    <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg font-bold">Public Safety Issues</h4>
-                        <p class=""> Complaints regarding inadequate safety measures, mishandling of emergencies, or lapses in law enforcement.
-
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-            <h3 class="mt-3 text-2xl md:text-3xl ">Challenges and Reform Initiatives</h3>
-            <p class="mb-3">Despite its achievements, the NPGRC faces challenges such as resource constraints, procedural complexities, and the need for continuous improvement. Reform initiatives include:
-            </p>
-            <div class="w-full h-fit flex flex-col gap-5 mt-3">
-                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                    <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-balance-scale text-yellow fa-2x"></i>
-                    </div>
-                    <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg font-bold">Legislative Amendments</h4>
-                        <p class="">Proposals for legislative reforms to strengthen the legal framework and enhance the commission's powers and functions.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                    <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-gavel text-yellow fa-2x"></i>
-                    </div>
-                    <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg font-bold">Technological Integration</h4>
-                        <p class=""> Adopting technology-driven solutions for grievance management and improving accessibility for citizens.
-
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-center relative shadow w-full h-full rounded-md hover:scale-105 transition-all duration-200">
-                    <div class="w-1/6 flex justify-center items-center relative text-white h-full rounded-tl-md rounded-bl-md">
-                        <i class="fas fa-file-alt fa-2x text-yellow"></i>
-                    </div>
-                    <div class="w-4/5 flex flex-col gap-3 p-5 pl-10">
-                        <h4 class="text-lg font-bold">Capacity Building</h4>
-                        <p class=""> Training programs for staff and stakeholders to enhance efficiency, transparency, and responsiveness in grievance redressal.
-                        </p>
-                    </div>
-                </div>
-            </div>
         </div>
-        <!-- <div class="w-3/12 flex justify-center items-start">
-            <div class="w-96 h-fit p-5 shadow rounded">
-            <h3 class="text-2xl text-center mb-3">Pending Cases</h3>
-            <ul class="w-full flex flex-col gap-2 items-center">
-                <li>Case needed to be handle</li>
-                <li>Case needed to be handle</li>
-                <li>Case needed to be handle</li>
-                <li>Case needed to be handle</li>
-                <li>Case needed to be handle</li>
-                <li>Case needed to be handle</li>
-                <li>Case needed to be handle</li>
-                <li>Case needed to be handle</li>
-                <li>Case needed to be handle</li>
-            </ul>
-            </div>
-        </div> -->
     </div>
+
+
 </main>
 <?php include 'partials/logos.php' ?>
 <?php include 'partials/footer.php' ?>

@@ -1,4 +1,4 @@
-<footer class="relative w-full min-h-[100px]  bg-blue py-10 px-10 md:px-16 lg:px-24 xl:px-32">
+<footer class="relative w-full min-h-[100px]  bg-blue py-10 px-5 sm:px-10 md:px-16 lg:px-24 xl:px-32">
     <!-- Fixed Buttons -->
     <!-- <a href="https://api.whatsapp.com/send?phone=9955005100" class="text-3xl w-1/2 h-12 sm:w-20 sm:h-20 flex justify-center items-center  bg-light-blue p-5 sm:rounded-[50%] text-white fixed left-0 bottom-0 sm:left-10 sm:bottom-10 z-20 border-r"><i class="fa-brands fa-whatsapp "></i></a>
     <a href="tel:+919955005100" class="text-2xl  w-1/2 h-12 sm:w-20 sm:h-20 flex justify-center items-center bg-light-blue p-5 sm:rounded-[50%] text-white fixed right-0 bottom-0 sm:right-10 sm:bottom-10 z-20 border-l"> <i class="fa-solid fa-phone"></i>
@@ -22,6 +22,12 @@
             <a class="bg-yellow rounded-full p-2 flex justify-center items-center text-white" href="">
                 <i class="fab fa-youtube fa-1x"></i>
             </a>
+            <a class="bg-yellow rounded-full p-2 flex justify-center items-center text-white" href="https://wa.me/9711484000" target="_blank">
+                <i class="fab fa-whatsapp fa-1x"></i>
+            </a>
+            <a class="bg-yellow rounded-full p-2 flex justify-center items-center text-white" href="tel:+919516064000">
+                <i class="fas fa-solid fa-phone fa-1x"></i>
+            </a>
         </div>
     </div>
     <hr class="mt-8 text-white " />
@@ -34,6 +40,7 @@
         <li><a href="./advocate-panel.php" class="hover:underline hover:text-yellow">Pan India Advocates</a></li>
         <li><a href="./contact.php" class="hover:underline hover:text-yellow">Contact</a></li>
         <li><a href="./blogs.php" class="hover:underline hover:text-yellow">Blog</a></li>
+        <li><a href="./declaration.php" class="hover:underline hover:text-yellow">Declaration</a></li>
     </ul>
 
     <div class="text-center text-base text-white mt-3">
@@ -90,6 +97,10 @@
     },
     breakpoints: {
         // When the window width is >= 320px
+        220: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
         320: {
             slidesPerView: 3,
             spaceBetween: 10,
