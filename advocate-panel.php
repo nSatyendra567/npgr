@@ -23,9 +23,9 @@ include 'blogg/components/connect.php';
             </form>
             <form method="GET" class="w-full flex max-w-sm mb-5">
                 <div class="flex flex-col">
-                    <label for="advocateId" class="block mb-2 text-sm font-medium text-gray-700">Search by ID</label>
+                    <label for="advocateId" class="block mb-2 text-sm font-medium text-gray-700">Search by NPGRC ID</label>
                     <div class="flex rounded">
-                        <input type="text" id="advocateId" name="advocateId" class="flex-1 py-2 px-2 outline-none w-full text-lg rounded-tl rounded-bl" placeholder="Enter Advocate ID" value="<?php echo isset($_GET['advocateId']) ? htmlspecialchars($_GET['advocateId']) : ''; ?>">
+                        <input type="text" id="advocateId" name="advocateId" class="flex-1 py-2 px-2 outline-none w-full text-lg rounded-tl rounded-bl" placeholder="Enter NPGRC ID" value="<?php echo isset($_GET['advocateId']) ? htmlspecialchars($_GET['advocateId']) : ''; ?>">
                         <input type="submit" value="Search" class="w-fit py-2 px-2 w-fit bg-yellow text-white text-lg rounded-tr rounded-br cursor-pointer">
                     </div>
                 </div>
@@ -38,22 +38,28 @@ include 'blogg/components/connect.php';
         // Initialize query for approved advocates
         $query = "SELECT * FROM `advocate` WHERE approved = 1";
         $params = [];
+        $stateSelected = false;
+        $advocateIdSearched = false;
 
         // Check if a state is selected
         if (isset($_GET['states']) && !empty($_GET['states'])) {
             $state = $_GET['states'];
             $query .= " AND State = ?";
             $params[] = $state;
+            $stateSelected = true;
         }
 
         // Check if an advocate ID is searched
         if (isset($_GET['advocateId']) && !empty($_GET['advocateId'])) {
             $advocateId = $_GET['advocateId'];
-            $query .= " AND EnrollmentId = ?";
+            $query .= " AND CourtId = ?";
             $params[] = $advocateId;
-        } elseif (!isset($_GET['states'])) {
-            // If no state selected, limit the results to 6
-            $query .= " LIMIT 6";
+            $advocateIdSearched = true;
+        }
+
+        // If no state is selected and no advocate ID is searched, set a condition that results in no output
+        if (!$stateSelected && !$advocateIdSearched) {
+            $query .= " AND 0";
         }
 
         $select_advocates = $conn->prepare($query);
@@ -75,11 +81,15 @@ include 'blogg/components/connect.php';
                 </div>
         <?php
             }
-        } else {
+        } elseif(!$stateSelected && !$advocateIdSearched) {
+            echo '<p class="empty">Select Any State or Search By Advocate Id</p>';
+        }
+        else {
             echo '<p class="empty">No advocates found</p>';
         }
         ?>
     </div>
+
 </main>
 
 <?php include 'partials/logos.php' ?>

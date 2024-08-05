@@ -12,18 +12,28 @@ include 'partials/header.php';
             <h2 class="text-2xl sm:text-3xl md:text-4xl text-center font-semibold text-gray-800">Register Your Complaint</h2>
             <p class="text-sm text-gray-600 sm:text-right">Fields marked with <span class="text-red-500">*</span> are mandatory</p>
             <?php
-function generateSecureUniqueId($length = 8) {
-    $currentYear = date('ymd');
-    return $currentYear . ":" . bin2hex(openssl_random_pseudo_bytes($length));
+function generateSecureUniqueId($prefix = 'NPGRC/PTN', $filename = 'last_sequence.txt') {
+    if (!file_exists($filename)) {
+        file_put_contents($filename, '1000');
+    }
+
+    $lastSequenceNumber = (int) file_get_contents($filename);
+
+    $newSequenceNumber = $lastSequenceNumber + 1;
+
+    file_put_contents($filename, (string) $newSequenceNumber);
+
+    $uniqueId = sprintf('%s/%04d', $prefix, $newSequenceNumber);
+
+    return $uniqueId;
 }
 
 // Process form submission
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $captcha = $_POST['g-recaptcha-response'];
-    $secretKey = '6LcLGBoqAAAAAHmPGsTCVDGT_W-XJZnC0aq6Vpgd';
+    $secretKey = '6Ld0FxoqAAAAAIEh0KTiqvSuM6DdONgorOFEAUA0';
     $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$captcha");
     $responseKeys = json_decode($response, true);
-
     if (intval($responseKeys["success"]) !== 1) {
         echo "<p class='text-red-600 text-center font-semibold'>Please complete the captcha.</p>";
     } else {
@@ -79,7 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                       <p class='text-green-600 text-center font-semibold'>Your Reference No. for this Registered Case is : $referenceNo</p>";
                       // Send email to the user
                 $to = $email;
-                $userSubject = "Your Case Registration Confirmation";
+                $userSubject = "NPGRC:Your Case Registration Confirmation";
                 $headers = "From: no-reply@npgrcomission.in\r\n";
                 $headers .= "Reply-To: no-reply@npgrcomission.in\r\n";
                 $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
@@ -88,20 +98,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $message = "
                 <html>
                 <head>
-                    <title>Case Registration Confirmation</title>
+                    <title>NPGRC Case Registration Confirmation</title>
                 </head>
                 <body>
-                    <p>Your case has been registered with us.</p>
-                    <p>You can check your case status using the reference number below:</p>
-                    <p><strong>Reference No: $referenceNo</strong></p>
+                    <p>Hello $name</p>
+                    <p>Your case has been registered with NPGRC.</p>
+                    <p><strong>Your Diary number is: $referenceNo</strong></p>
+                    <p>This diary number will be used for future references. Please do not reply to this mail</p>
                     <p>To check your case status, please click the button below:</p>
-                    <p><a href='http://npgrcomission.in/case-status' style='display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;'>Check Your Case Status</a></p>
+                    <p><a href='http://npgrcommission.in/case-status' style='display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;'>Check Your Case Status</a></p>
                     <p>Thank you for contacting us!</p>
+                    <p>NPGRC Legal Team (New Delhi)</p>
+                    <a href='www.npgrcommission.in '>www.npgrcommission.in </a>
                 </body>
                 </html>
                 ";
                 // Send notification email to admin
-                $adminEmail = 'complaints@npgrcommission.in'; // Replace with your admin email address
+                $adminEmail = 'complaint@npgrcommission.in'; // Replace with your admin email address
                 $adminSubject = "New Case Registration Notification";
                 $adminHeaders = "From: no-reply@npgrcomission.in\r\n";
                 $adminHeaders .= "Reply-To: no-reply@npgrcomission.in\r\n";
@@ -129,7 +142,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 }
 
                 $adminMessage .= "
-                        <li><strong>Reference No:</strong> $referenceNo</li>
+                        <li><strong>Dairy No:</strong> $referenceNo</li>
                     </ul>
                     <p>Thank you!</p>
                 </body>
@@ -139,7 +152,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 // Send the email to the admin
                 // Send the email
                 if (mail($to, $userSubject, $message, $headers) && mail($adminEmail, $adminSubject, $adminMessage, $adminHeaders)) {
-                    echo "<p class='text-green-600 text-center font-semibold'>A confirmation email with refrence no has been sent to your email.</p>";
+                    echo "<p class='text-green-600 text-center font-semibold'>A confirmation email with Refrence Number has been sent to your email.</p>";
                 } else {
                     echo "<p class='text-red-600 text-center font-semibold'>Error sending email.(please take note of the refrence no.)</p>";
                 }
@@ -182,7 +195,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="flex flex-col gap-2">
                     <label class="text-base font-semibold text-gray-700">
                         <input type="checkbox" name="declaration-consent" class="mr-2" required>
-                        I hereby consent to accept the declaration to collaborate with the National Public Grievances Redressal Commission (NPGRC).
+                        l declare that the details provided are true & correct to the best of my knowledge. I am also aware that providing false information/uploading forged documents is an offence under relevant legal provision. 
                     </label>
                 </div>
                 <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
@@ -203,7 +216,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </main>
 <script>
     grecaptcha.ready(function() {
-        grecaptcha.execute('6LcLGBoqAAAAAJEx3TS4qATMFnqoEPJbzCn_FzXR', {action: 'submit'}).then(function(token) {
+        grecaptcha.execute('6Ld0FxoqAAAAAJt3OkVwW4SyxmCt6hAdGYSZ2ZLq', {action: 'submit'}).then(function(token) {
             document.getElementById('g-recaptcha-response').value = token;
         });
     });

@@ -107,7 +107,7 @@ if(isset($_POST['delete'])){
          ?>
             <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
                <input type="hidden" name="admin_id" value="<?= $fetch_accounts['id']; ?>" on>
-               <button type="submit" name="delete"onclick="return confirm('delete the account?');" class="delete-btn" style="margin-bottom: .5rem;">delete</button>
+               <button type="submit" name="delete"onclick="return confirm('delete the account?');" class="delete-btn" style="margin-bottom: .5rem;" onclick="return confirm('delete this post?');" >delete</button>
             </form>
          <?php
             }

@@ -13,13 +13,14 @@ function getCurrentPage()
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The NPGRC is a 24/7 online platform for citizens to lodge grievances with public authorities across India. Led by Honorable Judge Mr. Birendra Singh, the NPGRC ensures impartial resolution of issues in both public and private sectors, upholding legal standards and promoting justice.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/x-icon" href="./images/ASTRO.png">
     <title>NPGRC</title>
     <link rel="shortcut icon" href="<?php ROOT_URL ?>../images/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsive.css">
-    <script src="https://www.google.com/recaptcha/api.js?render=6LcLGBoqAAAAAJEx3TS4qATMFnqoEPJbzCn_FzXR"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Ld0FxoqAAAAAJt3OkVwW4SyxmCt6hAdGYSZ2ZLq"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -130,7 +131,7 @@ function getCurrentPage()
 <body>
     <nav class="w-full min-h-12 bg-white items-center">
     <div class="px-2 sm:px-10 lg:px-16 flex flex-col md:flex-row md:justify-between items-center">
-    <div class="flex flex-row items-center mb-4 md:mb-0 md:mt-0 mt-2">
+    <div class="flex flex-row items-center mb-4 md:mb-0 md:mt-2 mt-2">
         <figure class="w-16 h-16 md:w-28 md:h-28 md:block hidden">
             <img src="<?php ROOT_URL ?>../images/npgrc.png" alt="NPGRC" />
         </figure>
@@ -141,7 +142,7 @@ function getCurrentPage()
                 </p>
             </a>
             <a href="<?php echo ROOT_URL ?>">
-                <h1 class="text-[22px] animate-color-change animate-heading font-semibold md:text-[24px]">
+            <h1 class="text-[22px] animate-color-change animate-heading font-semibold md:text-[24px] sm:leading-normal leading-[24px]">
                     National Public Grievances & Redressal Commission
                 </h1>
             </a>
@@ -156,8 +157,8 @@ function getCurrentPage()
 </div>
 
 
-<div class="bg-blue h-fit py-3 px-5 sm:px-10 lg:px-16 flex justify-start md:justify-center justify-between">
-        <ul class="nav_items flex-col md:flex-row gap-5 md:gap-7 lg:gap-10 items-center justify-center hidden md:flex text-white">
+<div class="bg-blue h-fit py-3 px-5 sm:px-10 lg:px-16 flex justify-between lg:justify-center">
+        <ul class="nav_items flex-col lg:flex-row gap-5 md:gap-7 lg:gap-10 items-center justify-center hidden lg:flex text-white">
             <li><a class="<?php echo getCurrentPage() == 'index.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>index.php">Home</a></li>
             <li class="group relative <?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>">
                 <p id="list_id2" class="flex gap-2 items-center cursor-pointer">About Us <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>
@@ -198,12 +199,12 @@ function getCurrentPage()
                 <a class="bg-yellow hover:bg-blue hover:border border-yellow text-center rounded-md px-3 py-2 transition-all duration-150" href="<?php echo ROOT_URL ?>online-complaint.php">Online Complaint</a>
             </div>
         </ul>
-        <figure class="w-9 h-9 md:hidden  block">
+        <figure class="w-9 h-9 lg:hidden  block">
             <img src="<?php ROOT_URL ?>../images/npgrc.png" alt="NPGRC" />
         </figure>
-        <i id="showme" class="fa-solid fa-bars fa-2x my-auto text-white md:hidden"></i>
+        <i id="showme" class="fa-solid fa-bars fa-2x my-auto text-white lg:hidden"></i>
     </div>
-    <ul id="nav_menu" class="bg-blue nav_items flex-col md:flex-row gap-5 md:gap-7 lg:gap-10 items-center justify-center hidden text-white">
+    <ul id="nav_menu" class="bg-blue nav_items flex-col lg:flex-row gap-5 md:gap-7 lg:gap-10 items-center justify-center hidden text-white">
             <li><a class="<?php echo getCurrentPage() == 'index.php' ? 'border-b-2 ' : ''; ?>" href="<?php echo ROOT_URL ?>index.php">Home</a></li>
             <li class="group relative <?php echo getCurrentPage() == 'about.php' ? 'border-b-2 ' : ''; ?>">
                 <p id="mlist_id2" class="flex gap-2 items-center">About Us <i class="fa fa-sort-desc text-white" aria-hidden="true"></i>

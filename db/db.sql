@@ -91,3 +91,10 @@ INSERT INTO `admin` (`id`, `name`, `password`, `super_admin`) VALUES
 (1, 'admin', '6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2', '1');
 INSERT INTO `admin` (`id`, `name`, `password`, `super_admin`) VALUES
 (2, 'admin2', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', '0');
+
+
+ALTER TABLE `advocate`
+ADD UNIQUE (`CourtId`);
+
+
+ALTER TABLE `case` ADD `updates` text DEFAULT NULL;

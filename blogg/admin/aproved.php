@@ -13,12 +13,40 @@ if(!isset($admin_id)){
 
 // Handle the approve action
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['approve_id'])) {
-   $approve_id = $_POST['approve_id'];
-   $update_query = $conn->prepare("UPDATE `advocate` SET approved = 1 WHERE id = ?");
-   $update_query->execute([$approve_id]);
-   header('Location: ' . $_SERVER['PHP_SELF']);
-   exit();
+    $approve_id = $_POST['approve_id'];
+    $courtId = $_POST['courtId'];
+
+    try {
+        // Begin a transaction
+        $conn->beginTransaction();
+
+        // Check for the uniqueness of courtId
+        $check_query = $conn->prepare("SELECT COUNT(*) FROM `advocate` WHERE CourtId = ?");
+        $check_query->execute([$courtId]);
+        $count = $check_query->fetchColumn();
+
+        if ($count > 0) {
+            // CourtId already exists
+            echo "Error: The NPGRC ID is already in use. Please choose a different ID.";
+        } else {
+            // Update query to approve and update courtId
+            $update_query = $conn->prepare("UPDATE `advocate` SET approved = 1, CourtId = ? WHERE id = ?");
+            $update_query->execute([$courtId, $approve_id]);
+
+            // Commit the transaction
+            $conn->commit();
+
+            // Redirect to the same page
+            header('Location: ' . $_SERVER['PHP_SELF']);
+            exit();
+        }
+    } catch (Exception $e) {
+        // Rollback the transaction on error
+        $conn->rollBack();
+        echo "Failed to approve advocate: " . $e->getMessage();
+    }
 }
+
 
 ?>
 
@@ -58,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['approve_id'])) {
     ?>
             <div class="box">
                <p><span><img src="../../<?= htmlspecialchars($fetch_accounts['Photo']); ?>" alt="Photo" style="max-width:100px;"></span></p>
-                <p>Advocate ID : <span><?= htmlspecialchars($user_id); ?></span></p>
+                <!-- <p>Advocate ID : <span><?= htmlspecialchars($user_id); ?></span></p> -->
                 <p>Name : <span><?= htmlspecialchars($fetch_accounts['Name']); ?></span></p>
                 <p>Court : <span><?= htmlspecialchars($fetch_accounts['Court']); ?></span></p>
                 <p>State : <span><?= htmlspecialchars($fetch_accounts['State']); ?></span></p>
@@ -67,15 +95,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['approve_id'])) {
                 <p>Email : <span><?= htmlspecialchars($fetch_accounts['Email']); ?></span></p>
                 <p>Phone : <span><?= htmlspecialchars($fetch_accounts['Phone']); ?></span></p>
                 <p>Enrollment ID : <span><?= htmlspecialchars($fetch_accounts['EnrollmentId']); ?></span></p>
-                <p>Court ID : <span><?= htmlspecialchars($fetch_accounts['CourtId']); ?></span></p>
+                <p>Npgrc ID : <span><?= htmlspecialchars($fetch_accounts['CourtId']); ?></span></p>
                 <p>Date : <span><?= htmlspecialchars($fetch_accounts['date']); ?></span></p>
-                <p>Approved : <span><?= $fetch_accounts['approved'] ? 'Yes' : 'No'; ?></span></p>
-                <?php if (!$fetch_accounts['approved']) { ?>
-                    <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                        <input type="hidden" name="approve_id" value="<?= htmlspecialchars($user_id); ?>">
-                        <button type="submit" class="btn">Approve</button>
-                    </form>
-                <?php } ?>
+                <!-- <p>Approved : <span><?= $fetch_accounts['approved'] ? 'Yes' : 'No'; ?></span></p> -->
+                <div class="flex-btn">
+                    <a href="edit_user.php?id=<?= htmlspecialchars($user_id); ?>" class="option-btn">edit</a>
+                </div>
             </div>
     <?php
         }

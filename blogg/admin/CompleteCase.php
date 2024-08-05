@@ -68,7 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['case_id'], $_POST['new
             $file_path = htmlspecialchars($fetch_cases['Complain_File']);
    ?>
    <div class="box boxxy">
-      <p> Case ID : <span><?= htmlspecialchars($case_id); ?></span> </p>
+      <p> File No. : <span><?= htmlspecialchars($case_id); ?></span> </p>
       <p> Name : <span><?= htmlspecialchars($fetch_cases['Name']); ?></span> </p>
       <p> Email : <span><?= htmlspecialchars($fetch_cases['Email']); ?></span> </p>
       <p> Phone : <span><?= htmlspecialchars($fetch_cases['Phone']); ?></span> </p>
@@ -77,19 +77,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['case_id'], $_POST['new
       <p> Urgent : <span><?= $fetch_cases['Urgent'] ? 'Yes' : 'No'; ?></span> </p>
       <p> Description : <span><?= htmlspecialchars($fetch_cases['Description']); ?></span> </p>
       <p> Reference No : <span><?= htmlspecialchars($fetch_cases['ReferenceNo']); ?></span> </p>
+      <p> Updates : <span><?= htmlspecialchars($fetch_cases['updates']); ?></span> </p>
       <?php if (!empty($file_path)): ?>
       <p> Complain File : <a href="../../<?= $file_path ?>" download="<?= basename($file_path) ?>" class="btn">Download File</a></p>
       <?php endif; ?>
-      <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-         <input type="hidden" name="case_id" value="<?= $case_id; ?>">
-         <p>Update Status:</p>
-         <select name="new_status" id="new_status" required style="font-size:18px ">
-            <option value="ongoing" <?= $fetch_cases['Status'] == 'ongoing' ? 'selected' : ''; ?>>Ongoing</option>
-            <option value="pending" <?= $fetch_cases['Status'] == 'Pending' ? 'selected' : ''; ?>>Pending</option>
-            <option value="completed" <?= $fetch_cases['Status'] == 'completed' ? 'selected' : ''; ?>>Completed</option>
-         </select>
-         <button type="submit" class="btn">Update Status</button>
-      </form>
    </div>
    <?php
          }

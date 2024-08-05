@@ -64,12 +64,12 @@ if(!isset($admin_id)){
    <div class="box">
       <?php
          // Correcting the SQL query
-         $select_cases = $conn->prepare("SELECT * FROM `case` WHERE `Status` = 'ongoing'");
+         $select_cases = $conn->prepare("SELECT * FROM `case` WHERE `Status` = 'On going'");
          $select_cases->execute();
          $numbers_of_cases = $select_cases->rowCount();
       ?>
       <h3><?= $numbers_of_cases; ?></h3>
-      <p>ongoing cases</p>
+      <p>On going cases</p>
       <a href="onCase.php" class="btn">see cases</a>
    </div>
 

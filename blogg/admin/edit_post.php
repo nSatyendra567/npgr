@@ -160,12 +160,12 @@ $select_posts->execute([$post_id]);
                 <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png, image/webp">
                 <?php if ($fetch_posts['image'] != '') { ?>
                     <img src="../uploaded_img/<?= $fetch_posts['image']; ?>" class="image" alt="">
-                    <input type="submit" value="Delete Image" class="inline-delete-btn" name="delete_image">
+                    <input type="submit" value="Delete Image" class="inline-delete-btn" onclick="return confirm('delete this post?');" name="delete_image">
                 <?php } ?>
                 <div class="flex-btn">
                     <input type="submit" value="Save Post" name="save" class="btn">
                     <a href="view_posts.php" class="option-btn">Go Back</a>
-                    <input type="submit" value="Delete Post" class="delete-btn" name="delete_post">
+                    <input type="submit" value="Delete Post" class="delete-btn" onclick="return confirm('delete this post?');" name="delete_post">
                 </div>
             </form>
             <?php

@@ -76,7 +76,7 @@ if (!element1 || !list1 || !element2 || !list2) {
   // Click event listeners
   element11.addEventListener('click', (event) => {
     event.stopPropagation(); // Prevent event bubbling
-    console.log("here1");
+    // console.log("here1");
     if (list11.classList.contains('hidden')) {
       showList11();
     } else {
@@ -87,7 +87,7 @@ if (!element1 || !list1 || !element2 || !list2) {
 
   element22.addEventListener('click', (event) => {
     event.stopPropagation(); // Prevent event bubbling
-    console.log("here2");
+    // console.log("here2");
     if (list22.classList.contains('hidden')) {
       showList22();
     } else {
@@ -103,5 +103,5 @@ document.getElementById("showme").addEventListener("click", function(event) {
   const navMenu = document.getElementById("nav_menu");
   navMenu.classList.toggle("hidden");
   navMenu.classList.toggle("flex");
-  console.log("toggling");
+  // console.log("toggling");
 });

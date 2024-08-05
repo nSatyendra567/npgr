@@ -37,7 +37,7 @@
         <li><a href="../declaration.php" class="hover:underline hover:text-yellow font-bold">Declaration</a></li>
     </ul>
     <div class="text-center text-base text-white mt-3">
-        <p>Copyright <a href="https://npgrcomission.in/" class="text-white font-semibold">© NPGRC</a> The National Public Grievances
+        <p>Copyright <a href="https://npgrcommission.in/" class="text-white font-semibold">© NPGRC</a> The National Public Grievances
             & Redressal Commission 2024. All Rights Reserved </p>
     </div>
     <div class="text-center text-base text-white mt-5 pb-10 sm:pb-0 ">

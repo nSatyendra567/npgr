@@ -122,7 +122,7 @@ if (isset($_POST['delete_comment'])) {
                   <input type="hidden" name="post_id" value="<?= $post_id; ?>">
                   <input type="hidden" name="admin_id" value="<?= $fetch_posts['admin_id']; ?>">
                   <div class="post-admin mb-4">
-                     <h3 class="text-2xl font-semibold text-green-700 text-yellow">Blog</h3>
+                     <h3 class="md:text-3xl text-2xl font-semibold text-green-700 text-yellow text-center"><?= $fetch_posts['title']; ?></h3>
                   </div>
 
                   <?php
@@ -132,7 +132,7 @@ if (isset($_POST['delete_comment'])) {
                   <?php
                   }
                   ?>
-                  <div class="post-title text-xl font-semibold mb-2"><?= $fetch_posts['title']; ?></div>
+                  <!-- <div class="post-title text-xl font-semibold mb-2"><?= $fetch_posts['title']; ?></div> -->
                   <div class="post-content mb-4">
                      <pre class="whitespace-pre-wrap font-encode-sans"><?= $fetch_posts['content']; ?></pre>
                   </div>
